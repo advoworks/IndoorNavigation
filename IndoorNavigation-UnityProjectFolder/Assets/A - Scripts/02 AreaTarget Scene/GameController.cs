@@ -1,9 +1,11 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
 using UnityEngine.AI;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 public class GameController : MonoBehaviour
 {
@@ -47,11 +49,47 @@ public class GameController : MonoBehaviour
     public GameObject panelHome;
 
 
+    [Header("POI prefab for POI list")]
+    public GameObject poiListItemPrefab;
+    [Header("POI list game object (should be in the scene)")]
+    public GameObject poiList;
+    [Header("POI objects in scene (Run time only)")]
+    public GameObject[] poiObjects;
+
+
+
     private void Start()
     {
+        // Hide all Menu Panels
         HideAllPanels();
+
+        //Initialize path (to nothing?)
         path = new NavMeshPath();
+
+        //Find all POI Objects in the scene and store in array, and populate the POI list
+        poiObjects = GameObject.FindGameObjectsWithTag("POI");
+        GameObject poiItem;
+        for (int i = 0; i < poiObjects.Length; i++)
+        {
+            poiItem = Instantiate(poiListItemPrefab, poiList.transform);
+            poiItem.transform.GetChild(0).GetComponent<TextMeshProUGUI>().text = poiObjects[i].GetComponent<IOIHandler>().title;
+            poiItem.transform.GetChild(1).GetComponent<TextMeshProUGUI>().text = poiObjects[i].GetComponent<IOIHandler>().desc;
+
+            var index = i;
+            poiItem.GetComponent<Button>().onClick.AddListener(delegate ()
+            {
+                poiListItemClicked(poiObjects[index]);
+            });
+        }
+
     }
+
+    private void poiListItemClicked(GameObject poiObject)
+    {
+        //Navigate to poiObject.transform.position
+        Debug.Log("Navigating to POI " + poiObject.GetComponent<IOIHandler>().title);
+    }
+
     public void ShowPathSofa()
     {
         showPath = true;
