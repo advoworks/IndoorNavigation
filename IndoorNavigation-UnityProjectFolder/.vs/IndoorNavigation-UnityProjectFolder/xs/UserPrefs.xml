@@ -1,0 +1,21 @@
+﻿<Properties StartupConfiguration="{A1835561-0AC0-1352-B13B-A8C43A084E33}|">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/A - Scripts/01 QR Code Scene/ImageTargetHandler.cs">
+    <Files>
+      <File FileName="Assets/A - Scripts/01 QR Code Scene/ImageTargetHandler.cs" Line="24" Column="6" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="IndoorNavigation-UnityProjectFolder" expanded="True" selected="True" />
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="50309a3d-094f-4913-bd7c-eace9cac03bd" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

@@ -1,0 +1,22 @@
+fileFormatVersion: 2
+guid: 635f0f344f6644ea8b69453d0fb8949b
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontNames:
+  - Blogger Sans
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: e07a9f154e7034e478f3ae94333148e2, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
