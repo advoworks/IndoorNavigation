@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 public class ImageTargetHandler : MonoBehaviour
 {
@@ -9,6 +10,15 @@ public class ImageTargetHandler : MonoBehaviour
     public DialogObject homeDialog;
     public DialogObject lobbyDialog;
     public DialogObject scapeDialog;
+
+    public GameObject loadingBarPanel;
+    public Slider loadingBarSlider;
+    
+
+    private void Start()
+    {
+        loadingBarPanel.gameObject.SetActive(false);
+    }
 
     public void QRScanned_Home()
     {
@@ -43,10 +53,13 @@ public class ImageTargetHandler : MonoBehaviour
     IEnumerator LoadAsynchronously(int sceneIndex)
     {
         AsyncOperation operation = SceneManager.LoadSceneAsync(sceneIndex);
+
+        loadingBarPanel.gameObject.SetActive(true);
+
         while (!operation.isDone)
         {
             float progress = Mathf.Clamp01(operation.progress / .9f);
-            Debug.Log(progress);
+            loadingBarSlider.value = progress;
             yield return null;
         }
     }
