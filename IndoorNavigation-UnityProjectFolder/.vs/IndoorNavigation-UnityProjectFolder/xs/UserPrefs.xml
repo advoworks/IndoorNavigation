@@ -1,8 +1,8 @@
 ﻿<Properties StartupConfiguration="{A1835561-0AC0-1352-B13B-A8C43A084E33}|">
   <MonoDevelop.Ide.Workbench ActiveDocument="Assets/A - Scripts/02 AreaTarget Scene/IOIHandler.cs">
     <Files>
-      <File FileName="Assets/A - Scripts/01 QR Code Scene/ImageTargetHandler.cs" Line="66" Column="1" />
-      <File FileName="Assets/A - Scripts/02 AreaTarget Scene/IOIHandler.cs" Line="38" Column="42" />
+      <File FileName="Assets/A - Scripts/01 QR Code Scene/ImageTargetHandler.cs" />
+      <File FileName="Assets/A - Scripts/02 AreaTarget Scene/IOIHandler.cs" Line="25" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -14,7 +14,7 @@
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="50309a3d-094f-4913-bd7c-eace9cac03bd" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="0ea1ef82-bf85-490e-b4f1-eb79270b9d62" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>

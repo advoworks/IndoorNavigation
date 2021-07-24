@@ -6282,6 +6282,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1598479704}
     m_Modifications:
+    - target: {fileID: 7906186087202084025, guid: 44de0ebefe5ef418ba5f35e6c84e8c25, type: 3}
+      propertyPath: axis
+      value: 4
+      objectReference: {fileID: 0}
     - target: {fileID: 8711578870590757517, guid: 44de0ebefe5ef418ba5f35e6c84e8c25, type: 3}
       propertyPath: m_Name
       value: POI Prefab
@@ -6292,7 +6296,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8711578870590757518, guid: 44de0ebefe5ef418ba5f35e6c84e8c25, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.167
+      value: 0.942
       objectReference: {fileID: 0}
     - target: {fileID: 8711578870590757518, guid: 44de0ebefe5ef418ba5f35e6c84e8c25, type: 3}
       propertyPath: m_LocalPosition.y
@@ -6300,7 +6304,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8711578870590757518, guid: 44de0ebefe5ef418ba5f35e6c84e8c25, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -0.756
+      value: -0.699
       objectReference: {fileID: 0}
     - target: {fileID: 8711578870590757518, guid: 44de0ebefe5ef418ba5f35e6c84e8c25, type: 3}
       propertyPath: m_LocalRotation.w
