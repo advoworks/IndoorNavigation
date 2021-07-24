@@ -4909,6 +4909,80 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1289856335}
   m_CullTransparentMesh: 1
+--- !u!1001 &1390956467
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1598479704}
+    m_Modifications:
+    - target: {fileID: 7906186087202084025, guid: 44de0ebefe5ef418ba5f35e6c84e8c25, type: 3}
+      propertyPath: axis
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8711578870590757517, guid: 44de0ebefe5ef418ba5f35e6c84e8c25, type: 3}
+      propertyPath: m_Name
+      value: POI Prefab (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8711578870590757518, guid: 44de0ebefe5ef418ba5f35e6c84e8c25, type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8711578870590757518, guid: 44de0ebefe5ef418ba5f35e6c84e8c25, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -1.538
+      objectReference: {fileID: 0}
+    - target: {fileID: 8711578870590757518, guid: 44de0ebefe5ef418ba5f35e6c84e8c25, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.237
+      objectReference: {fileID: 0}
+    - target: {fileID: 8711578870590757518, guid: 44de0ebefe5ef418ba5f35e6c84e8c25, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -3.196
+      objectReference: {fileID: 0}
+    - target: {fileID: 8711578870590757518, guid: 44de0ebefe5ef418ba5f35e6c84e8c25, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8711578870590757518, guid: 44de0ebefe5ef418ba5f35e6c84e8c25, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8711578870590757518, guid: 44de0ebefe5ef418ba5f35e6c84e8c25, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8711578870590757518, guid: 44de0ebefe5ef418ba5f35e6c84e8c25, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8711578870590757518, guid: 44de0ebefe5ef418ba5f35e6c84e8c25, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8711578870590757518, guid: 44de0ebefe5ef418ba5f35e6c84e8c25, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8711578870590757518, guid: 44de0ebefe5ef418ba5f35e6c84e8c25, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8711578870590757519, guid: 44de0ebefe5ef418ba5f35e6c84e8c25, type: 3}
+      propertyPath: desc
+      value: Nobody wants to sit here
+      objectReference: {fileID: 0}
+    - target: {fileID: 8711578870590757519, guid: 44de0ebefe5ef418ba5f35e6c84e8c25, type: 3}
+      propertyPath: title
+      value: The ugly sofa
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 44de0ebefe5ef418ba5f35e6c84e8c25, type: 3}
+--- !u!4 &1390956468 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 8711578870590757518, guid: 44de0ebefe5ef418ba5f35e6c84e8c25, type: 3}
+  m_PrefabInstance: {fileID: 1390956467}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1401336329
 GameObject:
   m_ObjectHideFlags: 0
@@ -5868,6 +5942,8 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1707176908}
+  - {fileID: 1390956468}
+  - {fileID: 1874939030}
   m_Father: {fileID: 382607602}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 172.519, z: 0}
@@ -6284,7 +6360,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 7906186087202084025, guid: 44de0ebefe5ef418ba5f35e6c84e8c25, type: 3}
       propertyPath: axis
-      value: 4
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8711578870590757517, guid: 44de0ebefe5ef418ba5f35e6c84e8c25, type: 3}
       propertyPath: m_Name
@@ -6489,6 +6565,88 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1855584436}
   m_CullTransparentMesh: 1
+--- !u!1001 &1874939029
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1598479704}
+    m_Modifications:
+    - target: {fileID: 7906186087202084025, guid: 44de0ebefe5ef418ba5f35e6c84e8c25, type: 3}
+      propertyPath: axis
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7906186087202084025, guid: 44de0ebefe5ef418ba5f35e6c84e8c25, type: 3}
+      propertyPath: facePlayer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7906186087202084025, guid: 44de0ebefe5ef418ba5f35e6c84e8c25, type: 3}
+      propertyPath: autoFacePlayer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8711578870590757517, guid: 44de0ebefe5ef418ba5f35e6c84e8c25, type: 3}
+      propertyPath: m_Name
+      value: POI Prefab (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8711578870590757518, guid: 44de0ebefe5ef418ba5f35e6c84e8c25, type: 3}
+      propertyPath: m_RootOrder
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8711578870590757518, guid: 44de0ebefe5ef418ba5f35e6c84e8c25, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -6.131
+      objectReference: {fileID: 0}
+    - target: {fileID: 8711578870590757518, guid: 44de0ebefe5ef418ba5f35e6c84e8c25, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.237
+      objectReference: {fileID: 0}
+    - target: {fileID: 8711578870590757518, guid: 44de0ebefe5ef418ba5f35e6c84e8c25, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -8.988
+      objectReference: {fileID: 0}
+    - target: {fileID: 8711578870590757518, guid: 44de0ebefe5ef418ba5f35e6c84e8c25, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8711578870590757518, guid: 44de0ebefe5ef418ba5f35e6c84e8c25, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8711578870590757518, guid: 44de0ebefe5ef418ba5f35e6c84e8c25, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8711578870590757518, guid: 44de0ebefe5ef418ba5f35e6c84e8c25, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8711578870590757518, guid: 44de0ebefe5ef418ba5f35e6c84e8c25, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8711578870590757518, guid: 44de0ebefe5ef418ba5f35e6c84e8c25, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8711578870590757518, guid: 44de0ebefe5ef418ba5f35e6c84e8c25, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8711578870590757519, guid: 44de0ebefe5ef418ba5f35e6c84e8c25, type: 3}
+      propertyPath: desc
+      value: Not large enough for this 65"
+      objectReference: {fileID: 0}
+    - target: {fileID: 8711578870590757519, guid: 44de0ebefe5ef418ba5f35e6c84e8c25, type: 3}
+      propertyPath: title
+      value: The TV Room
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 44de0ebefe5ef418ba5f35e6c84e8c25, type: 3}
+--- !u!4 &1874939030 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 8711578870590757518, guid: 44de0ebefe5ef418ba5f35e6c84e8c25, type: 3}
+  m_PrefabInstance: {fileID: 1874939029}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1927017100
 GameObject:
   m_ObjectHideFlags: 0

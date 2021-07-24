@@ -11,6 +11,8 @@ public class CameraFacing : MonoBehaviour
 {
 	Camera referenceCamera;
 
+	public bool autoFacePlayer = true;
+
 	public enum Axis { up, down, left, right, forward, back };
 	public bool reverseFace = false;
 	public Axis axis = Axis.up;
@@ -38,6 +40,8 @@ public class CameraFacing : MonoBehaviour
 
 	void Awake()
 	{
+		if (!autoFacePlayer) return;
+
 		// if no camera referenced, grab the main camera
 		if (!referenceCamera)
 			referenceCamera = Camera.main;
@@ -45,6 +49,8 @@ public class CameraFacing : MonoBehaviour
 	//Orient the camera after all movement is completed this frame to avoid jittering
 	void LateUpdate()
 	{
+		if (!autoFacePlayer) return;
+
 		// rotates the object relative to the camera
 		Vector3 targetPos = transform.position + referenceCamera.transform.rotation * (reverseFace ? Vector3.forward : Vector3.back);
 		Vector3 targetOrientation = referenceCamera.transform.rotation * GetAxis(axis);
