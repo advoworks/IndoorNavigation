@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
+using UnityEngine.Events;
 
 public class IOIHandler : MonoBehaviour
 {
@@ -13,6 +14,9 @@ public class IOIHandler : MonoBehaviour
 
     public string title;
     public string desc;
+
+    public UnityEvent onTriggerEnter;
+    public UnityEvent onTriggerExit;
 
     // Start is called before the first frame update
     void Start()
@@ -43,10 +47,15 @@ public class IOIHandler : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        Display();
+        //Display();
+        canvas.gameObject.SetActive(true);
+        onTriggerEnter.Invoke();
     }
     private void OnTriggerExit(Collider other)
     {
-        Hide();
+        //Hide();
+        onTriggerExit.Invoke();
     }
+
+
 }
