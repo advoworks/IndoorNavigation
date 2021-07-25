@@ -54,9 +54,9 @@ public class DtPOIBehavior : MonoBehaviour
         //Tween to original
         var sequence = DOTween.Sequence();
         Tween tween;
-        tween = cvs.GetComponent<RectTransform>().DOScale(originalScale, .5f).SetEase(Ease.OutBack);
+        tween = cvs.GetComponent<RectTransform>().DOScale(originalScale, .2f).SetEase(Ease.OutBack);
         sequence.Append(tween);
-        tween = whiteFadePanel.DOColor(originalColor, .5f).SetEase(Ease.InCirc);
+        tween = whiteFadePanel.DOColor(originalColor, .4f).SetEase(Ease.InCirc);
         sequence.Append(tween);
 
         //sequence.OnComplete(() => img.transform.rotation = Quaternion.identity);
