@@ -39,8 +39,8 @@ public class GameController : MonoBehaviour
 
     private NavMeshPath path;
 
-    private bool showPath = false;
-    private float elapsed = 0.0f;
+    //private bool showPath = false;
+    //private float elapsed = 0.0f;
 
     [Header("Menu Panels")]
     public GameObject panelAvatar;
@@ -57,6 +57,9 @@ public class GameController : MonoBehaviour
     [Header("POI objects in scene (Run time only)")]
     public GameObject[] poiObjects;
 
+    [Header("UI HUD Indicators")]
+    public TextMeshProUGUI tmpDestinationName;
+    public TextMeshProUGUI tmpDestinationDistance;
 
 
     private void Start()
@@ -129,6 +132,16 @@ public class GameController : MonoBehaviour
 
     //}
 
+
+    public void SetDestinationName(string name)
+    {
+        tmpDestinationName.text = name;
+    }
+
+    public void SetDestinationDistance(float distance)
+    {
+        tmpDestinationDistance.text = distance + "m";
+    }
 
 
     public void TargetFound()

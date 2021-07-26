@@ -70,12 +70,23 @@ public class NavmeshPathDraw : MonoBehaviour
 
             lr.positionCount = corners.Length;
             lr.SetPositions(corners);
+
+
         }
         else
         {
             Debug.Log("No path was found, setting lr position count to 0");
             lr.positionCount = 0;
         }
+
+        //Now calculate the distance
+        float distance = 0;
+        for (int i = 0; i < lr.positionCount - 1; i++)
+        {
+            distance += (lr.GetPosition(i + 1) - lr.GetPosition(i)).magnitude;
+        }
+        GameController.Instance.SetDestinationName(destination.name);
+        GameController.Instance.SetDestinationDistance(distance);
 
         //END - KEV MOD
     }
