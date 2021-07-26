@@ -117,10 +117,24 @@ public class GameController : MonoBehaviour
         if (elapsed > 1.0f)
         {
             elapsed -= 1.0f;
-            NavMesh.CalculatePath(player.transform.position, destination.position, NavMesh.AllAreas, path);
+
+            NavMeshHit hit;
+            if (NavMesh.SamplePosition(destination.position, out hit, 2.0f, NavMesh.AllAreas))
+            {
+                NavMesh.CalculatePath(player.transform.position, hit.position, NavMesh.AllAreas, path);
+                //result = hit.position;
+                //return true;
+            } else
+            {
+                Debug.Log("Path not found to " + hit.position + ", abandon showing path");
+                HidePath();
+                return;
+            }
+
+            
         }
         
-        //Debug.Log("path.corners length is " + path.corners.Length);
+        //If we reach here we should be OK to draw the path
         Vector3[] corners = path.corners;
         lr.positionCount = corners.Length;
         lr.SetPositions(corners);
