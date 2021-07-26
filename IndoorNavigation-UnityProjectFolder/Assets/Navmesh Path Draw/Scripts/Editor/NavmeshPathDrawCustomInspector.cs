@@ -6,12 +6,14 @@ public class NavmeshPathDrawCustomInspector : Editor
 {
     SerializedProperty destination,
     recalculatePath,
-    recalculationTime;
+    recalculationTime,
+        yOffset; //Kev Added
 
     void OnEnable(){
         destination = serializedObject.FindProperty("destination");
         recalculatePath = serializedObject.FindProperty("recalculatePath");
         recalculationTime = serializedObject.FindProperty("recalculationTime");
+        yOffset = serializedObject.FindProperty("yOffset"); // Kev added
     }
 
     public override void OnInspectorGUI(){
@@ -29,6 +31,8 @@ public class NavmeshPathDrawCustomInspector : Editor
         EditorGUI.BeginDisabledGroup(script.recalculatePath == false);
             EditorGUILayout.PropertyField(recalculationTime, new GUIContent("Recalculation Time", "The amount of time in seconds to recalculate the path. The higher the number, the more performant on CPU but slower to pathfind. It all depends on your game and target hardware. It's usually best to keep this from 0.1 - 0.5 seconds"));
         EditorGUI.EndDisabledGroup ();
+
+        EditorGUILayout.PropertyField(yOffset, new GUIContent("Y Offset", "Y offset for LR")); //Kev Added
 
         serializedObject.ApplyModifiedProperties();
     }

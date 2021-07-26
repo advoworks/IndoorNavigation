@@ -5,9 +5,13 @@ using UnityEngine.AI;
 
 public class NavmeshPathDraw : MonoBehaviour
 {
+    
+
     public Transform destination;
     public bool recalculatePath = true;
     public float recalculationTime = 0.1f;
+    public float yOffset; // Kev Added
+
 
     NavMeshPath path;
     LineRenderer lr;
@@ -67,6 +71,14 @@ public class NavmeshPathDraw : MonoBehaviour
         {
             NavMesh.CalculatePath(validatedOriginPos, hit.position, NavMesh.AllAreas, path);
             Vector3[] corners = path.corners;
+
+            if (yOffset != 0f)
+            {
+                for (int i = 0; i < corners.Length; i++)
+                {
+                    corners[i].y += yOffset;
+                }
+            }
 
             lr.positionCount = corners.Length;
             lr.SetPositions(corners);
