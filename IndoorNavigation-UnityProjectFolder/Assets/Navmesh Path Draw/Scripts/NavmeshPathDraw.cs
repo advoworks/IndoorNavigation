@@ -53,11 +53,31 @@ public class NavmeshPathDraw : MonoBehaviour
             validatedOriginPos = transform.position;
         }
 
-        NavMesh.CalculatePath(validatedOriginPos, validatedDesPos, NavMesh.AllAreas, path);
-        Vector3[] corners = path.corners;
-        
-        lr.positionCount = corners.Length;
-        lr.SetPositions(corners);
+
+        //START - KEV MOD
+
+        //NavMesh.CalculatePath(validatedOriginPos, validatedDesPos, NavMesh.AllAreas, path);
+        //Vector3[] corners = path.corners;
+
+        //lr.positionCount = corners.Length;
+        //lr.SetPositions(corners);
+
+        NavMeshHit hit;
+        if (NavMesh.SamplePosition(validatedDesPos, out hit, 2.0f, NavMesh.AllAreas))
+        {
+            NavMesh.CalculatePath(validatedOriginPos, hit.position, NavMesh.AllAreas, path);
+            Vector3[] corners = path.corners;
+
+            lr.positionCount = corners.Length;
+            lr.SetPositions(corners);
+        }
+        else
+        {
+            Debug.Log("No path was found, setting lr position count to 0");
+            lr.positionCount = 0;
+        }
+
+        //END - KEV MOD
     }
 
     //stop drawing the path
