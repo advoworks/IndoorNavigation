@@ -94,17 +94,12 @@ public class GameController : MonoBehaviour
     //    Debug.Log("Navigating to POI " + poiObject.GetComponent<IOIHandler>().title);
     //}
 
-    public void ShowPathSofa()
+    public void ShowPathTo(GameObject poiObject)
     {
         showPath = true;
-        destination = poiSofa;
+        destination = poiObject.transform;
     }
-
-    public void ShowPathTVRoom()
-    {
-        showPath = true;
-        destination = poiTVRoom;
-    }
+   
 
 
     public void HidePath()
@@ -125,7 +120,7 @@ public class GameController : MonoBehaviour
             NavMesh.CalculatePath(player.transform.position, destination.position, NavMesh.AllAreas, path);
         }
         
-        Debug.Log("path.corners length is " + path.corners.Length);
+        //Debug.Log("path.corners length is " + path.corners.Length);
         Vector3[] corners = path.corners;
         lr.positionCount = corners.Length;
         lr.SetPositions(corners);

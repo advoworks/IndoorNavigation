@@ -37,6 +37,8 @@ public class PanelPOIManager : MonoBehaviour
             poiGameObject.transform.GetChild(0).GetComponent<TextMeshProUGUI>().text = poiGameObjects[i].GetComponent<IOIHandler>().title;
             poiGameObject.transform.GetChild(1).GetComponent<TextMeshProUGUI>().text = poiGameObjects[i].GetComponent<IOIHandler>().desc;
 
+            //poiGameObject.GetComponent<POIListItem>().poiObject = poiGameObjects[i];
+
             var index = i;
             poiGameObject.GetComponent<Button>().onClick.AddListener(delegate ()
             {
@@ -49,6 +51,7 @@ public class PanelPOIManager : MonoBehaviour
     {
         //Navigate to poiObject.transform.position
         Debug.Log("Navigating to POI " + poiObject.GetComponent<IOIHandler>().title);
+        GameController.Instance.ShowPathTo(poiObject);
     }
 
     private void FilterPOIListByText()
