@@ -1,10 +1,11 @@
 ﻿<Properties StartupConfiguration="{A1835561-0AC0-1352-B13B-A8C43A084E33}|">
   <MonoDevelop.Ide.Workbench ActiveDocument="Assets/A - Scripts/02 AreaTarget Scene/GameController.cs">
     <Files>
-      <File FileName="Assets/DtPOIBehavior.cs" Line="1" Column="1" />
+      <File FileName="Assets/DtPOIBehavior.cs" Line="63" Column="1" />
       <File FileName="Assets/A - Scripts/01 QR Code Scene/ImageTargetHandler.cs" />
       <File FileName="Assets/A - Scripts/02 AreaTarget Scene/IOIHandler.cs" />
-      <File FileName="Assets/A - Scripts/02 AreaTarget Scene/GameController.cs" Line="91" Column="6" />
+      <File FileName="Assets/A - Scripts/02 AreaTarget Scene/GameController.cs" Line="83" Column="10" />
+      <File FileName="Assets/PanelPOIManager.cs" Line="19" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">

@@ -68,27 +68,31 @@ public class GameController : MonoBehaviour
 
         //Find all POI Objects in the scene and store in array, and populate the POI list
         poiObjects = GameObject.FindGameObjectsWithTag("POI");
-        GameObject poiItem;
-        for (int i = 0; i < poiObjects.Length; i++)
-        {
-            poiItem = Instantiate(poiListItemPrefab, poiList.transform);
-            poiItem.transform.GetChild(0).GetComponent<TextMeshProUGUI>().text = poiObjects[i].GetComponent<IOIHandler>().title;
-            poiItem.transform.GetChild(1).GetComponent<TextMeshProUGUI>().text = poiObjects[i].GetComponent<IOIHandler>().desc;
 
-            var index = i;
-            poiItem.GetComponent<Button>().onClick.AddListener(delegate ()
-            {
-                poiListItemClicked(poiObjects[index]);
-            });
-        }
+        //Tell the POI Panel Manager to initialize itself with the list of POIs
+        panelPOIs.GetComponent<PanelPOIManager>().GeneratePOIList(poiObjects);
+
+        //GameObject poiItem;
+        //for (int i = 0; i < poiObjects.Length; i++)
+        //{
+        //    poiItem = Instantiate(poiListItemPrefab, poiList.transform);
+        //    poiItem.transform.GetChild(0).GetComponent<TextMeshProUGUI>().text = poiObjects[i].GetComponent<IOIHandler>().title;
+        //    poiItem.transform.GetChild(1).GetComponent<TextMeshProUGUI>().text = poiObjects[i].GetComponent<IOIHandler>().desc;
+
+        //    var index = i;
+        //    poiItem.GetComponent<Button>().onClick.AddListener(delegate ()
+        //    {
+        //        poiListItemClicked(poiObjects[index]);
+        //    });
+        //}
 
     }
 
-    private void poiListItemClicked(GameObject poiObject)
-    {
-        //Navigate to poiObject.transform.position
-        Debug.Log("Navigating to POI " + poiObject.GetComponent<IOIHandler>().title);
-    }
+    //private void poiListItemClicked(GameObject poiObject)
+    //{
+    //    //Navigate to poiObject.transform.position
+    //    Debug.Log("Navigating to POI " + poiObject.GetComponent<IOIHandler>().title);
+    //}
 
     public void ShowPathSofa()
     {
