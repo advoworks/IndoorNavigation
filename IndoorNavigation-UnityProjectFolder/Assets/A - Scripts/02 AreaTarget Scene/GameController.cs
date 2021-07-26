@@ -34,7 +34,8 @@ public class GameController : MonoBehaviour
 
     public Transform player;
 
-    public LineRenderer lr;
+    public LineRenderer lr; //if navMeshPathDraw works, might not need lr anymore
+    public NavmeshPathDraw navMeshPathDraw;
 
     private NavMeshPath path;
 
@@ -72,74 +73,61 @@ public class GameController : MonoBehaviour
         //Tell the POI Panel Manager to initialize itself with the list of POIs
         panelPOIs.GetComponent<PanelPOIManager>().GeneratePOIList(poiObjects);
 
-        //GameObject poiItem;
-        //for (int i = 0; i < poiObjects.Length; i++)
-        //{
-        //    poiItem = Instantiate(poiListItemPrefab, poiList.transform);
-        //    poiItem.transform.GetChild(0).GetComponent<TextMeshProUGUI>().text = poiObjects[i].GetComponent<IOIHandler>().title;
-        //    poiItem.transform.GetChild(1).GetComponent<TextMeshProUGUI>().text = poiObjects[i].GetComponent<IOIHandler>().desc;
-
-        //    var index = i;
-        //    poiItem.GetComponent<Button>().onClick.AddListener(delegate ()
-        //    {
-        //        poiListItemClicked(poiObjects[index]);
-        //    });
-        //}
+        
 
     }
-
-    //private void poiListItemClicked(GameObject poiObject)
-    //{
-    //    //Navigate to poiObject.transform.position
-    //    Debug.Log("Navigating to POI " + poiObject.GetComponent<IOIHandler>().title);
-    //}
 
     public void ShowPathTo(GameObject poiObject)
     {
-        showPath = true;
-        destination = poiObject.transform;
+        navMeshPathDraw.destination = poiObject.transform;
     }
+
+    //public void ShowPathTo(GameObject poiObject)
+    //{
+    //    showPath = true;
+    //    destination = poiObject.transform;
+    //}
    
 
 
-    public void HidePath()
-    {
-        lr.positionCount = 0;
-        showPath = false;
-    }
+    //public void HidePath()
+    //{
+    //    lr.positionCount = 0;
+    //    showPath = false;
+    //}
 
-    private void Update()
-    {
-        if (!showPath) return;
+    //private void Update()
+    //{
+    //    if (!showPath) return;
 
-        // Update the way to the destination every second.
-        elapsed += Time.deltaTime;
-        if (elapsed > 1.0f)
-        {
-            elapsed -= 1.0f;
+    //    // Update the way to the destination every second.
+    //    elapsed += Time.deltaTime;
+    //    if (elapsed > 1.0f)
+    //    {
+    //        elapsed -= 1.0f;
 
-            NavMeshHit hit;
-            if (NavMesh.SamplePosition(destination.position, out hit, 2.0f, NavMesh.AllAreas))
-            {
-                NavMesh.CalculatePath(player.transform.position, hit.position, NavMesh.AllAreas, path);
-                //result = hit.position;
-                //return true;
-            } else
-            {
-                Debug.Log("Path not found to " + hit.position + ", abandon showing path");
-                HidePath();
-                return;
-            }
+    //        NavMeshHit hit;
+    //        if (NavMesh.SamplePosition(destination.position, out hit, 2.0f, NavMesh.AllAreas))
+    //        {
+    //            NavMesh.CalculatePath(player.transform.position, hit.position, NavMesh.AllAreas, path);
+    //            //result = hit.position;
+    //            //return true;
+    //        } else
+    //        {
+    //            Debug.Log("Path not found to " + hit.position + ", abandon showing path");
+    //            HidePath();
+    //            return;
+    //        }
 
             
-        }
+    //    }
         
-        //If we reach here we should be OK to draw the path
-        Vector3[] corners = path.corners;
-        lr.positionCount = corners.Length;
-        lr.SetPositions(corners);
+    //    //If we reach here we should be OK to draw the path
+    //    Vector3[] corners = path.corners;
+    //    lr.positionCount = corners.Length;
+    //    lr.SetPositions(corners);
 
-    }
+    //}
 
 
 

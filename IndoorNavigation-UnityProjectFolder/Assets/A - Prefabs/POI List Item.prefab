@@ -221,7 +221,6 @@ GameObject:
   - component: {fileID: 4997811067412591944}
   - component: {fileID: 4997811067412591945}
   - component: {fileID: 4997811067412591942}
-  - component: {fileID: 6023786522452723018}
   m_Layer: 5
   m_Name: POI List Item
   m_TagString: Untagged
@@ -333,18 +332,6 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls: []
---- !u!114 &6023786522452723018
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4997811067412591940}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 01feeee20713a477199e841204132809, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &4997811068016305991
 GameObject:
   m_ObjectHideFlags: 0
