@@ -1,5 +1,5 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Navmesh Path Draw/Scripts/Editor/NavmeshPathDrawCustomInspector.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/A - Scripts/02 AreaTarget Scene/CameraFacing.cs">
     <Files>
       <File FileName="Assets/DtPOIBehavior.cs" Line="63" Column="1" />
       <File FileName="Assets/A - Scripts/01 QR Code Scene/ImageTargetHandler.cs" />
@@ -8,7 +8,8 @@
       <File FileName="Assets/MultiArea.cs" Line="42" Column="6" />
       <File FileName="Assets/A - Scripts/02 AreaTarget Scene/GameController.cs" Line="63" Column="1" />
       <File FileName="Assets/Navmesh Path Draw/Scripts/NavmeshPathDraw.cs" Line="13" Column="25" />
-      <File FileName="Assets/Navmesh Path Draw/Scripts/Editor/NavmeshPathDrawCustomInspector.cs" Line="9" Column="23" />
+      <File FileName="Assets/Navmesh Path Draw/Scripts/Editor/NavmeshPathDrawCustomInspector.cs" Line="40" Column="1" />
+      <File FileName="Assets/A - Scripts/02 AreaTarget Scene/CameraFacing.cs" Line="23" Column="19" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -17,7 +18,9 @@
             <Node name="Assembly-CSharp" expanded="True">
               <Node name="Assets" expanded="True">
                 <Node name="A - Scripts" expanded="True">
-                  <Node name="02 AreaTarget Scene" expanded="True" />
+                  <Node name="02 AreaTarget Scene" expanded="True">
+                    <Node name="CameraFacing.cs" selected="True" />
+                  </Node>
                 </Node>
                 <Node name="Navmesh Path Draw" expanded="True">
                   <Node name="Scripts" expanded="True" />
@@ -28,9 +31,7 @@
               <Node name="Assets" expanded="True">
                 <Node name="Navmesh Path Draw" expanded="True">
                   <Node name="Scripts" expanded="True">
-                    <Node name="Editor" expanded="True">
-                      <Node name="NavmeshPathDrawCustomInspector.cs" selected="True" />
-                    </Node>
+                    <Node name="Editor" expanded="True" />
                   </Node>
                 </Node>
               </Node>

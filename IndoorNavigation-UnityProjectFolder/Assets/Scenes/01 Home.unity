@@ -7925,6 +7925,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2746013743044999973, guid: a6231d1f4001a2745bca00958b0d2163, type: 3}
+      propertyPath: yOffset
+      value: 0.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2746013743044999973, guid: a6231d1f4001a2745bca00958b0d2163, type: 3}
       propertyPath: recalculationTime
       value: 2
       objectReference: {fileID: 0}
