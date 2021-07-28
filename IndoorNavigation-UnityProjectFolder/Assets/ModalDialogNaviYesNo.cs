@@ -6,10 +6,10 @@ using UnityEngine;
 using UnityEngine.Events;
 using UnityEngine.UI;
 
-public class ModalDialogNaviScene : MonoBehaviour
+public class ModalDialogNaviYesNo : MonoBehaviour
 {
 
-    public static ModalDialogNaviScene Instance = null;
+    public static ModalDialogNaviYesNo Instance = null;
 
     public GameObject mainPanel;
     public TextMeshProUGUI dialogText;

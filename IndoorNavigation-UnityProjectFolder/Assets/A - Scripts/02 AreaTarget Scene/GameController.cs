@@ -57,9 +57,9 @@ public class GameController : MonoBehaviour
     [Header("POI objects in scene (Run time only)")]
     public GameObject[] poiObjects;
 
-    [Header("UI HUD Indicators")]
-    public TextMeshProUGUI tmpDestinationName;
-    public TextMeshProUGUI tmpDestinationDistance;
+    //[Header("UI HUD Indicators")]
+    //public TextMeshProUGUI tmpDestinationName;
+    //public TextMeshProUGUI tmpDestinationDistance;
 
 
     private void Start()
@@ -83,14 +83,31 @@ public class GameController : MonoBehaviour
     public void ShowPathTo(GameObject poiObject)
     {
         navMeshPathDraw.destination = poiObject.transform;
+        ModalDialogNaviCurrentDest.Instance.Show();
     }
+
+    public void CancelNavigation()
+    {
+        navMeshPathDraw.destination = null;
+        ModalDialogNaviCurrentDest.Instance.Hide();
+    }
+
+    public void UpdateDestinationNameAndDistance(string name, float distance)
+    {
+        ModalDialogNaviCurrentDest.Instance.dialogText.text = name;
+        if (distance >= 0)
+            ModalDialogNaviCurrentDest.Instance.remainingDistance.text = distance + "m";
+        else
+            ModalDialogNaviCurrentDest.Instance.remainingDistance.text = "Calculating...";
+    }
+
 
     //public void ShowPathTo(GameObject poiObject)
     //{
     //    showPath = true;
     //    destination = poiObject.transform;
     //}
-   
+
 
 
     //public void HidePath()
@@ -122,9 +139,9 @@ public class GameController : MonoBehaviour
     //            return;
     //        }
 
-            
+
     //    }
-        
+
     //    //If we reach here we should be OK to draw the path
     //    Vector3[] corners = path.corners;
     //    lr.positionCount = corners.Length;
@@ -133,15 +150,15 @@ public class GameController : MonoBehaviour
     //}
 
 
-    public void SetDestinationName(string name)
-    {
-        tmpDestinationName.text = name;
-    }
+    //public void SetDestinationName(string name)
+    //{
+    //    tmpDestinationName.text = name;
+    //}
 
-    public void SetDestinationDistance(float distance)
-    {
-        tmpDestinationDistance.text = distance + "m";
-    }
+    //public void SetDestinationDistance(float distance)
+    //{
+    //    tmpDestinationDistance.text = distance + "m";
+    //}
 
 
     public void TargetFound()

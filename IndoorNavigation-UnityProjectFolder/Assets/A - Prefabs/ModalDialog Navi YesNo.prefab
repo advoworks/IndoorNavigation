@@ -266,7 +266,7 @@ GameObject:
   - component: {fileID: 491189183899157799}
   - component: {fileID: 131792365003649091}
   m_Layer: 5
-  m_Name: ModalDialog NaviScene
+  m_Name: ModalDialog Navi YesNo
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -663,7 +663,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &2779066945052234545
 RectTransform:
   m_ObjectHideFlags: 0

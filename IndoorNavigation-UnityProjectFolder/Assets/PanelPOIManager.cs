@@ -51,24 +51,24 @@ public class PanelPOIManager : MonoBehaviour
     {
        
         //Display modal dialog and confirm navigation to that object
-        ModalDialogNaviScene.Instance.dialogText.text = poiObject.name;
+        ModalDialogNaviYesNo.Instance.dialogText.text = poiObject.name;
         
-        ModalDialogNaviScene.Instance.confirmButton.onClick.AddListener(delegate ()
+        ModalDialogNaviYesNo.Instance.confirmButton.onClick.AddListener(delegate ()
         {
             Debug.Log("Confirm button clicked");
 
-            ModalDialogNaviScene.Instance.Hide();
+            ModalDialogNaviYesNo.Instance.Hide();
 
             GameController.Instance.ShowPathTo(poiObject);
             GameController.Instance.HideAllPanels();
         });
 
-        ModalDialogNaviScene.Instance.cancelButton.onClick.AddListener(delegate ()
+        ModalDialogNaviYesNo.Instance.cancelButton.onClick.AddListener(delegate ()
         {
-            ModalDialogNaviScene.Instance.Hide();
+            ModalDialogNaviYesNo.Instance.Hide();
         });
 
-        ModalDialogNaviScene.Instance.Show();
+        ModalDialogNaviYesNo.Instance.Show();
     }
 
     

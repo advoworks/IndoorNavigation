@@ -67,9 +67,10 @@ public class NavmeshPathDraw : MonoBehaviour
         //lr.SetPositions(corners);
 
         NavMeshHit hit;
+        bool pathFound = false;
         if (NavMesh.SamplePosition(validatedDesPos, out hit, 2.0f, NavMesh.AllAreas))
         {
-            NavMesh.CalculatePath(validatedOriginPos, hit.position, NavMesh.AllAreas, path);
+            pathFound = NavMesh.CalculatePath(validatedOriginPos, hit.position, NavMesh.AllAreas, path);
             Vector3[] corners = path.corners;
 
             if (yOffset != 0f)
@@ -91,14 +92,24 @@ public class NavmeshPathDraw : MonoBehaviour
             lr.positionCount = 0;
         }
 
-        //Now calculate the distance
         float distance = 0;
-        for (int i = 0; i < lr.positionCount - 1; i++)
+
+        if (pathFound)
         {
-            distance += (lr.GetPosition(i + 1) - lr.GetPosition(i)).magnitude;
+            //Now calculate the distance
+         
+            for (int i = 0; i < lr.positionCount - 1; i++)
+            {
+                distance += (lr.GetPosition(i + 1) - lr.GetPosition(i)).magnitude;
+            }
+
+            GameController.Instance.UpdateDestinationNameAndDistance(destination.name, distance);
+        } else
+        {
+            GameController.Instance.UpdateDestinationNameAndDistance(destination.name, -1);
         }
-        GameController.Instance.SetDestinationName(destination.name);
-        GameController.Instance.SetDestinationDistance(distance);
+        
+        
 
         //END - KEV MOD
     }
