@@ -2303,3 +2303,919 @@ AssetImportParameters requested are different than current active one (requested
   custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 5213.996827 seconds.
+  path: Assets/A -Sprites/From Internet
+  artifactKey: Guid(989908e3f9bbb4949a7268a1bd63beab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/A -Sprites/From Internet using Guid(989908e3f9bbb4949a7268a1bd63beab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'efee2797726e77725c057776a885b0c7') in 0.005070 seconds 
+  Import took 0.013353 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.070010 seconds.
+  path: Assets/A -Sprites/Photopea/Shape 7.png
+  artifactKey: Guid(f42bd877556b44da6b8bd58a9bf03b87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/A -Sprites/Photopea/Shape 7.png using Guid(f42bd877556b44da6b8bd58a9bf03b87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '867b174896cf6905ab5c926981aef206') in 1.423480 seconds 
+  Import took 1.430499 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.124360 seconds.
+  path: Assets/A -Sprites/Photopea/ModalWithShadow.png
+  artifactKey: Guid(f42bd877556b44da6b8bd58a9bf03b87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/A -Sprites/Photopea/ModalWithShadow.png using Guid(f42bd877556b44da6b8bd58a9bf03b87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '689e8e9f5370173371230bceb050a552') in 0.017649 seconds 
+  Import took 0.022241 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 24.305349 seconds.
+  path: Assets/A -Sprites/Framer Direct/ModalBackground.png
+  artifactKey: Guid(729f0bf7d0a5a4ddabb57df3544124c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/A -Sprites/Framer Direct/ModalBackground.png using Guid(729f0bf7d0a5a4ddabb57df3544124c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ff23768a954a5fb508b760edc9699f4') in 0.067084 seconds 
+  Import took 0.072101 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 29.738239 seconds.
+  path: Assets/A -Sprites/Photopea/ModalWithShadow.png
+  artifactKey: Guid(f42bd877556b44da6b8bd58a9bf03b87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/A -Sprites/Photopea/ModalWithShadow.png using Guid(f42bd877556b44da6b8bd58a9bf03b87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd16ee3b42d0ee142bf56a19448b73301') in 0.020089 seconds 
+  Import took 0.027524 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 48.800803 seconds.
+  path: Assets/A -Sprites/Photopea/ModalWithShadow.png
+  artifactKey: Guid(f42bd877556b44da6b8bd58a9bf03b87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/A -Sprites/Photopea/ModalWithShadow.png using Guid(f42bd877556b44da6b8bd58a9bf03b87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26a114f488a28e4aeb6bc5a355512882') in 0.016496 seconds 
+  Import took 0.023072 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.199725 seconds.
+  path: Assets/A -Sprites/Photopea/Minimap-Mask.png
+  artifactKey: Guid(3381d64ef0e614d8983e877bb4ad09d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/A -Sprites/Photopea/Minimap-Mask.png using Guid(3381d64ef0e614d8983e877bb4ad09d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af2b08a156a1f02412c73d367484ef5a') in 0.029573 seconds 
+  Import took 0.035141 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 505.018065 seconds.
+  path: Assets/A -Sprites/Photopea/Shape 8.png
+  artifactKey: Guid(26cfe456eb4a04fadac1e8a2f42f15c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/A -Sprites/Photopea/Shape 8.png using Guid(26cfe456eb4a04fadac1e8a2f42f15c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd939532b5e479b52ba7ab8a90b264b5') in 0.037108 seconds 
+  Import took 0.042226 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.869323 seconds.
+  path: Assets/A -Sprites/Photopea/ModalWithBorder.png
+  artifactKey: Guid(26cfe456eb4a04fadac1e8a2f42f15c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/A -Sprites/Photopea/ModalWithBorder.png using Guid(26cfe456eb4a04fadac1e8a2f42f15c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6dfeacf0aee0baa84cdc6f78bdfc2b68') in 0.038055 seconds 
+  Import took 0.043024 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.386042 seconds.
+  path: Assets/A -Sprites/Photopea/ModalWithBorder.png
+  artifactKey: Guid(26cfe456eb4a04fadac1e8a2f42f15c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/A -Sprites/Photopea/ModalWithBorder.png using Guid(26cfe456eb4a04fadac1e8a2f42f15c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26e8d0b3b4bb5c98793e9fe29b5f6e45') in 0.034789 seconds 
+  Import took 0.040516 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.014478 seconds.
+  path: Assets/A -Sprites/Photopea/ModalWithBorder.png
+  artifactKey: Guid(26cfe456eb4a04fadac1e8a2f42f15c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/A -Sprites/Photopea/ModalWithBorder.png using Guid(26cfe456eb4a04fadac1e8a2f42f15c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26e8d0b3b4bb5c98793e9fe29b5f6e45') in 0.020563 seconds 
+  Import took 0.026837 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 17.515202 seconds.
+  path: Assets/A -Sprites/Photopea/ModalWithBorder.png
+  artifactKey: Guid(26cfe456eb4a04fadac1e8a2f42f15c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/A -Sprites/Photopea/ModalWithBorder.png using Guid(26cfe456eb4a04fadac1e8a2f42f15c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16ee213786e7a297d4157d1a4339fdf5') in 0.018870 seconds 
+  Import took 0.025242 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 139.999220 seconds.
+  path: Assets/A -Sprites/Photopea/ModalWithBorder2.png
+  artifactKey: Guid(c28d12f2099f94c2f974e2617ac1352d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/A -Sprites/Photopea/ModalWithBorder2.png using Guid(c28d12f2099f94c2f974e2617ac1352d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01e8e1ffce1309782e2541f61c189ace') in 0.032324 seconds 
+  Import took 0.038046 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.408464 seconds.
+  path: Assets/A -Sprites/Photopea/ModalWithBorder1.png
+  artifactKey: Guid(17496614e506c46b59a7e8ba7ff9210f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/A -Sprites/Photopea/ModalWithBorder1.png using Guid(17496614e506c46b59a7e8ba7ff9210f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0e9c14cc35e3bebe2604d350ca4cd3e') in 0.034147 seconds 
+  Import took 0.040073 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.235211 seconds.
+  path: Assets/A -Sprites/Photopea/ModalWithBorder2.png
+  artifactKey: Guid(c28d12f2099f94c2f974e2617ac1352d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/A -Sprites/Photopea/ModalWithBorder2.png using Guid(c28d12f2099f94c2f974e2617ac1352d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd776c87a8c93d2d1b29f6a7ba879fee') in 0.024654 seconds 
+  Import took 0.031721 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.300925 seconds.
+  path: Assets/A -Sprites/Photopea/ModalWithBorder1.png
+  artifactKey: Guid(17496614e506c46b59a7e8ba7ff9210f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/A -Sprites/Photopea/ModalWithBorder1.png using Guid(17496614e506c46b59a7e8ba7ff9210f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d241cdd006aa6984d0db6efa2ece37f') in 0.024137 seconds 
+  Import took 0.030015 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 14.160774 seconds.
+  path: Assets/A -Sprites/Photopea/ModalWithBorder1.png
+  artifactKey: Guid(17496614e506c46b59a7e8ba7ff9210f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/A -Sprites/Photopea/ModalWithBorder1.png using Guid(17496614e506c46b59a7e8ba7ff9210f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00eac1dcd6a9f5b2385b7ebc306f9120') in 0.031722 seconds 
+  Import took 0.037808 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.016047 seconds.
+  path: Assets/A -Sprites/Photopea/ModalWithBorder2.png
+  artifactKey: Guid(c28d12f2099f94c2f974e2617ac1352d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/A -Sprites/Photopea/ModalWithBorder2.png using Guid(c28d12f2099f94c2f974e2617ac1352d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79067d346dd2dcdd2ef6863af2edf11d') in 0.024424 seconds 
+  Import took 0.029507 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.928341 seconds.
+  path: Assets/A -Sprites/Photopea/ModalWithBorder3.png
+  artifactKey: Guid(c669dfd02fec54aa8b02230a6153652c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/A -Sprites/Photopea/ModalWithBorder3.png using Guid(c669dfd02fec54aa8b02230a6153652c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac612303e3ca7b8c5d9795da7992cbe0') in 0.022829 seconds 
+  Import took 0.028856 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.420907 seconds.
+  path: Assets/A -Sprites/Photopea/ModalWithBorder3.png
+  artifactKey: Guid(c669dfd02fec54aa8b02230a6153652c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/A -Sprites/Photopea/ModalWithBorder3.png using Guid(c669dfd02fec54aa8b02230a6153652c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00dd355ea842b8be38543035e70da54f') in 0.024525 seconds 
+  Import took 0.029076 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.010223 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.77 ms, found 4 plugins.
+Preloading 1 native plugins for Editor in 2.77 ms.
+System.NullReferenceException: Object reference not set to an instance of an object
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetVuforiaPackageAbsPath () [0x0004a] in <664162e2bf7f40388b13ee61d1693ae2>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.IsPackageManager () [0x00000] in <664162e2bf7f40388b13ee61d1693ae2>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.ResolvePluginType () [0x00009] in <664162e2bf7f40388b13ee61d1693ae2>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetPluginType () [0x0000c] in <664162e2bf7f40388b13ee61d1693ae2>:0 
+  at Vuforia.EditorClasses.VuforiaUtilities.IsVuforiaEnabledInPlayerSettings () [0x00000] in <664162e2bf7f40388b13ee61d1693ae2>:0 
+  at VuforiaEnabledObserver..cctor () [0x00000] in <664162e2bf7f40388b13ee61d1693ae2>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs:118)
+
+(Filename: /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs Line: 118)
+
+System.NullReferenceException: Object reference not set to an instance of an object
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetVuforiaPackageAbsPath () [0x0004a] in <664162e2bf7f40388b13ee61d1693ae2>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.IsPackageManager () [0x00000] in <664162e2bf7f40388b13ee61d1693ae2>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.ResolvePluginType () [0x00009] in <664162e2bf7f40388b13ee61d1693ae2>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetPluginType () [0x0000c] in <664162e2bf7f40388b13ee61d1693ae2>:0 
+  at Vuforia.EditorClasses.VuforiaUtilities.IsVuforiaEnabledInPlayerSettings () [0x00000] in <664162e2bf7f40388b13ee61d1693ae2>:0 
+  at Vuforia.EditorClasses.InitializeOnLoadVuforiaTaskRunner..cctor () [0x00015] in <664162e2bf7f40388b13ee61d1693ae2>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs:118)
+
+(Filename: /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs Line: 118)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.491 seconds
+Platform modules already initialized, skipping
+Switching build target platform(2) subTarget(0) extendedPlatform(0) -> platform(9) subTarget(16777218) extendedPlatform(0)
+Shader 'PointClouds/PointSplat': fallback shader 'PointClouds/PointSplatLegacy' not found
+WARNING: Shader Unsupported: 'PointClouds/PointSplat' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'PointClouds/PointSplat' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Shader 'PointClouds/PointSplat': fallback shader 'PointClouds/PointSplatLegacy' not found
+WARNING: Shader Unsupported: 'PointClouds/PointSplat' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'PointClouds/PointSplat' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Refreshing native plugins compatible for Editor in 0.75 ms, found 4 plugins.
+Preloading 1 native plugins for Editor in 2.42 ms.
+Unloading 1987 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 199.8 MB.
+System memory in use after: 198.9 MB.
+
+Unloading 49 unused Assets to reduce memory usage. Loaded Objects now: 2800.
+Total: 6.328689 ms (FindLiveObjects: 0.271794 ms CreateObjectMapping: 0.090573 ms MarkObjects: 4.097415 ms  DeleteObjects: 1.867790 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1029.907104 seconds.
+  path: Assets/A -Sprites/40+ Simple Icons - Free/BulletList_Simple_Icons_UI.png
+  artifactKey: Guid(4081ff07d26598240acef65abebce5be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/A -Sprites/40+ Simple Icons - Free/BulletList_Simple_Icons_UI.png using Guid(4081ff07d26598240acef65abebce5be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84846cb2c558af07ae49d634e6922ae0') in 0.074964 seconds 
+  Import took 0.080733 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.764075 seconds.
+  path: Assets/A -Sprites/40+ Simple Icons - Free/CheckMark_Simple_Icons_UI.png
+  artifactKey: Guid(5d3b4a7c76397eb47bbc59d2bf7a029b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/A -Sprites/40+ Simple Icons - Free/CheckMark_Simple_Icons_UI.png using Guid(5d3b4a7c76397eb47bbc59d2bf7a029b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ad3a00c6b28648dc4a6f4f897b0ef81') in 0.017603 seconds 
+  Import took 0.022606 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002310 seconds.
+  path: Assets/A -Sprites/40+ Simple Icons - Free/CheckMark_Simple_Icons_UI.png
+  artifactKey: Guid(5d3b4a7c76397eb47bbc59d2bf7a029b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/A -Sprites/40+ Simple Icons - Free/CheckMark_Simple_Icons_UI.png using Guid(5d3b4a7c76397eb47bbc59d2bf7a029b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ad3a00c6b28648dc4a6f4f897b0ef81') in 0.015914 seconds 
+  Import took 0.021078 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.173630 seconds.
+  path: Assets/A -Sprites/40+ Simple Icons - Free/Cross_Simple_Icons_UI.png
+  artifactKey: Guid(5a439fff18a35334ca3d76dc7446532d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/A -Sprites/40+ Simple Icons - Free/Cross_Simple_Icons_UI.png using Guid(5a439fff18a35334ca3d76dc7446532d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ed1445d4b2bc7278211c3d0b129c715') in 0.017277 seconds 
+  Import took 0.023338 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.055846 seconds.
+  path: Assets/A -Sprites/40+ Simple Icons - Free/DownArrowC_Simple_Icons_UI.png
+  artifactKey: Guid(29e31833c32435a479338cf97dff5d06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/A -Sprites/40+ Simple Icons - Free/DownArrowC_Simple_Icons_UI.png using Guid(29e31833c32435a479338cf97dff5d06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96d7aac5b9ef61fa4598d19f2103416f') in 0.010937 seconds 
+  Import took 0.016962 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.099644 seconds.
+  path: Assets/A -Sprites/40+ Simple Icons - Free/EyeActiveOff_Simple_Icons_UI.png
+  artifactKey: Guid(a98d976fa5b0a9240b0674d4bcb21549) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/A -Sprites/40+ Simple Icons - Free/EyeActiveOff_Simple_Icons_UI.png using Guid(a98d976fa5b0a9240b0674d4bcb21549) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f14ffc60af376054d58e4e893bd6f0a') in 0.012780 seconds 
+  Import took 0.019519 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.345499 seconds.
+  path: Assets/A -Sprites/40+ Simple Icons - Free/EyeActiveOn_Simple_Icons_UI.png
+  artifactKey: Guid(db6c53a51f4ff0243919f780d898a0c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/A -Sprites/40+ Simple Icons - Free/EyeActiveOn_Simple_Icons_UI.png using Guid(db6c53a51f4ff0243919f780d898a0c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27332e45e08359b714c08a99e3cfeec7') in 0.017557 seconds 
+  Import took 0.022674 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002678 seconds.
+  path: Assets/A -Sprites/40+ Simple Icons - Free/EyeActiveOn_Simple_Icons_UI.png
+  artifactKey: Guid(db6c53a51f4ff0243919f780d898a0c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/A -Sprites/40+ Simple Icons - Free/EyeActiveOn_Simple_Icons_UI.png using Guid(db6c53a51f4ff0243919f780d898a0c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27332e45e08359b714c08a99e3cfeec7') in 0.018972 seconds 
+  Import took 0.024260 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.341071 seconds.
+  path: Assets/A -Sprites/40+ Simple Icons - Free/Filter_Simple_Icons_UI.png
+  artifactKey: Guid(5b33e4bcf8fbfca4fbb04fa7688e94b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/A -Sprites/40+ Simple Icons - Free/Filter_Simple_Icons_UI.png using Guid(5b33e4bcf8fbfca4fbb04fa7688e94b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7b9331411d20f42f91f670674bb02c4') in 0.016299 seconds 
+  Import took 0.021904 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004593 seconds.
+  path: Assets/A -Sprites/40+ Simple Icons - Free/Filter_Simple_Icons_UI.png
+  artifactKey: Guid(5b33e4bcf8fbfca4fbb04fa7688e94b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/A -Sprites/40+ Simple Icons - Free/Filter_Simple_Icons_UI.png using Guid(5b33e4bcf8fbfca4fbb04fa7688e94b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7b9331411d20f42f91f670674bb02c4') in 0.020712 seconds 
+  Import took 0.026090 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.125611 seconds.
+  path: Assets/A -Sprites/40+ Simple Icons - Free/Gamepad_Simple_Icons_UI.png
+  artifactKey: Guid(8a777393fa4a8694797111360bff3870) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/A -Sprites/40+ Simple Icons - Free/Gamepad_Simple_Icons_UI.png using Guid(8a777393fa4a8694797111360bff3870) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4a613597dd22d5f4f876b0c98e7c6d0') in 0.011082 seconds 
+  Import took 0.016401 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.086570 seconds.
+  path: Assets/A -Sprites/40+ Simple Icons - Free/Heart_Simple_Icons_UI.png
+  artifactKey: Guid(61fb9ecce04358246901dadbdfbd2230) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/A -Sprites/40+ Simple Icons - Free/Heart_Simple_Icons_UI.png using Guid(61fb9ecce04358246901dadbdfbd2230) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82710823d1b0bb151f44745a87ee7f50') in 0.020554 seconds 
+  Import took 0.025449 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.116644 seconds.
+  path: Assets/A -Sprites/40+ Simple Icons - Free/HeartOutLine_Simple_Icons_UI.png
+  artifactKey: Guid(d63713939e9ba974698c37cb9ac6ab98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/A -Sprites/40+ Simple Icons - Free/HeartOutLine_Simple_Icons_UI.png using Guid(d63713939e9ba974698c37cb9ac6ab98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fca071f97964d2d6e56ebdfb01cf6870') in 0.021643 seconds 
+  Import took 0.025950 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.128243 seconds.
+  path: Assets/A -Sprites/40+ Simple Icons - Free/Home_Simple_Icons_UI.png
+  artifactKey: Guid(5f1184813a19f18459d23dacc47800e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/A -Sprites/40+ Simple Icons - Free/Home_Simple_Icons_UI.png using Guid(5f1184813a19f18459d23dacc47800e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7d4014518f737f7e767d13dfcb563c9') in 0.012233 seconds 
+  Import took 0.017585 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001679 seconds.
+  path: Assets/A -Sprites/40+ Simple Icons - Free/Home_Simple_Icons_UI.png
+  artifactKey: Guid(5f1184813a19f18459d23dacc47800e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/A -Sprites/40+ Simple Icons - Free/Home_Simple_Icons_UI.png using Guid(5f1184813a19f18459d23dacc47800e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7d4014518f737f7e767d13dfcb563c9') in 0.014930 seconds 
+  Import took 0.020127 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.149956 seconds.
+  path: Assets/A -Sprites/40+ Simple Icons - Free/LeaderBoard_Simple_Icons_UI.png
+  artifactKey: Guid(2fe7b3fe56ea62b409ec74ea8e43097f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/A -Sprites/40+ Simple Icons - Free/LeaderBoard_Simple_Icons_UI.png using Guid(2fe7b3fe56ea62b409ec74ea8e43097f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8778a7b3edf38baa4d905341fa23b365') in 0.011161 seconds 
+  Import took 0.016670 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.101549 seconds.
+  path: Assets/A -Sprites/40+ Simple Icons - Free/LeftArrow_Simple_Icons_UI.png
+  artifactKey: Guid(ca95052204a5ee6428f14338c5ab1c4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/A -Sprites/40+ Simple Icons - Free/LeftArrow_Simple_Icons_UI.png using Guid(ca95052204a5ee6428f14338c5ab1c4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '525eee2f331a6d3e776bb0ee210c2ba1') in 0.014090 seconds 
+  Import took 0.020702 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001083 seconds.
+  path: Assets/A -Sprites/40+ Simple Icons - Free/LeftArrow_Simple_Icons_UI.png
+  artifactKey: Guid(ca95052204a5ee6428f14338c5ab1c4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/A -Sprites/40+ Simple Icons - Free/LeftArrow_Simple_Icons_UI.png using Guid(ca95052204a5ee6428f14338c5ab1c4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '525eee2f331a6d3e776bb0ee210c2ba1') in 0.010054 seconds 
+  Import took 0.015182 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.121800 seconds.
+  path: Assets/A -Sprites/40+ Simple Icons - Free/LeftArrowC_Simple_Icons_UI.png
+  artifactKey: Guid(02c93ab47b59c5b4a8426f579f2a1a2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/A -Sprites/40+ Simple Icons - Free/LeftArrowC_Simple_Icons_UI.png using Guid(02c93ab47b59c5b4a8426f579f2a1a2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5230bde7e69de83839acf164658ac61') in 0.015090 seconds 
+  Import took 0.021050 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001114 seconds.
+  path: Assets/A -Sprites/40+ Simple Icons - Free/LeftArrowC_Simple_Icons_UI.png
+  artifactKey: Guid(02c93ab47b59c5b4a8426f579f2a1a2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/A -Sprites/40+ Simple Icons - Free/LeftArrowC_Simple_Icons_UI.png using Guid(02c93ab47b59c5b4a8426f579f2a1a2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5230bde7e69de83839acf164658ac61') in 0.010335 seconds 
+  Import took 0.014749 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.107692 seconds.
+  path: Assets/A -Sprites/40+ Simple Icons - Free/List_Simple_Icons_UI.png
+  artifactKey: Guid(923a7d24ce110f5428c2e65127839ecd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/A -Sprites/40+ Simple Icons - Free/List_Simple_Icons_UI.png using Guid(923a7d24ce110f5428c2e65127839ecd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a047d3554d7f92d330894f36e16373d4') in 0.009610 seconds 
+  Import took 0.015104 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.106907 seconds.
+  path: Assets/A -Sprites/40+ Simple Icons - Free/Message_Simple_Icons_UI.png
+  artifactKey: Guid(73a92a4628e086f4aa40e4ca114b18a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/A -Sprites/40+ Simple Icons - Free/Message_Simple_Icons_UI.png using Guid(73a92a4628e086f4aa40e4ca114b18a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ccd6d3f46145829a9bbb6d6009f87187') in 0.014387 seconds 
+  Import took 0.020791 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.122789 seconds.
+  path: Assets/A -Sprites/40+ Simple Icons - Free/Mixer_Simple_Icons_UI.png
+  artifactKey: Guid(803117242df212744bf03cc6bb5620c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/A -Sprites/40+ Simple Icons - Free/Mixer_Simple_Icons_UI.png using Guid(803117242df212744bf03cc6bb5620c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8f5ddb7425b5f0bbef464f1451ed30e') in 0.016387 seconds 
+  Import took 0.021245 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000332 seconds.
+  path: Assets/A -Sprites/40+ Simple Icons - Free/Mixer_Simple_Icons_UI.png
+  artifactKey: Guid(803117242df212744bf03cc6bb5620c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/A -Sprites/40+ Simple Icons - Free/Mixer_Simple_Icons_UI.png using Guid(803117242df212744bf03cc6bb5620c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8f5ddb7425b5f0bbef464f1451ed30e') in 0.017947 seconds 
+  Import took 0.022632 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.145728 seconds.
+  path: Assets/A -Sprites/40+ Simple Icons - Free/MusicOff_Simple_Icons_UI.png
+  artifactKey: Guid(e36a5a8c2039b8c46b609ed896b0f611) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/A -Sprites/40+ Simple Icons - Free/MusicOff_Simple_Icons_UI.png using Guid(e36a5a8c2039b8c46b609ed896b0f611) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be451d33da52fcca09784aa1732492c0') in 0.016043 seconds 
+  Import took 0.022538 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000778 seconds.
+  path: Assets/A -Sprites/40+ Simple Icons - Free/MusicOff_Simple_Icons_UI.png
+  artifactKey: Guid(e36a5a8c2039b8c46b609ed896b0f611) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/A -Sprites/40+ Simple Icons - Free/MusicOff_Simple_Icons_UI.png using Guid(e36a5a8c2039b8c46b609ed896b0f611) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be451d33da52fcca09784aa1732492c0') in 0.010144 seconds 
+  Import took 0.016349 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.115927 seconds.
+  path: Assets/A -Sprites/40+ Simple Icons - Free/MusicOn_Simple_Icons_UI.png
+  artifactKey: Guid(0aa785b4d2d38264f88b4208fb283207) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/A -Sprites/40+ Simple Icons - Free/MusicOn_Simple_Icons_UI.png using Guid(0aa785b4d2d38264f88b4208fb283207) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53fadea48cb1536df4c16eb01eccc0d1') in 0.013125 seconds 
+  Import took 0.019162 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002196 seconds.
+  path: Assets/A -Sprites/40+ Simple Icons - Free/MusicOn_Simple_Icons_UI.png
+  artifactKey: Guid(0aa785b4d2d38264f88b4208fb283207) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/A -Sprites/40+ Simple Icons - Free/MusicOn_Simple_Icons_UI.png using Guid(0aa785b4d2d38264f88b4208fb283207) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53fadea48cb1536df4c16eb01eccc0d1') in 0.025187 seconds 
+  Import took 0.031049 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.110872 seconds.
+  path: Assets/A -Sprites/40+ Simple Icons - Free/Pause_Simple_Icons_UI.png
+  artifactKey: Guid(7832486d350096542aefd38da1c44ec5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/A -Sprites/40+ Simple Icons - Free/Pause_Simple_Icons_UI.png using Guid(7832486d350096542aefd38da1c44ec5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31af2c68a1c21376486459ed2afa0096') in 0.013608 seconds 
+  Import took 0.020094 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001251 seconds.
+  path: Assets/A -Sprites/40+ Simple Icons - Free/Pause_Simple_Icons_UI.png
+  artifactKey: Guid(7832486d350096542aefd38da1c44ec5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/A -Sprites/40+ Simple Icons - Free/Pause_Simple_Icons_UI.png using Guid(7832486d350096542aefd38da1c44ec5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31af2c68a1c21376486459ed2afa0096') in 0.011082 seconds 
+  Import took 0.016052 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.129358 seconds.
+  path: Assets/A -Sprites/40+ Simple Icons - Free/Purpose_Simple_Icons_UI.png
+  artifactKey: Guid(37dc28671cb3db3498713e60287221e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/A -Sprites/40+ Simple Icons - Free/Purpose_Simple_Icons_UI.png using Guid(37dc28671cb3db3498713e60287221e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b42a74c525849f06581f42ee411b4dab') in 0.016219 seconds 
+  Import took 0.021698 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001708 seconds.
+  path: Assets/A -Sprites/40+ Simple Icons - Free/Purpose_Simple_Icons_UI.png
+  artifactKey: Guid(37dc28671cb3db3498713e60287221e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/A -Sprites/40+ Simple Icons - Free/Purpose_Simple_Icons_UI.png using Guid(37dc28671cb3db3498713e60287221e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b42a74c525849f06581f42ee411b4dab') in 0.016424 seconds 
+  Import took 0.022024 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.078721 seconds.
+  path: Assets/A -Sprites/40+ Simple Icons - Free/Awards_Simple_Icons_UI.png
+  artifactKey: Guid(a6ec1fcf2f177464ea5771d9a50eea08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/A -Sprites/40+ Simple Icons - Free/Awards_Simple_Icons_UI.png using Guid(a6ec1fcf2f177464ea5771d9a50eea08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5bcfb2195649fb22ef5c35bc15f1db8b') in 0.017398 seconds 
+  Import took 0.022826 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000861 seconds.
+  path: Assets/A -Sprites/40+ Simple Icons - Free/Awards_Simple_Icons_UI.png
+  artifactKey: Guid(a6ec1fcf2f177464ea5771d9a50eea08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/A -Sprites/40+ Simple Icons - Free/Awards_Simple_Icons_UI.png using Guid(a6ec1fcf2f177464ea5771d9a50eea08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5bcfb2195649fb22ef5c35bc15f1db8b') in 0.020145 seconds 
+  Import took 0.028537 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.929577 seconds.
+  path: Assets/A -Sprites/Online
+  artifactKey: Guid(97def9c81896d429284d5f25191800da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/A -Sprites/Online using Guid(97def9c81896d429284d5f25191800da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36fc3482fc53920d3c4be0536711f63c') in 0.002866 seconds 
+  Import took 0.008344 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.007519 seconds.
+  path: Assets/A -Sprites/Online
+  artifactKey: Guid(97def9c81896d429284d5f25191800da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/A -Sprites/Online using Guid(97def9c81896d429284d5f25191800da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36fc3482fc53920d3c4be0536711f63c') in 0.002108 seconds 
+  Import took 0.007409 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.618446 seconds.
+  path: Assets/A -Sprites/Online/green-checkmark.png
+  artifactKey: Guid(4c5184a62f18d4f1f8526e021a5e3d43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/A -Sprites/Online/green-checkmark.png using Guid(4c5184a62f18d4f1f8526e021a5e3d43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c731f57a6fdf4b3658493e75fcd8596') in 0.047655 seconds 
+  Import took 0.052720 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.068135 seconds.
+  path: Assets/A -Sprites/Online/green-checkmark.png
+  artifactKey: Guid(4c5184a62f18d4f1f8526e021a5e3d43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/A -Sprites/Online/green-checkmark.png using Guid(4c5184a62f18d4f1f8526e021a5e3d43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e83fab12cc2947c60c761c0e4cbf1abe') in 0.019893 seconds 
+  Import took 0.029749 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 165.098980 seconds.
+  path: Assets/A -Sprites/Online/GreenCheckMark.png
+  artifactKey: Guid(4c5184a62f18d4f1f8526e021a5e3d43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/A -Sprites/Online/GreenCheckMark.png using Guid(4c5184a62f18d4f1f8526e021a5e3d43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73575e99aed5e1ba6672beb11d83c541') in 0.020260 seconds 
+  Import took 0.025319 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.709665 seconds.
+  path: Assets/A -Sprites/Online/red-x.png
+  artifactKey: Guid(8820c56f4f3ec42d0871e80c5fea1d86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/A -Sprites/Online/red-x.png using Guid(8820c56f4f3ec42d0871e80c5fea1d86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6b5af0074ec6973737299713e3d8a06') in 0.032090 seconds 
+  Import took 0.036753 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.378426 seconds.
+  path: Assets/A -Sprites/Online/RedCross.png
+  artifactKey: Guid(8820c56f4f3ec42d0871e80c5fea1d86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/A -Sprites/Online/RedCross.png using Guid(8820c56f4f3ec42d0871e80c5fea1d86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11772771626bb5e46f24f66198145d93') in 0.031789 seconds 
+  Import took 0.037666 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.013882 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.75 ms, found 4 plugins.
+Preloading 1 native plugins for Editor in 2.80 ms.
+System.NullReferenceException: Object reference not set to an instance of an object
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetVuforiaPackageAbsPath () [0x0004a] in <664162e2bf7f40388b13ee61d1693ae2>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.IsPackageManager () [0x00000] in <664162e2bf7f40388b13ee61d1693ae2>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.ResolvePluginType () [0x00009] in <664162e2bf7f40388b13ee61d1693ae2>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetPluginType () [0x0000c] in <664162e2bf7f40388b13ee61d1693ae2>:0 
+  at Vuforia.EditorClasses.VuforiaUtilities.IsVuforiaEnabledInPlayerSettings () [0x00000] in <664162e2bf7f40388b13ee61d1693ae2>:0 
+  at VuforiaEnabledObserver..cctor () [0x00000] in <664162e2bf7f40388b13ee61d1693ae2>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs:118)
+
+(Filename: /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs Line: 118)
+
+System.NullReferenceException: Object reference not set to an instance of an object
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetVuforiaPackageAbsPath () [0x0004a] in <664162e2bf7f40388b13ee61d1693ae2>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.IsPackageManager () [0x00000] in <664162e2bf7f40388b13ee61d1693ae2>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.ResolvePluginType () [0x00009] in <664162e2bf7f40388b13ee61d1693ae2>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetPluginType () [0x0000c] in <664162e2bf7f40388b13ee61d1693ae2>:0 
+  at Vuforia.EditorClasses.VuforiaUtilities.IsVuforiaEnabledInPlayerSettings () [0x00000] in <664162e2bf7f40388b13ee61d1693ae2>:0 
+  at Vuforia.EditorClasses.InitializeOnLoadVuforiaTaskRunner..cctor () [0x00015] in <664162e2bf7f40388b13ee61d1693ae2>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs:118)
+
+(Filename: /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs Line: 118)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.871 seconds
+Platform modules already initialized, skipping
+Switching build target platform(2) subTarget(0) extendedPlatform(0) -> platform(9) subTarget(16777218) extendedPlatform(0)
+Shader 'PointClouds/PointSplat': fallback shader 'PointClouds/PointSplatLegacy' not found
+WARNING: Shader Unsupported: 'PointClouds/PointSplat' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'PointClouds/PointSplat' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Shader 'PointClouds/PointSplat': fallback shader 'PointClouds/PointSplatLegacy' not found
+WARNING: Shader Unsupported: 'PointClouds/PointSplat' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'PointClouds/PointSplat' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Refreshing native plugins compatible for Editor in 0.67 ms, found 4 plugins.
+Preloading 1 native plugins for Editor in 2.42 ms.
+Unloading 1987 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 200.5 MB.
+System memory in use after: 199.7 MB.
+
+Unloading 49 unused Assets to reduce memory usage. Loaded Objects now: 2834.
+Total: 3.540029 ms (FindLiveObjects: 0.281898 ms CreateObjectMapping: 0.093138 ms MarkObjects: 2.168917 ms  DeleteObjects: 0.994964 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.017303 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.80 ms, found 4 plugins.
+Preloading 1 native plugins for Editor in 3.09 ms.
+System.NullReferenceException: Object reference not set to an instance of an object
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetVuforiaPackageAbsPath () [0x0004a] in <664162e2bf7f40388b13ee61d1693ae2>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.IsPackageManager () [0x00000] in <664162e2bf7f40388b13ee61d1693ae2>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.ResolvePluginType () [0x00009] in <664162e2bf7f40388b13ee61d1693ae2>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetPluginType () [0x0000c] in <664162e2bf7f40388b13ee61d1693ae2>:0 
+  at Vuforia.EditorClasses.VuforiaUtilities.IsVuforiaEnabledInPlayerSettings () [0x00000] in <664162e2bf7f40388b13ee61d1693ae2>:0 
+  at VuforiaEnabledObserver..cctor () [0x00000] in <664162e2bf7f40388b13ee61d1693ae2>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs:118)
+
+(Filename: /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs Line: 118)
+
+System.NullReferenceException: Object reference not set to an instance of an object
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetVuforiaPackageAbsPath () [0x0004a] in <664162e2bf7f40388b13ee61d1693ae2>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.IsPackageManager () [0x00000] in <664162e2bf7f40388b13ee61d1693ae2>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.ResolvePluginType () [0x00009] in <664162e2bf7f40388b13ee61d1693ae2>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetPluginType () [0x0000c] in <664162e2bf7f40388b13ee61d1693ae2>:0 
+  at Vuforia.EditorClasses.VuforiaUtilities.IsVuforiaEnabledInPlayerSettings () [0x00000] in <664162e2bf7f40388b13ee61d1693ae2>:0 
+  at Vuforia.EditorClasses.InitializeOnLoadVuforiaTaskRunner..cctor () [0x00015] in <664162e2bf7f40388b13ee61d1693ae2>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs:118)
+
+(Filename: /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs Line: 118)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  2.182 seconds
+Platform modules already initialized, skipping
+Switching build target platform(2) subTarget(0) extendedPlatform(0) -> platform(9) subTarget(16777218) extendedPlatform(0)
+Shader 'PointClouds/PointSplat': fallback shader 'PointClouds/PointSplatLegacy' not found
+WARNING: Shader Unsupported: 'PointClouds/PointSplat' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'PointClouds/PointSplat' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Shader 'PointClouds/PointSplat': fallback shader 'PointClouds/PointSplatLegacy' not found
+WARNING: Shader Unsupported: 'PointClouds/PointSplat' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'PointClouds/PointSplat' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Refreshing native plugins compatible for Editor in 0.76 ms, found 4 plugins.
+Preloading 1 native plugins for Editor in 2.43 ms.
+Unloading 1987 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 200.8 MB.
+System memory in use after: 199.9 MB.
+
+Unloading 49 unused Assets to reduce memory usage. Loaded Objects now: 2837.
+Total: 5.628997 ms (FindLiveObjects: 0.269820 ms CreateObjectMapping: 0.091301 ms MarkObjects: 4.211835 ms  DeleteObjects: 1.055054 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.008933 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.68 ms, found 4 plugins.
+Preloading 1 native plugins for Editor in 3.02 ms.
+System.NullReferenceException: Object reference not set to an instance of an object
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetVuforiaPackageAbsPath () [0x0004a] in <664162e2bf7f40388b13ee61d1693ae2>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.IsPackageManager () [0x00000] in <664162e2bf7f40388b13ee61d1693ae2>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.ResolvePluginType () [0x00009] in <664162e2bf7f40388b13ee61d1693ae2>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetPluginType () [0x0000c] in <664162e2bf7f40388b13ee61d1693ae2>:0 
+  at Vuforia.EditorClasses.VuforiaUtilities.IsVuforiaEnabledInPlayerSettings () [0x00000] in <664162e2bf7f40388b13ee61d1693ae2>:0 
+  at VuforiaEnabledObserver..cctor () [0x00000] in <664162e2bf7f40388b13ee61d1693ae2>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs:118)
+
+(Filename: /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs Line: 118)
+
+System.NullReferenceException: Object reference not set to an instance of an object
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetVuforiaPackageAbsPath () [0x0004a] in <664162e2bf7f40388b13ee61d1693ae2>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.IsPackageManager () [0x00000] in <664162e2bf7f40388b13ee61d1693ae2>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.ResolvePluginType () [0x00009] in <664162e2bf7f40388b13ee61d1693ae2>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetPluginType () [0x0000c] in <664162e2bf7f40388b13ee61d1693ae2>:0 
+  at Vuforia.EditorClasses.VuforiaUtilities.IsVuforiaEnabledInPlayerSettings () [0x00000] in <664162e2bf7f40388b13ee61d1693ae2>:0 
+  at Vuforia.EditorClasses.InitializeOnLoadVuforiaTaskRunner..cctor () [0x00015] in <664162e2bf7f40388b13ee61d1693ae2>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs:118)
+
+(Filename: /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs Line: 118)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.860 seconds
+Platform modules already initialized, skipping
+Switching build target platform(2) subTarget(0) extendedPlatform(0) -> platform(9) subTarget(16777218) extendedPlatform(0)
+Shader 'PointClouds/PointSplat': fallback shader 'PointClouds/PointSplatLegacy' not found
+WARNING: Shader Unsupported: 'PointClouds/PointSplat' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'PointClouds/PointSplat' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Shader 'PointClouds/PointSplat': fallback shader 'PointClouds/PointSplatLegacy' not found
+WARNING: Shader Unsupported: 'PointClouds/PointSplat' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'PointClouds/PointSplat' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Refreshing native plugins compatible for Editor in 0.69 ms, found 4 plugins.
+Preloading 1 native plugins for Editor in 2.50 ms.
+Unloading 1987 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 200.9 MB.
+System memory in use after: 200.1 MB.
+
+Unloading 49 unused Assets to reduce memory usage. Loaded Objects now: 2840.
+Total: 4.282153 ms (FindLiveObjects: 0.322369 ms CreateObjectMapping: 0.098189 ms MarkObjects: 2.649997 ms  DeleteObjects: 1.210551 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 602.106908 seconds.
+  path: Assets/A - Prefabs/ModalDialog NaviScene.prefab
+  artifactKey: Guid(905336339cc194d778ee7a3f76148bb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/A - Prefabs/ModalDialog NaviScene.prefab using Guid(905336339cc194d778ee7a3f76148bb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b6e0fb1f2f00b5472e23a946c0a633a') in 0.119367 seconds 
+  Import took 0.125082 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 152.681949 seconds.
+  path: Assets/PanelPOIManager.cs
+  artifactKey: Guid(235b08986a338432490cb219efdd2e3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PanelPOIManager.cs using Guid(235b08986a338432490cb219efdd2e3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c5bdaa434be1c132cc932e137f4a117') in 0.007145 seconds 
+  Import took 0.011556 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.041264 seconds.
+  path: Assets/PanelPOIManager.cs
+  artifactKey: Guid(235b08986a338432490cb219efdd2e3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PanelPOIManager.cs using Guid(235b08986a338432490cb219efdd2e3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c5bdaa434be1c132cc932e137f4a117') in 0.003661 seconds 
+  Import took 0.008057 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 63.338072 seconds.
+  path: Assets/A -Sprites/Minimap Arrow.png
+  artifactKey: Guid(248956d8b516f4b03bd4d1e780e955e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/A -Sprites/Minimap Arrow.png using Guid(248956d8b516f4b03bd4d1e780e955e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5275dc768ff7c3bb3b4c1ffd79b2062b') in 0.267738 seconds 
+  Import took 0.272562 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 938.456730 seconds.
+  path: Assets/A -Sprites/Online/Backup copy 3.png
+  artifactKey: Guid(414982ebf4d004b359d38aa80e4fbcff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/A -Sprites/Online/Backup copy 3.png using Guid(414982ebf4d004b359d38aa80e4fbcff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c347a2bf122adaf46ce8230a0f75504') in 0.036205 seconds 
+  Import took 0.041715 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.013752 seconds.
+  path: Assets/A -Sprites/Online/Backup copy 3.png
+  artifactKey: Guid(414982ebf4d004b359d38aa80e4fbcff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/A -Sprites/Online/Backup copy 3.png using Guid(414982ebf4d004b359d38aa80e4fbcff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62b1601025e8de26529c748b73c48592') in 0.040652 seconds 
+  Import took 0.047660 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005834 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.70 ms, found 4 plugins.
+Preloading 1 native plugins for Editor in 2.55 ms.
+System.NullReferenceException: Object reference not set to an instance of an object
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetVuforiaPackageAbsPath () [0x0004a] in <664162e2bf7f40388b13ee61d1693ae2>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.IsPackageManager () [0x00000] in <664162e2bf7f40388b13ee61d1693ae2>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.ResolvePluginType () [0x00009] in <664162e2bf7f40388b13ee61d1693ae2>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetPluginType () [0x0000c] in <664162e2bf7f40388b13ee61d1693ae2>:0 
+  at Vuforia.EditorClasses.VuforiaUtilities.IsVuforiaEnabledInPlayerSettings () [0x00000] in <664162e2bf7f40388b13ee61d1693ae2>:0 
+  at VuforiaEnabledObserver..cctor () [0x00000] in <664162e2bf7f40388b13ee61d1693ae2>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs:118)
+
+(Filename: /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs Line: 118)
+
+System.NullReferenceException: Object reference not set to an instance of an object
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetVuforiaPackageAbsPath () [0x0004a] in <664162e2bf7f40388b13ee61d1693ae2>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.IsPackageManager () [0x00000] in <664162e2bf7f40388b13ee61d1693ae2>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.ResolvePluginType () [0x00009] in <664162e2bf7f40388b13ee61d1693ae2>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetPluginType () [0x0000c] in <664162e2bf7f40388b13ee61d1693ae2>:0 
+  at Vuforia.EditorClasses.VuforiaUtilities.IsVuforiaEnabledInPlayerSettings () [0x00000] in <664162e2bf7f40388b13ee61d1693ae2>:0 
+  at Vuforia.EditorClasses.InitializeOnLoadVuforiaTaskRunner..cctor () [0x00015] in <664162e2bf7f40388b13ee61d1693ae2>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs:118)
+
+(Filename: /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs Line: 118)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.817 seconds
+Platform modules already initialized, skipping
+Switching build target platform(2) subTarget(0) extendedPlatform(0) -> platform(9) subTarget(16777218) extendedPlatform(0)
+Shader 'PointClouds/PointSplat': fallback shader 'PointClouds/PointSplatLegacy' not found
+WARNING: Shader Unsupported: 'PointClouds/PointSplat' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'PointClouds/PointSplat' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Shader 'PointClouds/PointSplat': fallback shader 'PointClouds/PointSplatLegacy' not found
+WARNING: Shader Unsupported: 'PointClouds/PointSplat' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'PointClouds/PointSplat' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Refreshing native plugins compatible for Editor in 1.03 ms, found 4 plugins.
+Preloading 1 native plugins for Editor in 3.55 ms.
+Unloading 1987 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 201.3 MB.
+System memory in use after: 200.5 MB.
+
+Unloading 49 unused Assets to reduce memory usage. Loaded Objects now: 2844.
+Total: 4.433979 ms (FindLiveObjects: 0.335576 ms CreateObjectMapping: 0.135969 ms MarkObjects: 2.657420 ms  DeleteObjects: 1.303748 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 

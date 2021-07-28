@@ -15,8 +15,7 @@ public class ModalDialogNaviScene : MonoBehaviour
     public TextMeshProUGUI dialogText;
     public Button confirmButton;
     public Button cancelButton;
-    public TextMeshProUGUI confirmText;
-    public TextMeshProUGUI cancelText;
+
 
 
     private void Start()

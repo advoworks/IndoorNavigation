@@ -51,7 +51,7 @@ public class PanelPOIManager : MonoBehaviour
     {
        
         //Display modal dialog and confirm navigation to that object
-        ModalDialogNaviScene.Instance.dialogText.text = "Navigate to " + poiObject.name;
+        ModalDialogNaviScene.Instance.dialogText.text = poiObject.name;
         
         ModalDialogNaviScene.Instance.confirmButton.onClick.AddListener(delegate ()
         {
