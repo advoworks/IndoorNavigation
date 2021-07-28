@@ -7,9 +7,9 @@ using UnityEngine.UI;
 public class ImageTargetHandler : MonoBehaviour
 {
 
-    public DialogObject homeDialog;
-    public DialogObject lobbyDialog;
-    public DialogObject scapeDialog;
+    public DialogObjectUnityEvent homeDialog;
+    public DialogObjectUnityEvent lobbyDialog;
+    public DialogObjectUnityEvent scapeDialog;
 
     public GameObject loadingBarPanel;
     public Slider loadingBarSlider;
@@ -23,7 +23,7 @@ public class ImageTargetHandler : MonoBehaviour
     public void QRScanned_Home()
     {
 
-        ModalDialog.Instance.SetDialog(homeDialog);
+        ModalDialog.Instance.SetDialogUnityEvent(homeDialog);
         ModalDialog.Instance.gameObject.SetActive(true);
 
     }
@@ -32,13 +32,13 @@ public class ImageTargetHandler : MonoBehaviour
 
     public void QRScanned_Lobby()
     {
-        ModalDialog.Instance.SetDialog(lobbyDialog);
+        ModalDialog.Instance.SetDialogUnityEvent(lobbyDialog);
         ModalDialog.Instance.gameObject.SetActive(true);
     }
 
     public void QRScanned_Scape()
     {
-        ModalDialog.Instance.SetDialog(scapeDialog);
+        ModalDialog.Instance.SetDialogUnityEvent(scapeDialog);
         ModalDialog.Instance.gameObject.SetActive(true);
     }
 

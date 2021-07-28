@@ -49,11 +49,29 @@ public class PanelPOIManager : MonoBehaviour
 
     private void poiListItemClicked(GameObject poiObject)
     {
-        //Navigate to poiObject.transform.position
-        Debug.Log("Navigating to POI " + poiObject.GetComponent<IOIHandler>().title);
-        GameController.Instance.ShowPathTo(poiObject);
+       
+        //Display modal dialog and confirm navigation to that object
+        ModalDialogNaviScene.Instance.dialogText.text = "Navigate to " + poiObject.name;
+        
+        ModalDialogNaviScene.Instance.confirmButton.onClick.AddListener(delegate ()
+        {
+            Debug.Log("Confirm button clicked");
+
+            ModalDialogNaviScene.Instance.Hide();
+
+            GameController.Instance.ShowPathTo(poiObject);
+            GameController.Instance.HideAllPanels();
+        });
+
+        ModalDialogNaviScene.Instance.cancelButton.onClick.AddListener(delegate ()
+        {
+            ModalDialogNaviScene.Instance.Hide();
+        });
+
+        ModalDialogNaviScene.Instance.Show();
     }
 
+    
     private void FilterPOIListByText()
     {
         //This is not an efficient way of searching, but this is a prototype
