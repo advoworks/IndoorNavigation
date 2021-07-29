@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 491189182789307032}
   - component: {fileID: 491189182789307033}
   m_Layer: 5
-  m_Name: Title
+  m_Name: DestinationName
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -253,19 +253,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 491189183132979550}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 2040125530}
-        m_TargetAssemblyTypeName: ModalDialogNaviCurrentDest, Assembly-CSharp
-        m_MethodName: Cancel
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
 --- !u!1 &491189183899157795
 GameObject:
   m_ObjectHideFlags: 0
@@ -325,10 +313,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mainPanel: {fileID: 4582707182079308317}
-  dialogText: {fileID: 7472938870584812584}
-  remainingDistance: {fileID: 3716367562908558882}
+  dialogText: {fileID: 491189182789307033}
+  reminingDistance: {fileID: 3716367562908558882}
   confirmButton: {fileID: 0}
-  cancelButton: {fileID: 491189183132979551}
+  cancelButton: {fileID: 0}
 --- !u!1 &491189184092272314
 GameObject:
   m_ObjectHideFlags: 0
