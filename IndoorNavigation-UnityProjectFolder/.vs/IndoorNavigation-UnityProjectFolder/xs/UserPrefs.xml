@@ -1,25 +1,24 @@
 ﻿<Properties StartupConfiguration="{A1835561-0AC0-1352-B13B-A8C43A084E33}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Navmesh Path Draw/Scripts/NavmeshPathDraw.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/ShowNavMesh.cs">
     <Files>
       <File FileName="Assets/A - Scripts/02 AreaTarget Scene/GameController.cs" Line="95" Column="78" />
-      <File FileName="Assets/PanelPOIManager.cs" Line="57" Column="10" />
-      <File FileName="Assets/ModalDialogNaviScene.cs" Line="9" Column="34" />
-      <File FileName="Assets/ModalDialog.cs" Line="54" Column="36" />
-      <File FileName="Assets/A - Scripts/01 QR Code Scene/ImageTargetHandler.cs" Line="1" Column="1" />
-      <File FileName="Assets/ModalDialogNaviCurrentDest.cs" Line="15" Column="38" />
+      <File FileName="Assets/A - Scripts/01 QR Code Scene/ImageTargetHandler.cs" />
       <File FileName="Assets/Navmesh Path Draw/Scripts/NavmeshPathDraw.cs" Line="111" Column="6" />
+      <File FileName="Assets/ShowNavMesh.cs" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="IndoorNavigation-UnityProjectFolder" expanded="True" selected="True" />
+          <Node name="IndoorNavigation-UnityProjectFolder" expanded="True">
+            <Node name="Assets" expanded="True" selected="True" />
+          </Node>
         </State>
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="a29dfa6f-28bb-497d-b5df-b71d5d63ef9f" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="a3599335-7ae9-41dc-b40c-e7a23ca4bcc5" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
