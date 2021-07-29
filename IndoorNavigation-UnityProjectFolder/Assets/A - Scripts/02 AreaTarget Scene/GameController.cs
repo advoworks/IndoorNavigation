@@ -92,13 +92,16 @@ public class GameController : MonoBehaviour
         ModalDialogNaviCurrentDest.Instance.Hide();
     }
 
-    public void UpdateDestinationNameAndDistance(string name, float distance)
+    public void UpdateDestinationNameAndDistance(string name, float distance, string debugInfo)
     {
         ModalDialogNaviCurrentDest.Instance.dialogText.text = name;
         if (distance >= 0)
             ModalDialogNaviCurrentDest.Instance.remainingDistance.text = distance + "m";
         else
-            ModalDialogNaviCurrentDest.Instance.remainingDistance.text = "Calculating...";
+            ModalDialogNaviCurrentDest.Instance.remainingDistance.text = Time.time + ": Calculating...";
+
+
+        ModalDialogNaviCurrentDest.Instance.debugInfo.text = debugInfo;
     }
 
 

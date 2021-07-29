@@ -68,10 +68,16 @@ public class NavmeshPathDraw : MonoBehaviour
 
         NavMeshHit hit;
         bool pathFound = false;
+        string debugInfo = "";
+
         if (NavMesh.SamplePosition(validatedDesPos, out hit, 2.0f, NavMesh.AllAreas))
         {
             pathFound = NavMesh.CalculatePath(validatedOriginPos, hit.position, NavMesh.AllAreas, path);
             Vector3[] corners = path.corners;
+
+
+            if (!pathFound) debugInfo = "SamplePosition true but pathFound false";
+            if (pathFound) debugInfo = "SamplePosition true and pathFound true, corner count = " + corners.Length;
 
             if (yOffset != 0f)
             {
@@ -84,11 +90,12 @@ public class NavmeshPathDraw : MonoBehaviour
             lr.positionCount = corners.Length;
             lr.SetPositions(corners);
 
-
+            
         }
         else
         {
             Debug.Log("No path was found, setting lr position count to 0");
+            debugInfo = "SamplePosition for dest returned false";
             lr.positionCount = 0;
         }
 
@@ -103,10 +110,10 @@ public class NavmeshPathDraw : MonoBehaviour
                 distance += (lr.GetPosition(i + 1) - lr.GetPosition(i)).magnitude;
             }
 
-            GameController.Instance.UpdateDestinationNameAndDistance(destination.name, distance);
+            GameController.Instance.UpdateDestinationNameAndDistance(destination.name, distance, debugInfo);
         } else
         {
-            GameController.Instance.UpdateDestinationNameAndDistance(destination.name, -1);
+            GameController.Instance.UpdateDestinationNameAndDistance(destination.name, -1, debugInfo);
         }
         
         

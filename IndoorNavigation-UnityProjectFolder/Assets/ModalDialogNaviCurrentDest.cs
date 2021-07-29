@@ -14,8 +14,10 @@ public class ModalDialogNaviCurrentDest : MonoBehaviour
     public GameObject mainPanel;
     public TextMeshProUGUI dialogText;
     public TextMeshProUGUI remainingDistance;
+    public TextMeshProUGUI debugInfo;
     public Button confirmButton;
     public Button cancelButton;
+    
 
 
 
