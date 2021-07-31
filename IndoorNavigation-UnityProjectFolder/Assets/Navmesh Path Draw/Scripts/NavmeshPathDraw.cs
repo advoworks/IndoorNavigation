@@ -135,6 +135,10 @@ public class NavmeshPathDraw : MonoBehaviour
 
             lr.positionCount = corners.Length;
             lr.SetPositions(corners);
+
+            //Animated the material?
+            //https://stackoverflow.com/questions/57364629/how-to-animate-line-renderer-tiled-texture-in-unity
+            lr.material.SetTextureOffset("_MainTex", Vector2.left * Time.time);
         }
         else
         {
