@@ -6878,3 +6878,1823 @@ AssetImportParameters requested are different than current active one (requested
   custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 4681.954744 seconds.
+  path: Assets/A -Sprites/Photopea/Navi-Destination@4x.png
+  artifactKey: Guid(8bd03cb9ee8de45e6a31f56d91e1eb4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/A -Sprites/Photopea/Navi-Destination@4x.png using Guid(8bd03cb9ee8de45e6a31f56d91e1eb4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '310b6126bde082e2a67d6204193e2038') in 0.088974 seconds 
+  Import took 0.095709 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.487582 seconds.
+  path: Assets/A -Sprites/Photopea/Navi-CurrentPos@4x.png
+  artifactKey: Guid(990aa1084a80d4de381b1b0d3d6d5d1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/A -Sprites/Photopea/Navi-CurrentPos@4x.png using Guid(990aa1084a80d4de381b1b0d3d6d5d1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1998a4b04cafd99af075bba4b3568949') in 0.057821 seconds 
+  Import took 0.064098 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004598 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.94 ms, found 4 plugins.
+Preloading 1 native plugins for Editor in 2.63 ms.
+System.NullReferenceException: Object reference not set to an instance of an object
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetVuforiaPackageAbsPath () [0x0004a] in <664162e2bf7f40388b13ee61d1693ae2>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.IsPackageManager () [0x00000] in <664162e2bf7f40388b13ee61d1693ae2>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.ResolvePluginType () [0x00009] in <664162e2bf7f40388b13ee61d1693ae2>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetPluginType () [0x0000c] in <664162e2bf7f40388b13ee61d1693ae2>:0 
+  at Vuforia.EditorClasses.VuforiaUtilities.IsVuforiaEnabledInPlayerSettings () [0x00000] in <664162e2bf7f40388b13ee61d1693ae2>:0 
+  at VuforiaEnabledObserver..cctor () [0x00000] in <664162e2bf7f40388b13ee61d1693ae2>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs:118)
+
+(Filename: /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs Line: 118)
+
+System.NullReferenceException: Object reference not set to an instance of an object
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetVuforiaPackageAbsPath () [0x0004a] in <664162e2bf7f40388b13ee61d1693ae2>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.IsPackageManager () [0x00000] in <664162e2bf7f40388b13ee61d1693ae2>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.ResolvePluginType () [0x00009] in <664162e2bf7f40388b13ee61d1693ae2>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetPluginType () [0x0000c] in <664162e2bf7f40388b13ee61d1693ae2>:0 
+  at Vuforia.EditorClasses.VuforiaUtilities.IsVuforiaEnabledInPlayerSettings () [0x00000] in <664162e2bf7f40388b13ee61d1693ae2>:0 
+  at Vuforia.EditorClasses.InitializeOnLoadVuforiaTaskRunner..cctor () [0x00015] in <664162e2bf7f40388b13ee61d1693ae2>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs:118)
+
+(Filename: /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs Line: 118)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.649 seconds
+Platform modules already initialized, skipping
+Switching build target platform(2) subTarget(0) extendedPlatform(0) -> platform(9) subTarget(16777218) extendedPlatform(0)
+Shader 'PointClouds/PointSplat': fallback shader 'PointClouds/PointSplatLegacy' not found
+WARNING: Shader Unsupported: 'PointClouds/PointSplat' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'PointClouds/PointSplat' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Shader 'PointClouds/PointSplat': fallback shader 'PointClouds/PointSplatLegacy' not found
+WARNING: Shader Unsupported: 'PointClouds/PointSplat' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'PointClouds/PointSplat' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Refreshing native plugins compatible for Editor in 0.87 ms, found 4 plugins.
+Preloading 1 native plugins for Editor in 2.91 ms.
+Unloading 2410 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 234.2 MB.
+System memory in use after: 231.1 MB.
+
+Unloading 76 unused Assets to reduce memory usage. Loaded Objects now: 3361.
+Total: 7.825266 ms (FindLiveObjects: 0.384622 ms CreateObjectMapping: 0.146080 ms MarkObjects: 3.206628 ms  DeleteObjects: 4.086505 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 413.639465 seconds.
+  path: Assets/A - Prefabs/DestinationMarker.prefab
+  artifactKey: Guid(1e03d7ebc72af4e1ba02145ff1ad7ea0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/A - Prefabs/DestinationMarker.prefab using Guid(1e03d7ebc72af4e1ba02145ff1ad7ea0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0389dbd5c354cedc015af45120a06e61') in 0.492659 seconds 
+  Import took 0.500500 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 25.748055 seconds.
+  path: Assets/Navmesh Path Draw/Scripts/Editor/Resources
+  artifactKey: Guid(0b399ffcd223e3049928d48aed88913b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Navmesh Path Draw/Scripts/Editor/Resources using Guid(0b399ffcd223e3049928d48aed88913b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f3ee88f6c72af9077ccd4e5d240f317') in 0.007409 seconds 
+  Import took 0.015043 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.545330 seconds.
+  path: Assets/Navmesh Path Draw/Scripts/Editor/NavmeshPathDrawCustomInspector.cs
+  artifactKey: Guid(2bf36141a1c8f4b40b0c2f7ed903c6ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Navmesh Path Draw/Scripts/Editor/NavmeshPathDrawCustomInspector.cs using Guid(2bf36141a1c8f4b40b0c2f7ed903c6ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e442871dc697f16791c93019cef3b60') in 0.011280 seconds 
+  Import took 0.017855 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.014452 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.78 ms, found 4 plugins.
+Preloading 1 native plugins for Editor in 2.45 ms.
+System.NullReferenceException: Object reference not set to an instance of an object
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetVuforiaPackageAbsPath () [0x0004a] in <664162e2bf7f40388b13ee61d1693ae2>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.IsPackageManager () [0x00000] in <664162e2bf7f40388b13ee61d1693ae2>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.ResolvePluginType () [0x00009] in <664162e2bf7f40388b13ee61d1693ae2>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetPluginType () [0x0000c] in <664162e2bf7f40388b13ee61d1693ae2>:0 
+  at Vuforia.EditorClasses.VuforiaUtilities.IsVuforiaEnabledInPlayerSettings () [0x00000] in <664162e2bf7f40388b13ee61d1693ae2>:0 
+  at VuforiaEnabledObserver..cctor () [0x00000] in <664162e2bf7f40388b13ee61d1693ae2>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs:118)
+
+(Filename: /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs Line: 118)
+
+System.NullReferenceException: Object reference not set to an instance of an object
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetVuforiaPackageAbsPath () [0x0004a] in <664162e2bf7f40388b13ee61d1693ae2>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.IsPackageManager () [0x00000] in <664162e2bf7f40388b13ee61d1693ae2>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.ResolvePluginType () [0x00009] in <664162e2bf7f40388b13ee61d1693ae2>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetPluginType () [0x0000c] in <664162e2bf7f40388b13ee61d1693ae2>:0 
+  at Vuforia.EditorClasses.VuforiaUtilities.IsVuforiaEnabledInPlayerSettings () [0x00000] in <664162e2bf7f40388b13ee61d1693ae2>:0 
+  at Vuforia.EditorClasses.InitializeOnLoadVuforiaTaskRunner..cctor () [0x00015] in <664162e2bf7f40388b13ee61d1693ae2>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs:118)
+
+(Filename: /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs Line: 118)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.734 seconds
+Platform modules already initialized, skipping
+Switching build target platform(2) subTarget(0) extendedPlatform(0) -> platform(9) subTarget(16777218) extendedPlatform(0)
+Shader 'PointClouds/PointSplat': fallback shader 'PointClouds/PointSplatLegacy' not found
+WARNING: Shader Unsupported: 'PointClouds/PointSplat' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'PointClouds/PointSplat' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Shader 'PointClouds/PointSplat': fallback shader 'PointClouds/PointSplatLegacy' not found
+WARNING: Shader Unsupported: 'PointClouds/PointSplat' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'PointClouds/PointSplat' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Refreshing native plugins compatible for Editor in 0.79 ms, found 4 plugins.
+Preloading 1 native plugins for Editor in 2.42 ms.
+Unloading 2410 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 238.7 MB.
+System memory in use after: 235.6 MB.
+
+Unloading 76 unused Assets to reduce memory usage. Loaded Objects now: 3364.
+Total: 6.480569 ms (FindLiveObjects: 0.349254 ms CreateObjectMapping: 0.133774 ms MarkObjects: 2.483275 ms  DeleteObjects: 3.513268 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 60.902278 seconds.
+  path: Assets/Navmesh Path Draw/Scripts/Editor/NavmeshPathDrawCustomInspector.cs
+  artifactKey: Guid(2bf36141a1c8f4b40b0c2f7ed903c6ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Navmesh Path Draw/Scripts/Editor/NavmeshPathDrawCustomInspector.cs using Guid(2bf36141a1c8f4b40b0c2f7ed903c6ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0089d22097e202154e9a8213061cc7a0') in 0.006940 seconds 
+  Import took 0.012487 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005705 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.78 ms, found 4 plugins.
+Preloading 1 native plugins for Editor in 2.48 ms.
+System.NullReferenceException: Object reference not set to an instance of an object
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetVuforiaPackageAbsPath () [0x0004a] in <664162e2bf7f40388b13ee61d1693ae2>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.IsPackageManager () [0x00000] in <664162e2bf7f40388b13ee61d1693ae2>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.ResolvePluginType () [0x00009] in <664162e2bf7f40388b13ee61d1693ae2>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetPluginType () [0x0000c] in <664162e2bf7f40388b13ee61d1693ae2>:0 
+  at Vuforia.EditorClasses.VuforiaUtilities.IsVuforiaEnabledInPlayerSettings () [0x00000] in <664162e2bf7f40388b13ee61d1693ae2>:0 
+  at VuforiaEnabledObserver..cctor () [0x00000] in <664162e2bf7f40388b13ee61d1693ae2>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs:118)
+
+(Filename: /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs Line: 118)
+
+System.NullReferenceException: Object reference not set to an instance of an object
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetVuforiaPackageAbsPath () [0x0004a] in <664162e2bf7f40388b13ee61d1693ae2>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.IsPackageManager () [0x00000] in <664162e2bf7f40388b13ee61d1693ae2>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.ResolvePluginType () [0x00009] in <664162e2bf7f40388b13ee61d1693ae2>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetPluginType () [0x0000c] in <664162e2bf7f40388b13ee61d1693ae2>:0 
+  at Vuforia.EditorClasses.VuforiaUtilities.IsVuforiaEnabledInPlayerSettings () [0x00000] in <664162e2bf7f40388b13ee61d1693ae2>:0 
+  at Vuforia.EditorClasses.InitializeOnLoadVuforiaTaskRunner..cctor () [0x00015] in <664162e2bf7f40388b13ee61d1693ae2>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs:118)
+
+(Filename: /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs Line: 118)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.720 seconds
+Platform modules already initialized, skipping
+Switching build target platform(2) subTarget(0) extendedPlatform(0) -> platform(9) subTarget(16777218) extendedPlatform(0)
+Shader 'PointClouds/PointSplat': fallback shader 'PointClouds/PointSplatLegacy' not found
+WARNING: Shader Unsupported: 'PointClouds/PointSplat' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'PointClouds/PointSplat' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Shader 'PointClouds/PointSplat': fallback shader 'PointClouds/PointSplatLegacy' not found
+WARNING: Shader Unsupported: 'PointClouds/PointSplat' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'PointClouds/PointSplat' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Refreshing native plugins compatible for Editor in 0.97 ms, found 4 plugins.
+Preloading 1 native plugins for Editor in 2.91 ms.
+Unloading 2410 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 238.9 MB.
+System memory in use after: 235.8 MB.
+
+Unloading 76 unused Assets to reduce memory usage. Loaded Objects now: 3367.
+Total: 7.709066 ms (FindLiveObjects: 0.416732 ms CreateObjectMapping: 0.152271 ms MarkObjects: 2.991570 ms  DeleteObjects: 4.147093 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005802 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.89 ms, found 4 plugins.
+Preloading 1 native plugins for Editor in 2.81 ms.
+System.NullReferenceException: Object reference not set to an instance of an object
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetVuforiaPackageAbsPath () [0x0004a] in <664162e2bf7f40388b13ee61d1693ae2>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.IsPackageManager () [0x00000] in <664162e2bf7f40388b13ee61d1693ae2>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.ResolvePluginType () [0x00009] in <664162e2bf7f40388b13ee61d1693ae2>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetPluginType () [0x0000c] in <664162e2bf7f40388b13ee61d1693ae2>:0 
+  at Vuforia.EditorClasses.VuforiaUtilities.IsVuforiaEnabledInPlayerSettings () [0x00000] in <664162e2bf7f40388b13ee61d1693ae2>:0 
+  at VuforiaEnabledObserver..cctor () [0x00000] in <664162e2bf7f40388b13ee61d1693ae2>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs:118)
+
+(Filename: /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs Line: 118)
+
+System.NullReferenceException: Object reference not set to an instance of an object
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetVuforiaPackageAbsPath () [0x0004a] in <664162e2bf7f40388b13ee61d1693ae2>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.IsPackageManager () [0x00000] in <664162e2bf7f40388b13ee61d1693ae2>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.ResolvePluginType () [0x00009] in <664162e2bf7f40388b13ee61d1693ae2>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetPluginType () [0x0000c] in <664162e2bf7f40388b13ee61d1693ae2>:0 
+  at Vuforia.EditorClasses.VuforiaUtilities.IsVuforiaEnabledInPlayerSettings () [0x00000] in <664162e2bf7f40388b13ee61d1693ae2>:0 
+  at Vuforia.EditorClasses.InitializeOnLoadVuforiaTaskRunner..cctor () [0x00015] in <664162e2bf7f40388b13ee61d1693ae2>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs:118)
+
+(Filename: /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs Line: 118)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.607 seconds
+Platform modules already initialized, skipping
+Switching build target platform(2) subTarget(0) extendedPlatform(0) -> platform(9) subTarget(16777218) extendedPlatform(0)
+Shader 'PointClouds/PointSplat': fallback shader 'PointClouds/PointSplatLegacy' not found
+WARNING: Shader Unsupported: 'PointClouds/PointSplat' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'PointClouds/PointSplat' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Shader 'PointClouds/PointSplat': fallback shader 'PointClouds/PointSplatLegacy' not found
+WARNING: Shader Unsupported: 'PointClouds/PointSplat' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'PointClouds/PointSplat' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Refreshing native plugins compatible for Editor in 1.04 ms, found 4 plugins.
+Preloading 1 native plugins for Editor in 3.23 ms.
+Unloading 2410 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 239.3 MB.
+System memory in use after: 236.0 MB.
+
+Unloading 76 unused Assets to reduce memory usage. Loaded Objects now: 3370.
+Total: 8.085622 ms (FindLiveObjects: 0.371077 ms CreateObjectMapping: 0.155390 ms MarkObjects: 3.282062 ms  DeleteObjects: 4.275632 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006617 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 1.32 ms, found 4 plugins.
+Preloading 1 native plugins for Editor in 3.66 ms.
+System.NullReferenceException: Object reference not set to an instance of an object
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetVuforiaPackageAbsPath () [0x0004a] in <664162e2bf7f40388b13ee61d1693ae2>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.IsPackageManager () [0x00000] in <664162e2bf7f40388b13ee61d1693ae2>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.ResolvePluginType () [0x00009] in <664162e2bf7f40388b13ee61d1693ae2>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetPluginType () [0x0000c] in <664162e2bf7f40388b13ee61d1693ae2>:0 
+  at Vuforia.EditorClasses.VuforiaUtilities.IsVuforiaEnabledInPlayerSettings () [0x00000] in <664162e2bf7f40388b13ee61d1693ae2>:0 
+  at VuforiaEnabledObserver..cctor () [0x00000] in <664162e2bf7f40388b13ee61d1693ae2>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs:118)
+
+(Filename: /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs Line: 118)
+
+System.NullReferenceException: Object reference not set to an instance of an object
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetVuforiaPackageAbsPath () [0x0004a] in <664162e2bf7f40388b13ee61d1693ae2>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.IsPackageManager () [0x00000] in <664162e2bf7f40388b13ee61d1693ae2>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.ResolvePluginType () [0x00009] in <664162e2bf7f40388b13ee61d1693ae2>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetPluginType () [0x0000c] in <664162e2bf7f40388b13ee61d1693ae2>:0 
+  at Vuforia.EditorClasses.VuforiaUtilities.IsVuforiaEnabledInPlayerSettings () [0x00000] in <664162e2bf7f40388b13ee61d1693ae2>:0 
+  at Vuforia.EditorClasses.InitializeOnLoadVuforiaTaskRunner..cctor () [0x00015] in <664162e2bf7f40388b13ee61d1693ae2>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs:118)
+
+(Filename: /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs Line: 118)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  2.392 seconds
+Platform modules already initialized, skipping
+Switching build target platform(2) subTarget(0) extendedPlatform(0) -> platform(9) subTarget(16777218) extendedPlatform(0)
+Shader 'PointClouds/PointSplat': fallback shader 'PointClouds/PointSplatLegacy' not found
+WARNING: Shader Unsupported: 'PointClouds/PointSplat' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'PointClouds/PointSplat' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Shader 'PointClouds/PointSplat': fallback shader 'PointClouds/PointSplatLegacy' not found
+WARNING: Shader Unsupported: 'PointClouds/PointSplat' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'PointClouds/PointSplat' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Refreshing native plugins compatible for Editor in 1.05 ms, found 4 plugins.
+Preloading 1 native plugins for Editor in 3.15 ms.
+Unloading 2410 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 239.5 MB.
+System memory in use after: 236.3 MB.
+
+Unloading 76 unused Assets to reduce memory usage. Loaded Objects now: 3373.
+Total: 9.672640 ms (FindLiveObjects: 0.380429 ms CreateObjectMapping: 0.146002 ms MarkObjects: 4.046274 ms  DeleteObjects: 5.097929 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.019165 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 1.14 ms, found 4 plugins.
+Preloading 1 native plugins for Editor in 3.66 ms.
+System.NullReferenceException: Object reference not set to an instance of an object
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetVuforiaPackageAbsPath () [0x0004a] in <664162e2bf7f40388b13ee61d1693ae2>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.IsPackageManager () [0x00000] in <664162e2bf7f40388b13ee61d1693ae2>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.ResolvePluginType () [0x00009] in <664162e2bf7f40388b13ee61d1693ae2>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetPluginType () [0x0000c] in <664162e2bf7f40388b13ee61d1693ae2>:0 
+  at Vuforia.EditorClasses.VuforiaUtilities.IsVuforiaEnabledInPlayerSettings () [0x00000] in <664162e2bf7f40388b13ee61d1693ae2>:0 
+  at VuforiaEnabledObserver..cctor () [0x00000] in <664162e2bf7f40388b13ee61d1693ae2>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs:118)
+
+(Filename: /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs Line: 118)
+
+System.NullReferenceException: Object reference not set to an instance of an object
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetVuforiaPackageAbsPath () [0x0004a] in <664162e2bf7f40388b13ee61d1693ae2>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.IsPackageManager () [0x00000] in <664162e2bf7f40388b13ee61d1693ae2>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.ResolvePluginType () [0x00009] in <664162e2bf7f40388b13ee61d1693ae2>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetPluginType () [0x0000c] in <664162e2bf7f40388b13ee61d1693ae2>:0 
+  at Vuforia.EditorClasses.VuforiaUtilities.IsVuforiaEnabledInPlayerSettings () [0x00000] in <664162e2bf7f40388b13ee61d1693ae2>:0 
+  at Vuforia.EditorClasses.InitializeOnLoadVuforiaTaskRunner..cctor () [0x00015] in <664162e2bf7f40388b13ee61d1693ae2>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs:118)
+
+(Filename: /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs Line: 118)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  2.308 seconds
+Platform modules already initialized, skipping
+Switching build target platform(2) subTarget(0) extendedPlatform(0) -> platform(9) subTarget(16777218) extendedPlatform(0)
+Shader 'PointClouds/PointSplat': fallback shader 'PointClouds/PointSplatLegacy' not found
+WARNING: Shader Unsupported: 'PointClouds/PointSplat' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'PointClouds/PointSplat' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Shader 'PointClouds/PointSplat': fallback shader 'PointClouds/PointSplatLegacy' not found
+WARNING: Shader Unsupported: 'PointClouds/PointSplat' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'PointClouds/PointSplat' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Refreshing native plugins compatible for Editor in 0.86 ms, found 4 plugins.
+Preloading 1 native plugins for Editor in 2.83 ms.
+Unloading 2410 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 239.7 MB.
+System memory in use after: 236.5 MB.
+
+Unloading 76 unused Assets to reduce memory usage. Loaded Objects now: 3376.
+Total: 8.032242 ms (FindLiveObjects: 0.367860 ms CreateObjectMapping: 0.150895 ms MarkObjects: 3.517969 ms  DeleteObjects: 3.993890 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005591 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.89 ms, found 4 plugins.
+Preloading 1 native plugins for Editor in 2.93 ms.
+System.NullReferenceException: Object reference not set to an instance of an object
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetVuforiaPackageAbsPath () [0x0004a] in <664162e2bf7f40388b13ee61d1693ae2>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.IsPackageManager () [0x00000] in <664162e2bf7f40388b13ee61d1693ae2>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.ResolvePluginType () [0x00009] in <664162e2bf7f40388b13ee61d1693ae2>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetPluginType () [0x0000c] in <664162e2bf7f40388b13ee61d1693ae2>:0 
+  at Vuforia.EditorClasses.VuforiaUtilities.IsVuforiaEnabledInPlayerSettings () [0x00000] in <664162e2bf7f40388b13ee61d1693ae2>:0 
+  at VuforiaEnabledObserver..cctor () [0x00000] in <664162e2bf7f40388b13ee61d1693ae2>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs:118)
+
+(Filename: /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs Line: 118)
+
+System.NullReferenceException: Object reference not set to an instance of an object
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetVuforiaPackageAbsPath () [0x0004a] in <664162e2bf7f40388b13ee61d1693ae2>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.IsPackageManager () [0x00000] in <664162e2bf7f40388b13ee61d1693ae2>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.ResolvePluginType () [0x00009] in <664162e2bf7f40388b13ee61d1693ae2>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetPluginType () [0x0000c] in <664162e2bf7f40388b13ee61d1693ae2>:0 
+  at Vuforia.EditorClasses.VuforiaUtilities.IsVuforiaEnabledInPlayerSettings () [0x00000] in <664162e2bf7f40388b13ee61d1693ae2>:0 
+  at Vuforia.EditorClasses.InitializeOnLoadVuforiaTaskRunner..cctor () [0x00015] in <664162e2bf7f40388b13ee61d1693ae2>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs:118)
+
+(Filename: /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs Line: 118)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.659 seconds
+Platform modules already initialized, skipping
+Switching build target platform(2) subTarget(0) extendedPlatform(0) -> platform(9) subTarget(16777218) extendedPlatform(0)
+Shader 'PointClouds/PointSplat': fallback shader 'PointClouds/PointSplatLegacy' not found
+WARNING: Shader Unsupported: 'PointClouds/PointSplat' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'PointClouds/PointSplat' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Shader 'PointClouds/PointSplat': fallback shader 'PointClouds/PointSplatLegacy' not found
+WARNING: Shader Unsupported: 'PointClouds/PointSplat' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'PointClouds/PointSplat' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Refreshing native plugins compatible for Editor in 0.81 ms, found 4 plugins.
+Preloading 1 native plugins for Editor in 2.44 ms.
+Unloading 2410 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 239.9 MB.
+System memory in use after: 236.8 MB.
+
+Unloading 76 unused Assets to reduce memory usage. Loaded Objects now: 3379.
+Total: 7.423815 ms (FindLiveObjects: 0.386268 ms CreateObjectMapping: 0.160361 ms MarkObjects: 2.970053 ms  DeleteObjects: 3.905812 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.009716 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.80 ms, found 4 plugins.
+Preloading 1 native plugins for Editor in 2.41 ms.
+System.NullReferenceException: Object reference not set to an instance of an object
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetVuforiaPackageAbsPath () [0x0004a] in <664162e2bf7f40388b13ee61d1693ae2>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.IsPackageManager () [0x00000] in <664162e2bf7f40388b13ee61d1693ae2>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.ResolvePluginType () [0x00009] in <664162e2bf7f40388b13ee61d1693ae2>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetPluginType () [0x0000c] in <664162e2bf7f40388b13ee61d1693ae2>:0 
+  at Vuforia.EditorClasses.VuforiaUtilities.IsVuforiaEnabledInPlayerSettings () [0x00000] in <664162e2bf7f40388b13ee61d1693ae2>:0 
+  at VuforiaEnabledObserver..cctor () [0x00000] in <664162e2bf7f40388b13ee61d1693ae2>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs:118)
+
+(Filename: /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs Line: 118)
+
+System.NullReferenceException: Object reference not set to an instance of an object
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetVuforiaPackageAbsPath () [0x0004a] in <664162e2bf7f40388b13ee61d1693ae2>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.IsPackageManager () [0x00000] in <664162e2bf7f40388b13ee61d1693ae2>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.ResolvePluginType () [0x00009] in <664162e2bf7f40388b13ee61d1693ae2>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetPluginType () [0x0000c] in <664162e2bf7f40388b13ee61d1693ae2>:0 
+  at Vuforia.EditorClasses.VuforiaUtilities.IsVuforiaEnabledInPlayerSettings () [0x00000] in <664162e2bf7f40388b13ee61d1693ae2>:0 
+  at Vuforia.EditorClasses.InitializeOnLoadVuforiaTaskRunner..cctor () [0x00015] in <664162e2bf7f40388b13ee61d1693ae2>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs:118)
+
+(Filename: /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs Line: 118)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.597 seconds
+Platform modules already initialized, skipping
+Switching build target platform(2) subTarget(0) extendedPlatform(0) -> platform(9) subTarget(16777218) extendedPlatform(0)
+Shader 'PointClouds/PointSplat': fallback shader 'PointClouds/PointSplatLegacy' not found
+WARNING: Shader Unsupported: 'PointClouds/PointSplat' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'PointClouds/PointSplat' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Shader 'PointClouds/PointSplat': fallback shader 'PointClouds/PointSplatLegacy' not found
+WARNING: Shader Unsupported: 'PointClouds/PointSplat' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'PointClouds/PointSplat' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Refreshing native plugins compatible for Editor in 0.78 ms, found 4 plugins.
+Preloading 1 native plugins for Editor in 2.49 ms.
+Unloading 2410 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 240.2 MB.
+System memory in use after: 237.0 MB.
+
+Unloading 76 unused Assets to reduce memory usage. Loaded Objects now: 3382.
+Total: 5.806591 ms (FindLiveObjects: 0.339213 ms CreateObjectMapping: 0.177974 ms MarkObjects: 2.255832 ms  DeleteObjects: 3.032602 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004850 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 1.27 ms, found 4 plugins.
+Preloading 1 native plugins for Editor in 2.44 ms.
+System.NullReferenceException: Object reference not set to an instance of an object
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetVuforiaPackageAbsPath () [0x0004a] in <664162e2bf7f40388b13ee61d1693ae2>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.IsPackageManager () [0x00000] in <664162e2bf7f40388b13ee61d1693ae2>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.ResolvePluginType () [0x00009] in <664162e2bf7f40388b13ee61d1693ae2>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetPluginType () [0x0000c] in <664162e2bf7f40388b13ee61d1693ae2>:0 
+  at Vuforia.EditorClasses.VuforiaUtilities.IsVuforiaEnabledInPlayerSettings () [0x00000] in <664162e2bf7f40388b13ee61d1693ae2>:0 
+  at VuforiaEnabledObserver..cctor () [0x00000] in <664162e2bf7f40388b13ee61d1693ae2>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs:118)
+
+(Filename: /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs Line: 118)
+
+System.NullReferenceException: Object reference not set to an instance of an object
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetVuforiaPackageAbsPath () [0x0004a] in <664162e2bf7f40388b13ee61d1693ae2>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.IsPackageManager () [0x00000] in <664162e2bf7f40388b13ee61d1693ae2>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.ResolvePluginType () [0x00009] in <664162e2bf7f40388b13ee61d1693ae2>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetPluginType () [0x0000c] in <664162e2bf7f40388b13ee61d1693ae2>:0 
+  at Vuforia.EditorClasses.VuforiaUtilities.IsVuforiaEnabledInPlayerSettings () [0x00000] in <664162e2bf7f40388b13ee61d1693ae2>:0 
+  at Vuforia.EditorClasses.InitializeOnLoadVuforiaTaskRunner..cctor () [0x00015] in <664162e2bf7f40388b13ee61d1693ae2>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs:118)
+
+(Filename: /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs Line: 118)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.815 seconds
+Platform modules already initialized, skipping
+Switching build target platform(2) subTarget(0) extendedPlatform(0) -> platform(9) subTarget(16777218) extendedPlatform(0)
+Shader 'PointClouds/PointSplat': fallback shader 'PointClouds/PointSplatLegacy' not found
+WARNING: Shader Unsupported: 'PointClouds/PointSplat' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'PointClouds/PointSplat' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Shader 'PointClouds/PointSplat': fallback shader 'PointClouds/PointSplatLegacy' not found
+WARNING: Shader Unsupported: 'PointClouds/PointSplat' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'PointClouds/PointSplat' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Refreshing native plugins compatible for Editor in 0.82 ms, found 4 plugins.
+Preloading 1 native plugins for Editor in 2.55 ms.
+Unloading 2410 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 240.4 MB.
+System memory in use after: 237.3 MB.
+
+Unloading 76 unused Assets to reduce memory usage. Loaded Objects now: 3385.
+Total: 6.857831 ms (FindLiveObjects: 0.381529 ms CreateObjectMapping: 0.145217 ms MarkObjects: 2.569886 ms  DeleteObjects: 3.759945 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006739 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.76 ms, found 4 plugins.
+Preloading 1 native plugins for Editor in 2.44 ms.
+System.NullReferenceException: Object reference not set to an instance of an object
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetVuforiaPackageAbsPath () [0x0004a] in <664162e2bf7f40388b13ee61d1693ae2>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.IsPackageManager () [0x00000] in <664162e2bf7f40388b13ee61d1693ae2>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.ResolvePluginType () [0x00009] in <664162e2bf7f40388b13ee61d1693ae2>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetPluginType () [0x0000c] in <664162e2bf7f40388b13ee61d1693ae2>:0 
+  at Vuforia.EditorClasses.VuforiaUtilities.IsVuforiaEnabledInPlayerSettings () [0x00000] in <664162e2bf7f40388b13ee61d1693ae2>:0 
+  at VuforiaEnabledObserver..cctor () [0x00000] in <664162e2bf7f40388b13ee61d1693ae2>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs:118)
+
+(Filename: /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs Line: 118)
+
+System.NullReferenceException: Object reference not set to an instance of an object
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetVuforiaPackageAbsPath () [0x0004a] in <664162e2bf7f40388b13ee61d1693ae2>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.IsPackageManager () [0x00000] in <664162e2bf7f40388b13ee61d1693ae2>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.ResolvePluginType () [0x00009] in <664162e2bf7f40388b13ee61d1693ae2>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetPluginType () [0x0000c] in <664162e2bf7f40388b13ee61d1693ae2>:0 
+  at Vuforia.EditorClasses.VuforiaUtilities.IsVuforiaEnabledInPlayerSettings () [0x00000] in <664162e2bf7f40388b13ee61d1693ae2>:0 
+  at Vuforia.EditorClasses.InitializeOnLoadVuforiaTaskRunner..cctor () [0x00015] in <664162e2bf7f40388b13ee61d1693ae2>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs:118)
+
+(Filename: /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs Line: 118)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.583 seconds
+Platform modules already initialized, skipping
+Switching build target platform(2) subTarget(0) extendedPlatform(0) -> platform(9) subTarget(16777218) extendedPlatform(0)
+Shader 'PointClouds/PointSplat': fallback shader 'PointClouds/PointSplatLegacy' not found
+WARNING: Shader Unsupported: 'PointClouds/PointSplat' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'PointClouds/PointSplat' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Shader 'PointClouds/PointSplat': fallback shader 'PointClouds/PointSplatLegacy' not found
+WARNING: Shader Unsupported: 'PointClouds/PointSplat' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'PointClouds/PointSplat' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Refreshing native plugins compatible for Editor in 0.82 ms, found 4 plugins.
+Preloading 1 native plugins for Editor in 2.44 ms.
+Unloading 2410 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 240.7 MB.
+System memory in use after: 237.6 MB.
+
+Unloading 76 unused Assets to reduce memory usage. Loaded Objects now: 3388.
+Total: 6.536974 ms (FindLiveObjects: 0.356084 ms CreateObjectMapping: 0.130188 ms MarkObjects: 2.432306 ms  DeleteObjects: 3.617461 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004792 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.77 ms, found 4 plugins.
+Preloading 1 native plugins for Editor in 2.37 ms.
+System.NullReferenceException: Object reference not set to an instance of an object
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetVuforiaPackageAbsPath () [0x0004a] in <664162e2bf7f40388b13ee61d1693ae2>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.IsPackageManager () [0x00000] in <664162e2bf7f40388b13ee61d1693ae2>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.ResolvePluginType () [0x00009] in <664162e2bf7f40388b13ee61d1693ae2>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetPluginType () [0x0000c] in <664162e2bf7f40388b13ee61d1693ae2>:0 
+  at Vuforia.EditorClasses.VuforiaUtilities.IsVuforiaEnabledInPlayerSettings () [0x00000] in <664162e2bf7f40388b13ee61d1693ae2>:0 
+  at VuforiaEnabledObserver..cctor () [0x00000] in <664162e2bf7f40388b13ee61d1693ae2>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs:118)
+
+(Filename: /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs Line: 118)
+
+System.NullReferenceException: Object reference not set to an instance of an object
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetVuforiaPackageAbsPath () [0x0004a] in <664162e2bf7f40388b13ee61d1693ae2>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.IsPackageManager () [0x00000] in <664162e2bf7f40388b13ee61d1693ae2>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.ResolvePluginType () [0x00009] in <664162e2bf7f40388b13ee61d1693ae2>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetPluginType () [0x0000c] in <664162e2bf7f40388b13ee61d1693ae2>:0 
+  at Vuforia.EditorClasses.VuforiaUtilities.IsVuforiaEnabledInPlayerSettings () [0x00000] in <664162e2bf7f40388b13ee61d1693ae2>:0 
+  at Vuforia.EditorClasses.InitializeOnLoadVuforiaTaskRunner..cctor () [0x00015] in <664162e2bf7f40388b13ee61d1693ae2>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs:118)
+
+(Filename: /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs Line: 118)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.641 seconds
+Platform modules already initialized, skipping
+Switching build target platform(2) subTarget(0) extendedPlatform(0) -> platform(9) subTarget(16777218) extendedPlatform(0)
+Shader 'PointClouds/PointSplat': fallback shader 'PointClouds/PointSplatLegacy' not found
+WARNING: Shader Unsupported: 'PointClouds/PointSplat' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'PointClouds/PointSplat' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Shader 'PointClouds/PointSplat': fallback shader 'PointClouds/PointSplatLegacy' not found
+WARNING: Shader Unsupported: 'PointClouds/PointSplat' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'PointClouds/PointSplat' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Refreshing native plugins compatible for Editor in 0.77 ms, found 4 plugins.
+Preloading 1 native plugins for Editor in 2.37 ms.
+Unloading 2410 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 241.0 MB.
+System memory in use after: 237.8 MB.
+
+Unloading 76 unused Assets to reduce memory usage. Loaded Objects now: 3391.
+Total: 6.300891 ms (FindLiveObjects: 0.347946 ms CreateObjectMapping: 0.106126 ms MarkObjects: 2.395739 ms  DeleteObjects: 3.450138 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.013730 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.87 ms, found 4 plugins.
+Preloading 1 native plugins for Editor in 2.75 ms.
+System.NullReferenceException: Object reference not set to an instance of an object
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetVuforiaPackageAbsPath () [0x0004a] in <664162e2bf7f40388b13ee61d1693ae2>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.IsPackageManager () [0x00000] in <664162e2bf7f40388b13ee61d1693ae2>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.ResolvePluginType () [0x00009] in <664162e2bf7f40388b13ee61d1693ae2>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetPluginType () [0x0000c] in <664162e2bf7f40388b13ee61d1693ae2>:0 
+  at Vuforia.EditorClasses.VuforiaUtilities.IsVuforiaEnabledInPlayerSettings () [0x00000] in <664162e2bf7f40388b13ee61d1693ae2>:0 
+  at VuforiaEnabledObserver..cctor () [0x00000] in <664162e2bf7f40388b13ee61d1693ae2>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs:118)
+
+(Filename: /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs Line: 118)
+
+System.NullReferenceException: Object reference not set to an instance of an object
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetVuforiaPackageAbsPath () [0x0004a] in <664162e2bf7f40388b13ee61d1693ae2>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.IsPackageManager () [0x00000] in <664162e2bf7f40388b13ee61d1693ae2>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.ResolvePluginType () [0x00009] in <664162e2bf7f40388b13ee61d1693ae2>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetPluginType () [0x0000c] in <664162e2bf7f40388b13ee61d1693ae2>:0 
+  at Vuforia.EditorClasses.VuforiaUtilities.IsVuforiaEnabledInPlayerSettings () [0x00000] in <664162e2bf7f40388b13ee61d1693ae2>:0 
+  at Vuforia.EditorClasses.InitializeOnLoadVuforiaTaskRunner..cctor () [0x00015] in <664162e2bf7f40388b13ee61d1693ae2>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs:118)
+
+(Filename: /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs Line: 118)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.626 seconds
+Platform modules already initialized, skipping
+Switching build target platform(2) subTarget(0) extendedPlatform(0) -> platform(9) subTarget(16777218) extendedPlatform(0)
+Shader 'PointClouds/PointSplat': fallback shader 'PointClouds/PointSplatLegacy' not found
+WARNING: Shader Unsupported: 'PointClouds/PointSplat' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'PointClouds/PointSplat' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Shader 'PointClouds/PointSplat': fallback shader 'PointClouds/PointSplatLegacy' not found
+WARNING: Shader Unsupported: 'PointClouds/PointSplat' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'PointClouds/PointSplat' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Refreshing native plugins compatible for Editor in 0.82 ms, found 4 plugins.
+Preloading 1 native plugins for Editor in 2.82 ms.
+Unloading 2410 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 241.2 MB.
+System memory in use after: 238.0 MB.
+
+Unloading 76 unused Assets to reduce memory usage. Loaded Objects now: 3394.
+Total: 7.034638 ms (FindLiveObjects: 0.418216 ms CreateObjectMapping: 0.147821 ms MarkObjects: 2.705892 ms  DeleteObjects: 3.761699 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004847 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.78 ms, found 4 plugins.
+Preloading 1 native plugins for Editor in 2.91 ms.
+System.NullReferenceException: Object reference not set to an instance of an object
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetVuforiaPackageAbsPath () [0x0004a] in <664162e2bf7f40388b13ee61d1693ae2>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.IsPackageManager () [0x00000] in <664162e2bf7f40388b13ee61d1693ae2>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.ResolvePluginType () [0x00009] in <664162e2bf7f40388b13ee61d1693ae2>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetPluginType () [0x0000c] in <664162e2bf7f40388b13ee61d1693ae2>:0 
+  at Vuforia.EditorClasses.VuforiaUtilities.IsVuforiaEnabledInPlayerSettings () [0x00000] in <664162e2bf7f40388b13ee61d1693ae2>:0 
+  at VuforiaEnabledObserver..cctor () [0x00000] in <664162e2bf7f40388b13ee61d1693ae2>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs:118)
+
+(Filename: /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs Line: 118)
+
+System.NullReferenceException: Object reference not set to an instance of an object
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetVuforiaPackageAbsPath () [0x0004a] in <664162e2bf7f40388b13ee61d1693ae2>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.IsPackageManager () [0x00000] in <664162e2bf7f40388b13ee61d1693ae2>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.ResolvePluginType () [0x00009] in <664162e2bf7f40388b13ee61d1693ae2>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetPluginType () [0x0000c] in <664162e2bf7f40388b13ee61d1693ae2>:0 
+  at Vuforia.EditorClasses.VuforiaUtilities.IsVuforiaEnabledInPlayerSettings () [0x00000] in <664162e2bf7f40388b13ee61d1693ae2>:0 
+  at Vuforia.EditorClasses.InitializeOnLoadVuforiaTaskRunner..cctor () [0x00015] in <664162e2bf7f40388b13ee61d1693ae2>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs:118)
+
+(Filename: /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs Line: 118)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.598 seconds
+Platform modules already initialized, skipping
+Switching build target platform(2) subTarget(0) extendedPlatform(0) -> platform(9) subTarget(16777218) extendedPlatform(0)
+Shader 'PointClouds/PointSplat': fallback shader 'PointClouds/PointSplatLegacy' not found
+WARNING: Shader Unsupported: 'PointClouds/PointSplat' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'PointClouds/PointSplat' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Shader 'PointClouds/PointSplat': fallback shader 'PointClouds/PointSplatLegacy' not found
+WARNING: Shader Unsupported: 'PointClouds/PointSplat' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'PointClouds/PointSplat' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Refreshing native plugins compatible for Editor in 0.80 ms, found 4 plugins.
+Preloading 1 native plugins for Editor in 2.60 ms.
+Unloading 2410 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 241.4 MB.
+System memory in use after: 238.2 MB.
+
+Unloading 76 unused Assets to reduce memory usage. Loaded Objects now: 3397.
+Total: 6.272033 ms (FindLiveObjects: 0.351943 ms CreateObjectMapping: 0.129533 ms MarkObjects: 2.486011 ms  DeleteObjects: 3.303674 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005305 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 1.08 ms, found 4 plugins.
+Preloading 1 native plugins for Editor in 2.86 ms.
+System.NullReferenceException: Object reference not set to an instance of an object
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetVuforiaPackageAbsPath () [0x0004a] in <664162e2bf7f40388b13ee61d1693ae2>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.IsPackageManager () [0x00000] in <664162e2bf7f40388b13ee61d1693ae2>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.ResolvePluginType () [0x00009] in <664162e2bf7f40388b13ee61d1693ae2>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetPluginType () [0x0000c] in <664162e2bf7f40388b13ee61d1693ae2>:0 
+  at Vuforia.EditorClasses.VuforiaUtilities.IsVuforiaEnabledInPlayerSettings () [0x00000] in <664162e2bf7f40388b13ee61d1693ae2>:0 
+  at VuforiaEnabledObserver..cctor () [0x00000] in <664162e2bf7f40388b13ee61d1693ae2>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs:118)
+
+(Filename: /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs Line: 118)
+
+System.NullReferenceException: Object reference not set to an instance of an object
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetVuforiaPackageAbsPath () [0x0004a] in <664162e2bf7f40388b13ee61d1693ae2>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.IsPackageManager () [0x00000] in <664162e2bf7f40388b13ee61d1693ae2>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.ResolvePluginType () [0x00009] in <664162e2bf7f40388b13ee61d1693ae2>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetPluginType () [0x0000c] in <664162e2bf7f40388b13ee61d1693ae2>:0 
+  at Vuforia.EditorClasses.VuforiaUtilities.IsVuforiaEnabledInPlayerSettings () [0x00000] in <664162e2bf7f40388b13ee61d1693ae2>:0 
+  at Vuforia.EditorClasses.InitializeOnLoadVuforiaTaskRunner..cctor () [0x00015] in <664162e2bf7f40388b13ee61d1693ae2>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs:118)
+
+(Filename: /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs Line: 118)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  2.029 seconds
+Platform modules already initialized, skipping
+Switching build target platform(2) subTarget(0) extendedPlatform(0) -> platform(9) subTarget(16777218) extendedPlatform(0)
+Shader 'PointClouds/PointSplat': fallback shader 'PointClouds/PointSplatLegacy' not found
+WARNING: Shader Unsupported: 'PointClouds/PointSplat' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'PointClouds/PointSplat' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Shader 'PointClouds/PointSplat': fallback shader 'PointClouds/PointSplatLegacy' not found
+WARNING: Shader Unsupported: 'PointClouds/PointSplat' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'PointClouds/PointSplat' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Refreshing native plugins compatible for Editor in 0.80 ms, found 4 plugins.
+Preloading 1 native plugins for Editor in 2.52 ms.
+Unloading 2410 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 241.6 MB.
+System memory in use after: 238.5 MB.
+
+Unloading 76 unused Assets to reduce memory usage. Loaded Objects now: 3400.
+Total: 7.190380 ms (FindLiveObjects: 0.411421 ms CreateObjectMapping: 0.157974 ms MarkObjects: 2.658899 ms  DeleteObjects: 3.961009 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.039726 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.82 ms, found 4 plugins.
+Preloading 1 native plugins for Editor in 3.09 ms.
+System.NullReferenceException: Object reference not set to an instance of an object
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetVuforiaPackageAbsPath () [0x0004a] in <664162e2bf7f40388b13ee61d1693ae2>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.IsPackageManager () [0x00000] in <664162e2bf7f40388b13ee61d1693ae2>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.ResolvePluginType () [0x00009] in <664162e2bf7f40388b13ee61d1693ae2>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetPluginType () [0x0000c] in <664162e2bf7f40388b13ee61d1693ae2>:0 
+  at Vuforia.EditorClasses.VuforiaUtilities.IsVuforiaEnabledInPlayerSettings () [0x00000] in <664162e2bf7f40388b13ee61d1693ae2>:0 
+  at VuforiaEnabledObserver..cctor () [0x00000] in <664162e2bf7f40388b13ee61d1693ae2>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs:118)
+
+(Filename: /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs Line: 118)
+
+System.NullReferenceException: Object reference not set to an instance of an object
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetVuforiaPackageAbsPath () [0x0004a] in <664162e2bf7f40388b13ee61d1693ae2>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.IsPackageManager () [0x00000] in <664162e2bf7f40388b13ee61d1693ae2>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.ResolvePluginType () [0x00009] in <664162e2bf7f40388b13ee61d1693ae2>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetPluginType () [0x0000c] in <664162e2bf7f40388b13ee61d1693ae2>:0 
+  at Vuforia.EditorClasses.VuforiaUtilities.IsVuforiaEnabledInPlayerSettings () [0x00000] in <664162e2bf7f40388b13ee61d1693ae2>:0 
+  at Vuforia.EditorClasses.InitializeOnLoadVuforiaTaskRunner..cctor () [0x00015] in <664162e2bf7f40388b13ee61d1693ae2>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs:118)
+
+(Filename: /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs Line: 118)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  2.623 seconds
+Platform modules already initialized, skipping
+Switching build target platform(2) subTarget(0) extendedPlatform(0) -> platform(9) subTarget(16777218) extendedPlatform(0)
+Shader 'PointClouds/PointSplat': fallback shader 'PointClouds/PointSplatLegacy' not found
+WARNING: Shader Unsupported: 'PointClouds/PointSplat' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'PointClouds/PointSplat' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Shader 'PointClouds/PointSplat': fallback shader 'PointClouds/PointSplatLegacy' not found
+WARNING: Shader Unsupported: 'PointClouds/PointSplat' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'PointClouds/PointSplat' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Refreshing native plugins compatible for Editor in 0.78 ms, found 4 plugins.
+Preloading 1 native plugins for Editor in 2.44 ms.
+Unloading 2411 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 241.9 MB.
+System memory in use after: 238.8 MB.
+
+Unloading 76 unused Assets to reduce memory usage. Loaded Objects now: 3404.
+Total: 6.686429 ms (FindLiveObjects: 0.381651 ms CreateObjectMapping: 0.138394 ms MarkObjects: 2.548262 ms  DeleteObjects: 3.617191 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004637 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.79 ms, found 4 plugins.
+Preloading 1 native plugins for Editor in 2.44 ms.
+System.NullReferenceException: Object reference not set to an instance of an object
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetVuforiaPackageAbsPath () [0x0004a] in <664162e2bf7f40388b13ee61d1693ae2>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.IsPackageManager () [0x00000] in <664162e2bf7f40388b13ee61d1693ae2>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.ResolvePluginType () [0x00009] in <664162e2bf7f40388b13ee61d1693ae2>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetPluginType () [0x0000c] in <664162e2bf7f40388b13ee61d1693ae2>:0 
+  at Vuforia.EditorClasses.VuforiaUtilities.IsVuforiaEnabledInPlayerSettings () [0x00000] in <664162e2bf7f40388b13ee61d1693ae2>:0 
+  at VuforiaEnabledObserver..cctor () [0x00000] in <664162e2bf7f40388b13ee61d1693ae2>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs:118)
+
+(Filename: /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs Line: 118)
+
+System.NullReferenceException: Object reference not set to an instance of an object
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetVuforiaPackageAbsPath () [0x0004a] in <664162e2bf7f40388b13ee61d1693ae2>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.IsPackageManager () [0x00000] in <664162e2bf7f40388b13ee61d1693ae2>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.ResolvePluginType () [0x00009] in <664162e2bf7f40388b13ee61d1693ae2>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetPluginType () [0x0000c] in <664162e2bf7f40388b13ee61d1693ae2>:0 
+  at Vuforia.EditorClasses.VuforiaUtilities.IsVuforiaEnabledInPlayerSettings () [0x00000] in <664162e2bf7f40388b13ee61d1693ae2>:0 
+  at Vuforia.EditorClasses.InitializeOnLoadVuforiaTaskRunner..cctor () [0x00015] in <664162e2bf7f40388b13ee61d1693ae2>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs:118)
+
+(Filename: /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs Line: 118)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.646 seconds
+Platform modules already initialized, skipping
+Switching build target platform(2) subTarget(0) extendedPlatform(0) -> platform(9) subTarget(16777218) extendedPlatform(0)
+Shader 'PointClouds/PointSplat': fallback shader 'PointClouds/PointSplatLegacy' not found
+WARNING: Shader Unsupported: 'PointClouds/PointSplat' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'PointClouds/PointSplat' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Shader 'PointClouds/PointSplat': fallback shader 'PointClouds/PointSplatLegacy' not found
+WARNING: Shader Unsupported: 'PointClouds/PointSplat' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'PointClouds/PointSplat' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Refreshing native plugins compatible for Editor in 0.82 ms, found 4 plugins.
+Preloading 1 native plugins for Editor in 2.44 ms.
+Unloading 2411 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 242.2 MB.
+System memory in use after: 239.0 MB.
+
+Unloading 76 unused Assets to reduce memory usage. Loaded Objects now: 3407.
+Total: 6.312981 ms (FindLiveObjects: 0.357105 ms CreateObjectMapping: 0.132515 ms MarkObjects: 2.399218 ms  DeleteObjects: 3.423324 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.016125 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.77 ms, found 4 plugins.
+Preloading 1 native plugins for Editor in 2.40 ms.
+System.NullReferenceException: Object reference not set to an instance of an object
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetVuforiaPackageAbsPath () [0x0004a] in <664162e2bf7f40388b13ee61d1693ae2>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.IsPackageManager () [0x00000] in <664162e2bf7f40388b13ee61d1693ae2>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.ResolvePluginType () [0x00009] in <664162e2bf7f40388b13ee61d1693ae2>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetPluginType () [0x0000c] in <664162e2bf7f40388b13ee61d1693ae2>:0 
+  at Vuforia.EditorClasses.VuforiaUtilities.IsVuforiaEnabledInPlayerSettings () [0x00000] in <664162e2bf7f40388b13ee61d1693ae2>:0 
+  at VuforiaEnabledObserver..cctor () [0x00000] in <664162e2bf7f40388b13ee61d1693ae2>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs:118)
+
+(Filename: /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs Line: 118)
+
+System.NullReferenceException: Object reference not set to an instance of an object
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetVuforiaPackageAbsPath () [0x0004a] in <664162e2bf7f40388b13ee61d1693ae2>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.IsPackageManager () [0x00000] in <664162e2bf7f40388b13ee61d1693ae2>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.ResolvePluginType () [0x00009] in <664162e2bf7f40388b13ee61d1693ae2>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetPluginType () [0x0000c] in <664162e2bf7f40388b13ee61d1693ae2>:0 
+  at Vuforia.EditorClasses.VuforiaUtilities.IsVuforiaEnabledInPlayerSettings () [0x00000] in <664162e2bf7f40388b13ee61d1693ae2>:0 
+  at Vuforia.EditorClasses.InitializeOnLoadVuforiaTaskRunner..cctor () [0x00015] in <664162e2bf7f40388b13ee61d1693ae2>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs:118)
+
+(Filename: /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs Line: 118)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.771 seconds
+Platform modules already initialized, skipping
+Switching build target platform(2) subTarget(0) extendedPlatform(0) -> platform(9) subTarget(16777218) extendedPlatform(0)
+Shader 'PointClouds/PointSplat': fallback shader 'PointClouds/PointSplatLegacy' not found
+WARNING: Shader Unsupported: 'PointClouds/PointSplat' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'PointClouds/PointSplat' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Shader 'PointClouds/PointSplat': fallback shader 'PointClouds/PointSplatLegacy' not found
+WARNING: Shader Unsupported: 'PointClouds/PointSplat' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'PointClouds/PointSplat' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Refreshing native plugins compatible for Editor in 0.85 ms, found 4 plugins.
+Preloading 1 native plugins for Editor in 3.81 ms.
+Unloading 2411 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 242.5 MB.
+System memory in use after: 239.3 MB.
+
+Unloading 76 unused Assets to reduce memory usage. Loaded Objects now: 3410.
+Total: 5.819808 ms (FindLiveObjects: 0.345585 ms CreateObjectMapping: 0.122024 ms MarkObjects: 2.258084 ms  DeleteObjects: 3.093178 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.010295 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.80 ms, found 4 plugins.
+Preloading 1 native plugins for Editor in 2.66 ms.
+System.NullReferenceException: Object reference not set to an instance of an object
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetVuforiaPackageAbsPath () [0x0004a] in <664162e2bf7f40388b13ee61d1693ae2>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.IsPackageManager () [0x00000] in <664162e2bf7f40388b13ee61d1693ae2>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.ResolvePluginType () [0x00009] in <664162e2bf7f40388b13ee61d1693ae2>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetPluginType () [0x0000c] in <664162e2bf7f40388b13ee61d1693ae2>:0 
+  at Vuforia.EditorClasses.VuforiaUtilities.IsVuforiaEnabledInPlayerSettings () [0x00000] in <664162e2bf7f40388b13ee61d1693ae2>:0 
+  at VuforiaEnabledObserver..cctor () [0x00000] in <664162e2bf7f40388b13ee61d1693ae2>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs:118)
+
+(Filename: /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs Line: 118)
+
+System.NullReferenceException: Object reference not set to an instance of an object
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetVuforiaPackageAbsPath () [0x0004a] in <664162e2bf7f40388b13ee61d1693ae2>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.IsPackageManager () [0x00000] in <664162e2bf7f40388b13ee61d1693ae2>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.ResolvePluginType () [0x00009] in <664162e2bf7f40388b13ee61d1693ae2>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetPluginType () [0x0000c] in <664162e2bf7f40388b13ee61d1693ae2>:0 
+  at Vuforia.EditorClasses.VuforiaUtilities.IsVuforiaEnabledInPlayerSettings () [0x00000] in <664162e2bf7f40388b13ee61d1693ae2>:0 
+  at Vuforia.EditorClasses.InitializeOnLoadVuforiaTaskRunner..cctor () [0x00015] in <664162e2bf7f40388b13ee61d1693ae2>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs:118)
+
+(Filename: /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs Line: 118)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.740 seconds
+Platform modules already initialized, skipping
+Switching build target platform(2) subTarget(0) extendedPlatform(0) -> platform(9) subTarget(16777218) extendedPlatform(0)
+Shader 'PointClouds/PointSplat': fallback shader 'PointClouds/PointSplatLegacy' not found
+WARNING: Shader Unsupported: 'PointClouds/PointSplat' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'PointClouds/PointSplat' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Shader 'PointClouds/PointSplat': fallback shader 'PointClouds/PointSplatLegacy' not found
+WARNING: Shader Unsupported: 'PointClouds/PointSplat' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'PointClouds/PointSplat' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Refreshing native plugins compatible for Editor in 0.78 ms, found 4 plugins.
+Preloading 1 native plugins for Editor in 2.43 ms.
+Unloading 2411 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 242.7 MB.
+System memory in use after: 239.6 MB.
+
+Unloading 76 unused Assets to reduce memory usage. Loaded Objects now: 3413.
+Total: 10.929969 ms (FindLiveObjects: 0.678702 ms CreateObjectMapping: 0.263089 ms MarkObjects: 4.364166 ms  DeleteObjects: 5.621692 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.013155 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.77 ms, found 4 plugins.
+Preloading 1 native plugins for Editor in 2.44 ms.
+System.NullReferenceException: Object reference not set to an instance of an object
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetVuforiaPackageAbsPath () [0x0004a] in <664162e2bf7f40388b13ee61d1693ae2>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.IsPackageManager () [0x00000] in <664162e2bf7f40388b13ee61d1693ae2>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.ResolvePluginType () [0x00009] in <664162e2bf7f40388b13ee61d1693ae2>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetPluginType () [0x0000c] in <664162e2bf7f40388b13ee61d1693ae2>:0 
+  at Vuforia.EditorClasses.VuforiaUtilities.IsVuforiaEnabledInPlayerSettings () [0x00000] in <664162e2bf7f40388b13ee61d1693ae2>:0 
+  at VuforiaEnabledObserver..cctor () [0x00000] in <664162e2bf7f40388b13ee61d1693ae2>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs:118)
+
+(Filename: /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs Line: 118)
+
+System.NullReferenceException: Object reference not set to an instance of an object
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetVuforiaPackageAbsPath () [0x0004a] in <664162e2bf7f40388b13ee61d1693ae2>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.IsPackageManager () [0x00000] in <664162e2bf7f40388b13ee61d1693ae2>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.ResolvePluginType () [0x00009] in <664162e2bf7f40388b13ee61d1693ae2>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetPluginType () [0x0000c] in <664162e2bf7f40388b13ee61d1693ae2>:0 
+  at Vuforia.EditorClasses.VuforiaUtilities.IsVuforiaEnabledInPlayerSettings () [0x00000] in <664162e2bf7f40388b13ee61d1693ae2>:0 
+  at Vuforia.EditorClasses.InitializeOnLoadVuforiaTaskRunner..cctor () [0x00015] in <664162e2bf7f40388b13ee61d1693ae2>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs:118)
+
+(Filename: /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs Line: 118)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.770 seconds
+Platform modules already initialized, skipping
+Switching build target platform(2) subTarget(0) extendedPlatform(0) -> platform(9) subTarget(16777218) extendedPlatform(0)
+Shader 'PointClouds/PointSplat': fallback shader 'PointClouds/PointSplatLegacy' not found
+WARNING: Shader Unsupported: 'PointClouds/PointSplat' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'PointClouds/PointSplat' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Shader 'PointClouds/PointSplat': fallback shader 'PointClouds/PointSplatLegacy' not found
+WARNING: Shader Unsupported: 'PointClouds/PointSplat' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'PointClouds/PointSplat' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Refreshing native plugins compatible for Editor in 0.80 ms, found 4 plugins.
+Preloading 1 native plugins for Editor in 2.40 ms.
+Unloading 2411 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 242.9 MB.
+System memory in use after: 239.8 MB.
+
+Unloading 76 unused Assets to reduce memory usage. Loaded Objects now: 3416.
+Total: 5.679116 ms (FindLiveObjects: 0.324102 ms CreateObjectMapping: 0.110642 ms MarkObjects: 2.191505 ms  DeleteObjects: 3.051957 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005741 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.86 ms, found 4 plugins.
+Preloading 1 native plugins for Editor in 2.84 ms.
+System.NullReferenceException: Object reference not set to an instance of an object
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetVuforiaPackageAbsPath () [0x0004a] in <664162e2bf7f40388b13ee61d1693ae2>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.IsPackageManager () [0x00000] in <664162e2bf7f40388b13ee61d1693ae2>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.ResolvePluginType () [0x00009] in <664162e2bf7f40388b13ee61d1693ae2>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetPluginType () [0x0000c] in <664162e2bf7f40388b13ee61d1693ae2>:0 
+  at Vuforia.EditorClasses.VuforiaUtilities.IsVuforiaEnabledInPlayerSettings () [0x00000] in <664162e2bf7f40388b13ee61d1693ae2>:0 
+  at VuforiaEnabledObserver..cctor () [0x00000] in <664162e2bf7f40388b13ee61d1693ae2>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs:118)
+
+(Filename: /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs Line: 118)
+
+System.NullReferenceException: Object reference not set to an instance of an object
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetVuforiaPackageAbsPath () [0x0004a] in <664162e2bf7f40388b13ee61d1693ae2>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.IsPackageManager () [0x00000] in <664162e2bf7f40388b13ee61d1693ae2>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.ResolvePluginType () [0x00009] in <664162e2bf7f40388b13ee61d1693ae2>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetPluginType () [0x0000c] in <664162e2bf7f40388b13ee61d1693ae2>:0 
+  at Vuforia.EditorClasses.VuforiaUtilities.IsVuforiaEnabledInPlayerSettings () [0x00000] in <664162e2bf7f40388b13ee61d1693ae2>:0 
+  at Vuforia.EditorClasses.InitializeOnLoadVuforiaTaskRunner..cctor () [0x00015] in <664162e2bf7f40388b13ee61d1693ae2>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs:118)
+
+(Filename: /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs Line: 118)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.635 seconds
+Platform modules already initialized, skipping
+Switching build target platform(2) subTarget(0) extendedPlatform(0) -> platform(9) subTarget(16777218) extendedPlatform(0)
+Shader 'PointClouds/PointSplat': fallback shader 'PointClouds/PointSplatLegacy' not found
+WARNING: Shader Unsupported: 'PointClouds/PointSplat' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'PointClouds/PointSplat' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Shader 'PointClouds/PointSplat': fallback shader 'PointClouds/PointSplatLegacy' not found
+WARNING: Shader Unsupported: 'PointClouds/PointSplat' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'PointClouds/PointSplat' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Refreshing native plugins compatible for Editor in 0.81 ms, found 4 plugins.
+Preloading 1 native plugins for Editor in 2.85 ms.
+Unloading 2411 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 243.2 MB.
+System memory in use after: 240.1 MB.
+
+Unloading 76 unused Assets to reduce memory usage. Loaded Objects now: 3419.
+Total: 6.181365 ms (FindLiveObjects: 0.356393 ms CreateObjectMapping: 0.132330 ms MarkObjects: 2.391340 ms  DeleteObjects: 3.300012 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 2537.189905 seconds.
+  path: Assets/A - Prefabs/ModalDialog Navi CurrentDest.prefab
+  artifactKey: Guid(3d3cd148e8b204791bcd22c9ffe93800) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/A - Prefabs/ModalDialog Navi CurrentDest.prefab using Guid(3d3cd148e8b204791bcd22c9ffe93800) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2fc051e8cebc6384891fe7b20dcb0068') in 0.101745 seconds 
+  Import took 0.110521 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.008068 seconds.
+  path: Assets/A - Prefabs/ModalDialog Navi CurrentDest.prefab
+  artifactKey: Guid(3d3cd148e8b204791bcd22c9ffe93800) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/A - Prefabs/ModalDialog Navi CurrentDest.prefab using Guid(3d3cd148e8b204791bcd22c9ffe93800) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2fc051e8cebc6384891fe7b20dcb0068') in 0.012405 seconds 
+  Import took 0.018799 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.264446 seconds.
+  path: Assets/A - Prefabs/DestinationMarker.prefab
+  artifactKey: Guid(1e03d7ebc72af4e1ba02145ff1ad7ea0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/A - Prefabs/DestinationMarker.prefab using Guid(1e03d7ebc72af4e1ba02145ff1ad7ea0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68d9d9d3d5bbb83d60ce2f4810621bbb') in 0.008077 seconds 
+  Import took 0.014741 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005179 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.85 ms, found 4 plugins.
+Preloading 1 native plugins for Editor in 2.95 ms.
+System.NullReferenceException: Object reference not set to an instance of an object
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetVuforiaPackageAbsPath () [0x0004a] in <664162e2bf7f40388b13ee61d1693ae2>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.IsPackageManager () [0x00000] in <664162e2bf7f40388b13ee61d1693ae2>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.ResolvePluginType () [0x00009] in <664162e2bf7f40388b13ee61d1693ae2>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetPluginType () [0x0000c] in <664162e2bf7f40388b13ee61d1693ae2>:0 
+  at Vuforia.EditorClasses.VuforiaUtilities.IsVuforiaEnabledInPlayerSettings () [0x00000] in <664162e2bf7f40388b13ee61d1693ae2>:0 
+  at VuforiaEnabledObserver..cctor () [0x00000] in <664162e2bf7f40388b13ee61d1693ae2>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs:118)
+
+(Filename: /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs Line: 118)
+
+System.NullReferenceException: Object reference not set to an instance of an object
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetVuforiaPackageAbsPath () [0x0004a] in <664162e2bf7f40388b13ee61d1693ae2>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.IsPackageManager () [0x00000] in <664162e2bf7f40388b13ee61d1693ae2>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.ResolvePluginType () [0x00009] in <664162e2bf7f40388b13ee61d1693ae2>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetPluginType () [0x0000c] in <664162e2bf7f40388b13ee61d1693ae2>:0 
+  at Vuforia.EditorClasses.VuforiaUtilities.IsVuforiaEnabledInPlayerSettings () [0x00000] in <664162e2bf7f40388b13ee61d1693ae2>:0 
+  at Vuforia.EditorClasses.InitializeOnLoadVuforiaTaskRunner..cctor () [0x00015] in <664162e2bf7f40388b13ee61d1693ae2>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs:118)
+
+(Filename: /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs Line: 118)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  2.022 seconds
+Platform modules already initialized, skipping
+Switching build target platform(2) subTarget(0) extendedPlatform(0) -> platform(9) subTarget(16777218) extendedPlatform(0)
+Shader 'PointClouds/PointSplat': fallback shader 'PointClouds/PointSplatLegacy' not found
+WARNING: Shader Unsupported: 'PointClouds/PointSplat' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'PointClouds/PointSplat' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Shader 'PointClouds/PointSplat': fallback shader 'PointClouds/PointSplatLegacy' not found
+WARNING: Shader Unsupported: 'PointClouds/PointSplat' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'PointClouds/PointSplat' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Refreshing native plugins compatible for Editor in 0.79 ms, found 4 plugins.
+Preloading 1 native plugins for Editor in 2.48 ms.
+Unloading 2411 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 243.5 MB.
+System memory in use after: 240.4 MB.
+
+Unloading 76 unused Assets to reduce memory usage. Loaded Objects now: 3422.
+Total: 6.740321 ms (FindLiveObjects: 0.376054 ms CreateObjectMapping: 0.136513 ms MarkObjects: 2.571524 ms  DeleteObjects: 3.655105 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.014789 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.92 ms, found 4 plugins.
+Preloading 1 native plugins for Editor in 2.84 ms.
+System.NullReferenceException: Object reference not set to an instance of an object
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetVuforiaPackageAbsPath () [0x0004a] in <664162e2bf7f40388b13ee61d1693ae2>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.IsPackageManager () [0x00000] in <664162e2bf7f40388b13ee61d1693ae2>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.ResolvePluginType () [0x00009] in <664162e2bf7f40388b13ee61d1693ae2>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetPluginType () [0x0000c] in <664162e2bf7f40388b13ee61d1693ae2>:0 
+  at Vuforia.EditorClasses.VuforiaUtilities.IsVuforiaEnabledInPlayerSettings () [0x00000] in <664162e2bf7f40388b13ee61d1693ae2>:0 
+  at VuforiaEnabledObserver..cctor () [0x00000] in <664162e2bf7f40388b13ee61d1693ae2>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs:118)
+
+(Filename: /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs Line: 118)
+
+System.NullReferenceException: Object reference not set to an instance of an object
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetVuforiaPackageAbsPath () [0x0004a] in <664162e2bf7f40388b13ee61d1693ae2>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.IsPackageManager () [0x00000] in <664162e2bf7f40388b13ee61d1693ae2>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.ResolvePluginType () [0x00009] in <664162e2bf7f40388b13ee61d1693ae2>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetPluginType () [0x0000c] in <664162e2bf7f40388b13ee61d1693ae2>:0 
+  at Vuforia.EditorClasses.VuforiaUtilities.IsVuforiaEnabledInPlayerSettings () [0x00000] in <664162e2bf7f40388b13ee61d1693ae2>:0 
+  at Vuforia.EditorClasses.InitializeOnLoadVuforiaTaskRunner..cctor () [0x00015] in <664162e2bf7f40388b13ee61d1693ae2>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs:118)
+
+(Filename: /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs Line: 118)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.810 seconds
+Platform modules already initialized, skipping
+Switching build target platform(2) subTarget(0) extendedPlatform(0) -> platform(9) subTarget(16777218) extendedPlatform(0)
+Shader 'PointClouds/PointSplat': fallback shader 'PointClouds/PointSplatLegacy' not found
+WARNING: Shader Unsupported: 'PointClouds/PointSplat' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'PointClouds/PointSplat' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Shader 'PointClouds/PointSplat': fallback shader 'PointClouds/PointSplatLegacy' not found
+WARNING: Shader Unsupported: 'PointClouds/PointSplat' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'PointClouds/PointSplat' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Refreshing native plugins compatible for Editor in 0.78 ms, found 4 plugins.
+Preloading 1 native plugins for Editor in 2.85 ms.
+Unloading 2411 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 243.8 MB.
+System memory in use after: 240.6 MB.
+
+Unloading 76 unused Assets to reduce memory usage. Loaded Objects now: 3425.
+Total: 6.667271 ms (FindLiveObjects: 0.362136 ms CreateObjectMapping: 0.139539 ms MarkObjects: 2.524802 ms  DeleteObjects: 3.639727 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005237 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.79 ms, found 4 plugins.
+Preloading 1 native plugins for Editor in 2.31 ms.
+System.NullReferenceException: Object reference not set to an instance of an object
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetVuforiaPackageAbsPath () [0x0004a] in <664162e2bf7f40388b13ee61d1693ae2>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.IsPackageManager () [0x00000] in <664162e2bf7f40388b13ee61d1693ae2>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.ResolvePluginType () [0x00009] in <664162e2bf7f40388b13ee61d1693ae2>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetPluginType () [0x0000c] in <664162e2bf7f40388b13ee61d1693ae2>:0 
+  at Vuforia.EditorClasses.VuforiaUtilities.IsVuforiaEnabledInPlayerSettings () [0x00000] in <664162e2bf7f40388b13ee61d1693ae2>:0 
+  at VuforiaEnabledObserver..cctor () [0x00000] in <664162e2bf7f40388b13ee61d1693ae2>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs:118)
+
+(Filename: /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs Line: 118)
+
+System.NullReferenceException: Object reference not set to an instance of an object
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetVuforiaPackageAbsPath () [0x0004a] in <664162e2bf7f40388b13ee61d1693ae2>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.IsPackageManager () [0x00000] in <664162e2bf7f40388b13ee61d1693ae2>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.ResolvePluginType () [0x00009] in <664162e2bf7f40388b13ee61d1693ae2>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetPluginType () [0x0000c] in <664162e2bf7f40388b13ee61d1693ae2>:0 
+  at Vuforia.EditorClasses.VuforiaUtilities.IsVuforiaEnabledInPlayerSettings () [0x00000] in <664162e2bf7f40388b13ee61d1693ae2>:0 
+  at Vuforia.EditorClasses.InitializeOnLoadVuforiaTaskRunner..cctor () [0x00015] in <664162e2bf7f40388b13ee61d1693ae2>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs:118)
+
+(Filename: /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs Line: 118)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.576 seconds
+Platform modules already initialized, skipping
+Switching build target platform(2) subTarget(0) extendedPlatform(0) -> platform(9) subTarget(16777218) extendedPlatform(0)
+Shader 'PointClouds/PointSplat': fallback shader 'PointClouds/PointSplatLegacy' not found
+WARNING: Shader Unsupported: 'PointClouds/PointSplat' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'PointClouds/PointSplat' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Shader 'PointClouds/PointSplat': fallback shader 'PointClouds/PointSplatLegacy' not found
+WARNING: Shader Unsupported: 'PointClouds/PointSplat' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'PointClouds/PointSplat' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Refreshing native plugins compatible for Editor in 0.78 ms, found 4 plugins.
+Preloading 1 native plugins for Editor in 2.42 ms.
+Unloading 2411 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 244.0 MB.
+System memory in use after: 240.9 MB.
+
+Unloading 76 unused Assets to reduce memory usage. Loaded Objects now: 3428.
+Total: 6.730863 ms (FindLiveObjects: 0.355205 ms CreateObjectMapping: 0.151126 ms MarkObjects: 2.584257 ms  DeleteObjects: 3.639337 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 

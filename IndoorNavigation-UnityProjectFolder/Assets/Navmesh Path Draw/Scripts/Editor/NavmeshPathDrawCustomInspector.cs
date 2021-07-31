@@ -7,13 +7,15 @@ public class NavmeshPathDrawCustomInspector : Editor
     SerializedProperty destination,
     recalculatePath,
     recalculationTime,
-        yOffset; //Kev Added
+    lineOffset, //Kev Added
+    destinationMarkerPrefab; //Kev Added
 
     void OnEnable(){
         destination = serializedObject.FindProperty("destination");
         recalculatePath = serializedObject.FindProperty("recalculatePath");
         recalculationTime = serializedObject.FindProperty("recalculationTime");
-        yOffset = serializedObject.FindProperty("yOffset"); // Kev added
+        lineOffset = serializedObject.FindProperty("lineOffset"); // Kev added
+        destinationMarkerPrefab = serializedObject.FindProperty("destinationMarkerPrefab"); // Kev added
     }
 
     public override void OnInspectorGUI(){
@@ -32,7 +34,8 @@ public class NavmeshPathDrawCustomInspector : Editor
             EditorGUILayout.PropertyField(recalculationTime, new GUIContent("Recalculation Time", "The amount of time in seconds to recalculate the path. The higher the number, the more performant on CPU but slower to pathfind. It all depends on your game and target hardware. It's usually best to keep this from 0.1 - 0.5 seconds"));
         EditorGUI.EndDisabledGroup ();
 
-        EditorGUILayout.PropertyField(yOffset, new GUIContent("Y Offset", "Y offset for LR")); //Kev Added
+        EditorGUILayout.PropertyField(lineOffset, new GUIContent("Line Offset", "Offset for LR")); //Kev Added
+        EditorGUILayout.PropertyField(destinationMarkerPrefab, new GUIContent("Dest Marker", "Destination Marker Prefab")); //Kev Added
 
         serializedObject.ApplyModifiedProperties();
     }

@@ -11,9 +11,9 @@ public class NavmeshPathDraw : MonoBehaviour
 
     public bool recalculatePath = true;
     public float recalculationTime = 0.1f;
-    public float yOffset; // Kev Added
-
-    
+    public Vector3 lineOffset; // Kev Added
+    public GameObject destinationMarkerPrefab;
+    private GameObject destinationMarker;
     
     
 
@@ -29,18 +29,28 @@ public class NavmeshPathDraw : MonoBehaviour
     {
         destination = dest;
         lr.positionCount = 0;
+
+        //destinationMarker.SetActive(true);
+        //destinationMarker.transform.position = dest.position;
+        
     }
 
     public void ClearDestination()
     {
         destination = null;
         lr.positionCount = 0;
+
+        destinationMarker.SetActive(false);
     }
 
     //END - KEV MOD
 
     void Awake()
     {
+
+        destinationMarker = Instantiate(destinationMarkerPrefab);
+        destinationMarker.SetActive(false);
+
         lr = GetComponent<LineRenderer>();
         lr.useWorldSpace = true;
         path = new NavMeshPath();
@@ -129,7 +139,7 @@ public class NavmeshPathDraw : MonoBehaviour
             
             for (int i = 0; i < corners.Length; i++)
             {
-                corners[i].y += yOffset;
+                corners[i] += lineOffset;
             }
             
 
@@ -139,6 +149,10 @@ public class NavmeshPathDraw : MonoBehaviour
             //Animated the material?
             //https://stackoverflow.com/questions/57364629/how-to-animate-line-renderer-tiled-texture-in-unity
             lr.material.SetTextureOffset("_MainTex", Vector2.left * Time.time);
+
+            //Set destination marker
+            destinationMarker.SetActive(true);
+            destinationMarker.transform.position = validatedDesPos + lineOffset;
         }
         else
         {
