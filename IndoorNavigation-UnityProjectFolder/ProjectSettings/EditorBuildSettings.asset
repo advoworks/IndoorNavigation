@@ -12,7 +12,7 @@ EditorBuildSettings:
     path: Assets/Scenes/01 Home.unity
     guid: c6d437630ffac4779aa036b39c978d5e
   - enabled: 1
-    path: Assets/Scenes/02 Home.unity
-    guid: 473e3d6bd9d4f439391fdc95ce91cc8c
+    path: Assets/Scenes/02 Home Backup.unity
+    guid: ab4561309f5434ef58a76aa992468a9c
   m_configObjects:
     com.unity.input.settings: {fileID: 11400000, guid: 9e7be553448fa2546aea5752021cbcf7, type: 2}

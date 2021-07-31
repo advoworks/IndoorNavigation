@@ -5,19 +5,39 @@ using UnityEngine.AI;
 
 public class NavmeshPathDraw : MonoBehaviour
 {
-    
 
-    public Transform destination;
+    [SerializeField]
+    private Transform destination;
+
     public bool recalculatePath = true;
     public float recalculationTime = 0.1f;
     public float yOffset; // Kev Added
 
+    
+    
+    
 
     NavMeshPath path;
     LineRenderer lr;
 
     float time = 0f;
     bool stopped = false;
+
+
+    //START - KEV MOD
+    public void SetDestination(Transform dest)
+    {
+        destination = dest;
+        lr.positionCount = 0;
+    }
+
+    public void ClearDestination()
+    {
+        destination = null;
+        lr.positionCount = 0;
+    }
+
+    //END - KEV MOD
 
     void Awake()
     {
@@ -44,21 +64,26 @@ public class NavmeshPathDraw : MonoBehaviour
 
         /*GET THE NAVMESH POSITION BELOW DESTINATION AND ORIGIN IN ORDER TO PRINT THE PATH*/
         //validate destination position
-        if (Physics.Raycast(destination.position, -Vector3.up, out downHit, Mathf.Infinity)) {
-            validatedDesPos = new Vector3(destination.position.x, downHit.transform.position.y, destination.position.z);
-        }else{
-            validatedDesPos = destination.position;
-        }
+        //START - KEV Commented
 
-        //validate origin position
-        if (Physics.Raycast(transform.position, -Vector3.up, out downHit, Mathf.Infinity)) {
-            validatedOriginPos = new Vector3(transform.position.x, downHit.transform.position.y, transform.position.z);
-        }else{
-            validatedOriginPos = transform.position;
-        }
+        //if (Physics.Raycast(destination.position, -Vector3.up, out downHit, Mathf.Infinity)) {
+        //    validatedDesPos = new Vector3(destination.position.x, downHit.transform.position.y, destination.position.z);          
+        //}
+        //else
+        //{
+        //    validatedDesPos = destination.position;
+        //}
+
+        ////validate origin position
+        //if (Physics.Raycast(transform.position, -Vector3.up, out downHit, Mathf.Infinity)) {
+        //    validatedOriginPos = new Vector3(transform.position.x, downHit.transform.position.y, transform.position.z);            
+        //}
+        //else{
+        //    validatedOriginPos = transform.position;            
+        //}
 
 
-        //START - KEV MOD
+        
 
         //NavMesh.CalculatePath(validatedOriginPos, validatedDesPos, NavMesh.AllAreas, path);
         //Vector3[] corners = path.corners;
@@ -66,31 +91,82 @@ public class NavmeshPathDraw : MonoBehaviour
         //lr.positionCount = corners.Length;
         //lr.SetPositions(corners);
 
-        NavMeshHit hit;
-        bool pathFound = false;
-        if (NavMesh.SamplePosition(validatedDesPos, out hit, 2.0f, NavMesh.AllAreas))
+        //END - KEV Commented
+
+        //START - KEV MOD
+
+        if (Physics.Raycast(destination.position, -Vector3.up, out downHit, Mathf.Infinity))
         {
-            pathFound = NavMesh.CalculatePath(validatedOriginPos, hit.position, NavMesh.AllAreas, path);
-            Vector3[] corners = path.corners;
-
-            if (yOffset != 0f)
-            {
-                for (int i = 0; i < corners.Length; i++)
-                {
-                    corners[i].y += yOffset;
-                }
-            }
-
-            lr.positionCount = corners.Length;
-            lr.SetPositions(corners);
-
-
+            validatedDesPos = new Vector3(destination.position.x, downHit.transform.position.y, destination.position.z);
+            Debug.Log("<color=LightBlue>NavmeshPathDraw: Destination downward raycast SUCCESS</color>");
         }
         else
         {
-            Debug.Log("No path was found, setting lr position count to 0");
+            validatedDesPos = destination.position;
+            Debug.Log("<color=LightBlue>NavmeshPathDraw: Destination downward raycast DID NOT WORK, using original position</color>");
+        }
+
+        //validate origin position
+        if (Physics.Raycast(transform.position, -Vector3.up, out downHit, Mathf.Infinity))
+        {
+            validatedOriginPos = new Vector3(transform.position.x, downHit.transform.position.y, transform.position.z);
+            Debug.Log("<color=LightBlue>NavmeshPathDraw: Origin downward raycast SUCCESS</color>");
+        }
+        else
+        {
+            validatedOriginPos = transform.position;
+            Debug.Log("<color=LightBlue>NavmeshPathDraw: Origin downward raycast DID NOT WORK, using original position</color>");
+        }
+
+        bool pathFound = false;
+        pathFound = NavMesh.CalculatePath(validatedOriginPos, validatedDesPos, NavMesh.AllAreas, path);
+
+        if (pathFound)
+        {
+            Debug.Log("<color=LightBlue>Path found</color>");
+            Vector3[] corners = path.corners;
+
+            
+            for (int i = 0; i < corners.Length; i++)
+            {
+                corners[i].y += yOffset;
+            }
+            
+
+            lr.positionCount = corners.Length;
+            lr.SetPositions(corners);
+        }
+        else
+        {
+            Debug.Log("<color=LightBlue>No path was found, setting lr position count to 0</color>");
             lr.positionCount = 0;
         }
+
+        //NavMeshHit hit;
+        
+        //if (NavMesh.SamplePosition(validatedDesPos, out hit, 2.0f, NavMesh.AllAreas))
+        //{
+        //    pathFound = NavMesh.CalculatePath(validatedOriginPos, hit.position, NavMesh.AllAreas, path);
+        //    Vector3[] corners = path.corners;
+
+        //    if (yOffset != 0f)
+        //    {
+        //        for (int i = 0; i < corners.Length; i++)
+        //        {
+        //            corners[i].y += yOffset;
+        //        }
+        //    }
+
+        //    lr.positionCount = corners.Length;
+        //    lr.SetPositions(corners);
+
+
+        //}
+        //else
+        //{
+        //    Debug.Log("No path was found, setting lr position count to 0");
+        //    lr.positionCount = 0;
+        //}
 
         float distance = 0;
 

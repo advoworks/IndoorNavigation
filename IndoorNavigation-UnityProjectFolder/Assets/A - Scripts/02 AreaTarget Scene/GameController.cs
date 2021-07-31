@@ -82,13 +82,15 @@ public class GameController : MonoBehaviour
 
     public void ShowPathTo(GameObject poiObject)
     {
-        navMeshPathDraw.destination = poiObject.transform;
+        //navMeshPathDraw.destination = poiObject.transform;
+        navMeshPathDraw.SetDestination(poiObject.transform);
         ModalDialogNaviCurrentDest.Instance.Show();
     }
 
     public void CancelNavigation()
     {
-        navMeshPathDraw.destination = null;
+        //navMeshPathDraw.destination = null;
+        navMeshPathDraw.ClearDestination();
         ModalDialogNaviCurrentDest.Instance.Hide();
     }
 
