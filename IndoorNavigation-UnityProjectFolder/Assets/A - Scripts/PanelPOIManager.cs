@@ -20,6 +20,35 @@ public class PanelPOIManager : MonoBehaviour
     [Header("POI List GameObject in Scene UI")]
     public GameObject poiListInScene;
 
+
+    public enum PoiCategory
+    {
+        department,
+        grocery,
+        restaurant,
+        clothing,
+        accessory,
+        pharmacy,
+        pet,
+        toy,
+        speciality,
+        thrift,
+        services,
+        kiosk,
+        atm,
+        taxi,
+        train,
+        entertainment
+    }
+    [System.Serializable]
+    public class PoiCategoryImages
+    {
+        public PoiCategory poiCategory;
+        public Sprite sprite;
+    }
+
+    public PoiCategoryImages[] poiCategoryImages;
+
     private void Start()
     {
         searchButton.onClick.AddListener(FilterPOIListByText);
@@ -34,8 +63,25 @@ public class PanelPOIManager : MonoBehaviour
         for (int i = 0; i < poiGameObjects.Length; i++)
         {
             poiGameObject = Instantiate(poiListItemPrefab, poiListInScene.transform);
-            poiGameObject.transform.GetChild(0).GetComponent<TextMeshProUGUI>().text = poiGameObjects[i].GetComponent<IOIHandler>().title;
-            poiGameObject.transform.GetChild(1).GetComponent<TextMeshProUGUI>().text = poiGameObjects[i].GetComponent<IOIHandler>().desc;
+            IOIHandler ioiHandler = poiGameObjects[i].GetComponent<IOIHandler>();
+
+            poiGameObject.transform.GetChild(0).GetComponent<TextMeshProUGUI>().text = ioiHandler.title;
+            poiGameObject.transform.GetChild(1).GetComponent<TextMeshProUGUI>().text = ioiHandler.desc;
+
+            //Set POI Category Image on the list item
+            for (int x = 0; x < poiCategoryImages.Length; x++)
+            {
+                if (poiCategoryImages[x].poiCategory == ioiHandler.poiCategory)
+                {
+                    Debug.Log("Found " + poiCategoryImages[x].poiCategory);
+                    if (poiCategoryImages[x].sprite) // just in case we did not assign the sprite in the inspector
+                    {
+                        poiGameObject.transform.GetChild(2).GetComponent<Image>().sprite = poiCategoryImages[x].sprite;
+                        break;
+                    }
+                        
+                }
+            }
 
             //poiGameObject.GetComponent<POIListItem>().poiObject = poiGameObjects[i];
 

@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
 using UnityEngine.Events;
+using static PanelPOIManager;
 
 public class IOIHandler : MonoBehaviour
 {
@@ -14,6 +15,7 @@ public class IOIHandler : MonoBehaviour
 
     public string title;
     public string desc;
+    public PoiCategory poiCategory;
 
     public UnityEvent onTriggerEnter;
     public UnityEvent onTriggerExit;

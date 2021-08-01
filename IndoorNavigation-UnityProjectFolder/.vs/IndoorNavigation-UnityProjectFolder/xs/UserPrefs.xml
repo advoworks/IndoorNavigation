@@ -10,7 +10,8 @@
       <File FileName="Assets/NavMeshComponents/Scripts/NavMeshSurface.cs" Line="272" Column="34" />
       <File FileName="Assets/A - Scripts/MultiArea.cs" Line="12" Column="2" />
       <File FileName="Assets/SineFloatAnimation.cs" Line="12" Column="39" />
-      <File FileName="Assets/A - Scripts/PanelPOIManager.cs" Line="37" Column="1" />
+      <File FileName="Assets/A - Scripts/PanelPOIManager.cs" Line="76" Column="55" />
+      <File FileName="Assets/A - Scripts/02 AreaTarget Scene/IOIHandler.cs" Line="18" Column="36" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
