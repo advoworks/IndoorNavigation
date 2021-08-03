@@ -183,14 +183,14 @@ public class GameController : MonoBehaviour
     {
         panelPOIs.SetActive(true);
     }
-    //public void MenuButtonSearch()
-    //{
-    //    panelSearch.SetActive(true);
-    //}
-    //public void MenuButtonSettings()
-    //{
-    //    panelSettings.SetActive(true);
-    //}
+    public void MenuButtonSearch()
+    {
+        panelSearch.SetActive(true);
+    }
+    public void MenuButtonSettings()
+    {
+        panelSettings.SetActive(true);
+    }
     public void MenuButtonHome()
     {
         //panelHome.SetActive(true);
