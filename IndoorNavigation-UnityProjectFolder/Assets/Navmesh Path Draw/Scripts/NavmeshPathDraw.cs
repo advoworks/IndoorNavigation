@@ -153,6 +153,9 @@ public class NavmeshPathDraw : MonoBehaviour
             //Set destination marker
             destinationMarker.SetActive(true);
             destinationMarker.transform.position = validatedDesPos + lineOffset;
+
+            //Tell GameController to inform the avatar
+            GameController.Instance.NavigationPathFound(destinationMarker.transform);
         }
         else
         {

@@ -13,6 +13,14 @@ public class GameController : MonoBehaviour
     private static GameController _instance;
     public static GameController Instance { get { return _instance; } }
 
+    public Action<Transform> NavigationPathFoundAction;
+
+    public void NavigationPathFound(Transform x)
+    {
+        Debug.Log("GameController: NavigationPathFound called to notify Avatar");
+        NavigationPathFoundAction(x);
+    }
+
     private void Awake()
     {
         if (_instance != null && _instance != this)
@@ -104,65 +112,6 @@ public class GameController : MonoBehaviour
     }
 
 
-    //public void ShowPathTo(GameObject poiObject)
-    //{
-    //    showPath = true;
-    //    destination = poiObject.transform;
-    //}
-
-
-
-    //public void HidePath()
-    //{
-    //    lr.positionCount = 0;
-    //    showPath = false;
-    //}
-
-    //private void Update()
-    //{
-    //    if (!showPath) return;
-
-    //    // Update the way to the destination every second.
-    //    elapsed += Time.deltaTime;
-    //    if (elapsed > 1.0f)
-    //    {
-    //        elapsed -= 1.0f;
-
-    //        NavMeshHit hit;
-    //        if (NavMesh.SamplePosition(destination.position, out hit, 2.0f, NavMesh.AllAreas))
-    //        {
-    //            NavMesh.CalculatePath(player.transform.position, hit.position, NavMesh.AllAreas, path);
-    //            //result = hit.position;
-    //            //return true;
-    //        } else
-    //        {
-    //            Debug.Log("Path not found to " + hit.position + ", abandon showing path");
-    //            HidePath();
-    //            return;
-    //        }
-
-
-    //    }
-
-    //    //If we reach here we should be OK to draw the path
-    //    Vector3[] corners = path.corners;
-    //    lr.positionCount = corners.Length;
-    //    lr.SetPositions(corners);
-
-    //}
-
-
-    //public void SetDestinationName(string name)
-    //{
-    //    tmpDestinationName.text = name;
-    //}
-
-    //public void SetDestinationDistance(float distance)
-    //{
-    //    tmpDestinationDistance.text = distance + "m";
-    //}
-
-
     public void TargetFound()
     {
         tmp.text = "Target Found";
@@ -183,14 +132,7 @@ public class GameController : MonoBehaviour
     {
         panelPOIs.SetActive(true);
     }
-    public void MenuButtonSearch()
-    {
-        panelSearch.SetActive(true);
-    }
-    public void MenuButtonSettings()
-    {
-        panelSettings.SetActive(true);
-    }
+    
     public void MenuButtonHome()
     {
         //panelHome.SetActive(true);

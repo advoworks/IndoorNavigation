@@ -29,7 +29,7 @@ public class NavMeshBaker : MonoBehaviour
         if (time >= recalculationTime)
         {
             time = 0f;
-            Debug.Log(Time.time + "Updating NavMesh");
+            
             UpdateNavMesh();
         }
     }

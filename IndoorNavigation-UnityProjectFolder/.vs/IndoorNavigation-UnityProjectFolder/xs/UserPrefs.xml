@@ -1,17 +1,11 @@
-﻿<Properties StartupConfiguration="{A1835561-0AC0-1352-B13B-A8C43A084E33}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/A - Scripts/PanelPOIManager.cs">
+﻿<Properties>
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Navmesh Path Draw/Scripts/NavmeshPathDraw.cs">
     <Files>
-      <File FileName="Assets/A - Scripts/02 AreaTarget Scene/GameController.cs" Line="94" Column="52" />
-      <File FileName="Assets/A - Scripts/01 QR Code Scene/ImageTargetHandler.cs" Line="1" Column="1" />
-      <File FileName="Assets/Navmesh Path Draw/Scripts/NavmeshPathDraw.cs" Line="157" Column="13" />
-      <File FileName="Assets/Navmesh Path Draw/Scripts/Editor/NavmeshPathDrawCustomInspector.cs" Line="19" Column="6" />
-      <File FileName="Assets/NavMeshBaker.cs" Line="52" Column="105" />
-      <File FileName="Assets/NavMeshShow.cs" Line="38" Column="1" />
-      <File FileName="Assets/NavMeshComponents/Scripts/NavMeshSurface.cs" Line="272" Column="34" />
-      <File FileName="Assets/A - Scripts/MultiArea.cs" Line="12" Column="2" />
-      <File FileName="Assets/SineFloatAnimation.cs" Line="12" Column="39" />
-      <File FileName="Assets/A - Scripts/PanelPOIManager.cs" Line="76" Column="55" />
-      <File FileName="Assets/A - Scripts/02 AreaTarget Scene/IOIHandler.cs" Line="18" Column="36" />
+      <File FileName="Assets/A - Scripts/02 AreaTarget Scene/GameController.cs" Line="11" Column="2" />
+      <File FileName="Assets/A - Avatar and Anims/Avatar.cs" Line="25" Column="1" />
+      <File FileName="Assets/AvatarPanelManager.cs" Line="19" Column="1" />
+      <File FileName="Assets/Navmesh Path Draw/Scripts/NavmeshPathDraw.cs" Line="176" Column="20" />
+      <File FileName="Assets/A - Avatar and Anims/AIRoot.cs" Line="10" Column="47" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -23,7 +17,7 @@
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="06df836e-35b5-4cca-aa6c-2cc27f5b69b6" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="492d41a0-1b41-401d-bbf7-e131551cf342" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
