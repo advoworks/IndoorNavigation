@@ -23,22 +23,21 @@ public class PanelPOIManager : MonoBehaviour
 
     public enum PoiCategory
     {
-        department,
-        grocery,
-        restaurant,
-        clothing,
-        accessory,
-        pharmacy,
-        pet,
-        toy,
-        speciality,
-        thrift,
-        services,
-        kiosk,
-        atm,
-        taxi,
-        train,
-        entertainment
+        homeAndFurnishing,
+        electricalAndElectronics,
+        convenienceStore,
+        booksAndGifts,
+        servicesAndOthers,
+        sportsAndFitness,
+        dentalMedical,
+        jewelleryWatchesOptical,
+        fashionAndAccessories,
+        educationAndEnrichment,
+        supermarket,
+        foodAndBeverage,
+        hairBeautyWellness
+
+
     }
     [System.Serializable]
     public class PoiCategoryImages
