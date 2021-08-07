@@ -2,9 +2,10 @@ using System.Collections;
 using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
+using UnityEngine.AI;
 using UnityEngine.UI;
 
-public class PanelPOIManager : MonoBehaviour
+public class AvatarManager : MonoBehaviour
 {
 
     [Header("Search Field")]
@@ -15,94 +16,63 @@ public class PanelPOIManager : MonoBehaviour
     public Button searchButton;
 
     [Header("POI List Item Prefab")]
-    public GameObject poiListItemPrefab;
+    public GameObject avatarListItemPrefab;
 
     [Header("POI List GameObject in Scene UI")]
     public GameObject poiListInScene;
 
 
-    public enum PoiCategory
-    {
-        homeAndFurnishing,
-        electricalAndElectronics,
-        convenienceStore,
-        booksAndGifts,
-        servicesAndOthers,
-        sportsAndFitness,
-        dentalMedical,
-        jewelleryWatchesOptical,
-        fashionAndAccessories,
-        educationAndEnrichment,
-        supermarket,
-        foodAndBeverage,
-        hairBeautyWellness
-
-
-    }
+    
     [System.Serializable]
-    public class PoiCategoryImages
+    public class AvatarDefinition
     {
-        public PoiCategory poiCategory;
+        public string avatarTitle;
+        public string avatarDesc;
+        public GameObject avatarPrefab;
         public Sprite sprite;
     }
 
-    public PoiCategoryImages[] poiCategoryImages;
+    public AvatarDefinition[] avatarDefinitions;
+
+
+    private GameObject avatar;
 
     private void Start()
     {
-        searchButton.onClick.AddListener(FilterPOIListByText);
+        searchButton.onClick.AddListener(FilterListByText);
 
-       
     }
 
 
-    public void GeneratePOIList(GameObject[] poiGameObjects)
+    public void GenerateAvatarList()
     {
-        GameObject poiGameObject;
+        GameObject avatarListItem;
 
         //Delete 1st list item from the editor
         Destroy(poiListInScene.transform.GetChild(0).gameObject);
 
-
-        for (int i = 0; i < poiGameObjects.Length; i++)
+        //GEnerate the list
+        for (int i = 0; i < avatarDefinitions.Length; i++)
         {
-            poiGameObject = Instantiate(poiListItemPrefab, poiListInScene.transform);
-            IOIHandler ioiHandler = poiGameObjects[i].GetComponent<IOIHandler>();
-
-            poiGameObject.transform.GetChild(0).GetComponent<TextMeshProUGUI>().text = ioiHandler.title;
-            poiGameObject.transform.GetChild(1).GetComponent<TextMeshProUGUI>().text = ioiHandler.desc;
-
-            //Set POI Category Image on the list item
-            for (int x = 0; x < poiCategoryImages.Length; x++)
-            {
-                if (poiCategoryImages[x].poiCategory == ioiHandler.poiCategory)
-                {
-                    Debug.Log("Found " + poiCategoryImages[x].poiCategory);
-                    if (poiCategoryImages[x].sprite) // just in case we did not assign the sprite in the inspector
-                    {
-                        poiGameObject.transform.GetChild(2).GetComponent<Image>().sprite = poiCategoryImages[x].sprite;
-                        break;
-                    }
-                        
-                }
-            }
-
-            //poiGameObject.GetComponent<POIListItem>().poiObject = poiGameObjects[i];
-
+            avatarListItem = Instantiate(avatarListItemPrefab, poiListInScene.transform);
+            avatarListItem.transform.GetChild(0).GetComponent<TextMeshProUGUI>().text = avatarDefinitions[i].avatarTitle;
+            avatarListItem.transform.GetChild(1).GetComponent<TextMeshProUGUI>().text = avatarDefinitions[i].avatarDesc;
+            avatarListItem.transform.GetChild(2).GetComponent<Image>().sprite = avatarDefinitions[i].sprite;
+            
             var index = i;
-            poiGameObject.GetComponent<Button>().onClick.AddListener(delegate ()
+            avatarListItem.GetComponent<Button>().onClick.AddListener(delegate ()
             {
-                poiListItemClicked(poiGameObjects[index]);
+                AvatarListItemClicked(avatarDefinitions[index]);
             });
         }
     }
 
-    private void poiListItemClicked(GameObject poiObject)
+    private void AvatarListItemClicked(AvatarDefinition avatarDefinition)
     {
 
         //Display modal dialog and confirm navigation to that object
-        ModalDialogNaviYesNo.Instance.mainText.text = "Navigte to:";
-        ModalDialogNaviYesNo.Instance.subjectText.text = poiObject.GetComponent<IOIHandler>().title;// poiObject.name;
+        ModalDialogNaviYesNo.Instance.mainText.text = "Create Avatar:";
+        ModalDialogNaviYesNo.Instance.subjectText.text = avatarDefinition.avatarTitle;// poiObject.name;
 
         ModalDialogNaviYesNo.Instance.confirmButton.onClick.RemoveAllListeners();
         ModalDialogNaviYesNo.Instance.confirmButton.onClick.AddListener(delegate ()
@@ -111,7 +81,8 @@ public class PanelPOIManager : MonoBehaviour
 
             ModalDialogNaviYesNo.Instance.Hide();
 
-            GameController.Instance.ShowPathTo(poiObject);
+            CreateAvatar(avatarDefinition);
+
             GameController.Instance.HideAllPanels();
         });
 
@@ -124,8 +95,40 @@ public class PanelPOIManager : MonoBehaviour
         ModalDialogNaviYesNo.Instance.Show();
     }
 
-    
-    private void FilterPOIListByText()
+
+
+
+
+
+    public void CreateAvatar(AvatarDefinition avatarDefinition)
+    {
+
+
+        //Get position to spawn Avatar on in front
+
+        NavMeshHit hit;
+
+        Vector3 avatarSpawnPoint = Camera.main.transform.position + (Camera.main.transform.forward * 2);
+        Debug.Log("Camera.main.transform.position is " + Camera.main.transform.position);
+        Debug.Log("avatarSpawnPoint is " + avatarSpawnPoint);
+
+        if (NavMesh.SamplePosition(avatarSpawnPoint, out hit, 2.0f, NavMesh.AllAreas))
+        {
+            avatar = Instantiate(avatarDefinition.avatarPrefab, hit.position, Quaternion.identity, null);
+            var lookPos = Camera.main.transform.position - avatar.transform.position;
+            lookPos.y = 0;
+            avatar.transform.rotation = Quaternion.LookRotation(lookPos);
+       
+        }
+        else
+        {
+            Debug.Log("NavMesh Sampleposition for avatar spawning failed");
+        }
+
+    }
+
+
+    private void FilterListByText()
     {
         //This is not an efficient way of searching, but this is a prototype
         //This method run through each list item and searches its text component

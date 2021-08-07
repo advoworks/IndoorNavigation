@@ -18,7 +18,7 @@ public class GameController : MonoBehaviour
 
     public void NavigationPathFound(Transform x)
     {
-        Debug.Log("GameController: NavigationPathFound called to notify Avatar");
+        //Debug.Log("GameController: NavigationPathFound called to notify Avatar");
         if (NavigationPathFoundAction != null)
             NavigationPathFoundAction(x);
     }
@@ -53,6 +53,7 @@ public class GameController : MonoBehaviour
     //private float elapsed = 0.0f;
 
     [Header("Menu Panels")]
+    public GameObject bottomPanelAccess;
     public GameObject panelAvatar;
     public GameObject panelPOIs;
     public GameObject panelSearch;
@@ -86,7 +87,8 @@ public class GameController : MonoBehaviour
         //Tell the POI Panel Manager to initialize itself with the list of POIs
         panelPOIs.GetComponent<PanelPOIManager>().GeneratePOIList(poiObjects);
 
-        
+        //Tell the Avatar Manager to initialize itself with the list of Avatars
+        panelAvatar.GetComponent<AvatarManager>().GenerateAvatarList();
 
     }
 
@@ -95,6 +97,7 @@ public class GameController : MonoBehaviour
         //navMeshPathDraw.destination = poiObject.transform;
         navMeshPathDraw.SetDestination(poiObject.transform);
         ModalDialogNaviCurrentDest.Instance.Show();
+        bottomPanelAccess.gameObject.SetActive(false);
     }
 
     public void CancelNavigation()
@@ -102,6 +105,7 @@ public class GameController : MonoBehaviour
         //navMeshPathDraw.destination = null;
         navMeshPathDraw.ClearDestination();
         ModalDialogNaviCurrentDest.Instance.Hide();
+        bottomPanelAccess.gameObject.SetActive(true);
     }
 
     public void UpdateDestinationNameAndDistance(string name, float distance)
@@ -132,10 +136,12 @@ public class GameController : MonoBehaviour
     public void MenuButtonAvatar()
     {
         panelAvatar.SetActive(true);
+        bottomPanelAccess.gameObject.SetActive(false);
     }
     public void MenuButtonPOIs()
     {
         panelPOIs.SetActive(true);
+        bottomPanelAccess.gameObject.SetActive(false);
     }
     
     public void MenuButtonHome()
@@ -151,6 +157,8 @@ public class GameController : MonoBehaviour
         panelSearch.SetActive(false);
         panelSettings.SetActive(false);
         panelHome.SetActive(false);
+
+        bottomPanelAccess.gameObject.SetActive(true);
     }
 
     public void DoNothing()

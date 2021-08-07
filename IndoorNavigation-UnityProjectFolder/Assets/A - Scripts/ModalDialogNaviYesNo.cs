@@ -12,7 +12,8 @@ public class ModalDialogNaviYesNo : MonoBehaviour
     public static ModalDialogNaviYesNo Instance = null;
 
     public GameObject mainPanel;
-    public TextMeshProUGUI dialogText;
+    public TextMeshProUGUI mainText;
+    public TextMeshProUGUI subjectText;
     public Button confirmButton;
     public Button cancelButton;
 

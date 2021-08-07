@@ -108,7 +108,7 @@ public class NavmeshPathDraw : MonoBehaviour
         if (Physics.Raycast(destination.position, -Vector3.up, out downHit, Mathf.Infinity))
         {
             validatedDesPos = new Vector3(destination.position.x, downHit.transform.position.y, destination.position.z);
-            Debug.Log("<color=LightBlue>NavmeshPathDraw: Destination downward raycast SUCCESS</color>");
+            //Debug.Log("<color=LightBlue>NavmeshPathDraw: Destination downward raycast SUCCESS</color>");
         }
         else
         {
@@ -120,7 +120,7 @@ public class NavmeshPathDraw : MonoBehaviour
         if (Physics.Raycast(transform.position, -Vector3.up, out downHit, Mathf.Infinity))
         {
             validatedOriginPos = new Vector3(transform.position.x, downHit.transform.position.y, transform.position.z);
-            Debug.Log("<color=LightBlue>NavmeshPathDraw: Origin downward raycast SUCCESS</color>");
+            //Debug.Log("<color=LightBlue>NavmeshPathDraw: Origin downward raycast SUCCESS</color>");
         }
         else
         {
@@ -133,7 +133,7 @@ public class NavmeshPathDraw : MonoBehaviour
 
         if (pathFound)
         {
-            Debug.Log("<color=LightBlue>Path found</color>");
+            //Debug.Log("<color=LightBlue>Path found</color>");
             Vector3[] corners = path.corners;
 
             
