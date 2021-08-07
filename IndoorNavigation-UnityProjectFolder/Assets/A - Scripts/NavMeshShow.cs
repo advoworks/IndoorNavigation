@@ -35,8 +35,12 @@ public class NavMeshShow : MonoBehaviour
 	// Generates the NavMesh shape and assigns it to the MeshFilter component.
 	public void CreateNavMeshDisplay()
 	{
+		//delete the old mesh if available
+		if(GetComponent<MeshFilter>().mesh)
+        {
+			Destroy(GetComponent<MeshFilter>().mesh);
+        }
 
-		
 		// NavMesh.CalculateTriangulation returns a NavMeshTriangulation object.
 		NavMeshTriangulation meshData = NavMesh.CalculateTriangulation();
 

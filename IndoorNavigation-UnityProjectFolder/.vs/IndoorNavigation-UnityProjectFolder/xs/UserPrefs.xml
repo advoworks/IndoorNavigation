@@ -1,28 +1,36 @@
 ﻿<Properties StartupConfiguration="{A1835561-0AC0-1352-B13B-A8C43A084E33}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Navmesh Path Draw/Scripts/NavmeshPathDraw.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/A - Scripts/NavMeshShow.cs">
     <Files>
-      <File FileName="Assets/A - Scripts/NavMeshBaker.cs" Line="1" Column="1" />
-      <File FileName="Assets/A - Scripts/02 AreaTarget Scene/GameController.cs" />
-      <File FileName="Assets/A - Avatar and Anims/Avatar.cs" />
-      <File FileName="Assets/Navmesh Path Draw/Scripts/NavmeshPathDraw.cs" Line="178" Column="20" />
-      <File FileName="Assets/A - Avatar and Anims/AIRoot.cs" />
-      <File FileName="Assets/A - Scripts/PanelPOIManager.cs" />
-      <File FileName="Assets/A - Scripts/01 QR Code Scene/ImageTargetHandler.cs" />
-      <File FileName="Assets/A - Scripts/ModalDialog.cs" />
-      <File FileName="Assets/A - Scripts/NavMeshShow.cs" />
-      <File FileName="Assets/A - Scripts/02 AreaTarget Scene/IOIHandler.cs" />
+      <File FileName="Assets/A - Scripts/02 AreaTarget Scene/GameController.cs" Line="123" Column="29" />
+      <File FileName="Assets/A - Scripts/NavMeshBaker.cs" Line="56" Column="21" />
+      <File FileName="Assets/A - Scripts/NavMeshShow.cs" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="IndoorNavigation-UnityProjectFolder" expanded="True" selected="True" />
+          <Node name="IndoorNavigation-UnityProjectFolder" expanded="True">
+            <Node name="Assets" expanded="True">
+              <Node name="A - Avatar and Anims" expanded="True" />
+              <Node name="A - Scripts" expanded="True">
+                <Node name="01 QR Code Scene" expanded="True" />
+                <Node name="02 AreaTarget Scene" expanded="True" />
+                <Node name="NavMeshShow.cs" selected="True" />
+              </Node>
+              <Node name="Navmesh Path Draw" expanded="True">
+                <Node name="Scripts" expanded="True" />
+              </Node>
+              <Node name="NavMeshComponents" expanded="True">
+                <Node name="Scripts" expanded="True" />
+              </Node>
+            </Node>
+          </Node>
         </State>
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="6fba6f82-ceee-4053-a261-372e4064f816" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="13fdc2ab-fee7-4274-ae47-3613138a3b03" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>

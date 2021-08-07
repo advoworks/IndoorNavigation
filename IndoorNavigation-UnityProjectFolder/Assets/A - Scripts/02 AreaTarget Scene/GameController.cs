@@ -1,6 +1,7 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using System.Threading.Tasks;
 using TMPro;
 using UnityEngine;
 using UnityEngine.AI;
@@ -112,10 +113,13 @@ public class GameController : MonoBehaviour
             ModalDialogNaviCurrentDest.Instance.remainingDistance.text = "Calculating...";
     }
 
-
+    
     public void TargetFound()
     {
         tmp.text = "Target Found";
+        //NavMeshBaker.Instance.UpdateNavMesh();
+        StartCoroutine(NavMeshBaker.Instance.UpdateNavMeshAsync());
+     
     }
 
     public void TargetLost()
