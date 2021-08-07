@@ -18,7 +18,8 @@ public class GameController : MonoBehaviour
     public void NavigationPathFound(Transform x)
     {
         Debug.Log("GameController: NavigationPathFound called to notify Avatar");
-        NavigationPathFoundAction(x);
+        if (NavigationPathFoundAction != null)
+            NavigationPathFoundAction(x);
     }
 
     private void Awake()

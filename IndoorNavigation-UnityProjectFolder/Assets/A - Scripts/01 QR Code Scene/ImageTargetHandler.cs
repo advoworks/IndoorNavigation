@@ -10,6 +10,7 @@ public class ImageTargetHandler : MonoBehaviour
     public DialogObjectUnityEvent homeDialog;
     public DialogObjectUnityEvent lobbyDialog;
     public DialogObjectUnityEvent scapeDialog;
+    public DialogObjectUnityEvent magesDialog;
 
     public GameObject loadingBarPanel;
     public Slider loadingBarSlider;
@@ -42,12 +43,23 @@ public class ImageTargetHandler : MonoBehaviour
         ModalDialog.Instance.gameObject.SetActive(true);
     }
 
+    public void QRScanned_Mages()
+    {
+        ModalDialog.Instance.SetDialogUnityEvent(magesDialog);
+        ModalDialog.Instance.gameObject.SetActive(true);
+    }
+
 
     public void Load_Home()
     {
         //SceneManager.LoadScene(1);
         StartCoroutine(LoadAsynchronously(1));
 
+    }
+
+    public void Load_Mages()
+    {
+        StartCoroutine(LoadAsynchronously(2));
     }
 
     IEnumerator LoadAsynchronously(int sceneIndex)
@@ -64,15 +76,18 @@ public class ImageTargetHandler : MonoBehaviour
         }
     }
 
-    public void Load_Lobby()
-    {
-        SceneManager.LoadScene(2);
-    }
+    //public void Load_Lobby()
+    //{
+    //    SceneManager.LoadScene(2);
+    //}
 
-    public void Load_Scape()
-    {
-        SceneManager.LoadScene(3);
-    }
+    //public void Load_Scape()
+    //{
+    //    SceneManager.LoadScene(3);
+    //}
+
+    
+
 
 
     public void ReloadCurrentScene()

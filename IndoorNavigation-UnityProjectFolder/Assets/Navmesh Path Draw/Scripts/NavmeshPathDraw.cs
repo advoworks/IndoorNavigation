@@ -200,10 +200,11 @@ public class NavmeshPathDraw : MonoBehaviour
                 distance += (lr.GetPosition(i + 1) - lr.GetPosition(i)).magnitude;
             }
 
-            GameController.Instance.UpdateDestinationNameAndDistance(destination.name, distance);
+           
+            GameController.Instance.UpdateDestinationNameAndDistance(destination.GetComponent<IOIHandler>().title, distance);
         } else
         {
-            GameController.Instance.UpdateDestinationNameAndDistance(destination.name, -1);
+            GameController.Instance.UpdateDestinationNameAndDistance(destination.GetComponent<IOIHandler>().title, -1);
         }
         
         

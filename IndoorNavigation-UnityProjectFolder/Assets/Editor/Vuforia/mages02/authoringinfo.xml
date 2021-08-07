@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<QCARInfo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="QCAR_Dataset_info.xsd">
+    <TargetSet version="3.4">
+        <AreaTarget version="2.1" bbox="-20.1222 -1.6358 -7.6771 -9.0477 2.0760 3.0882" targetId="22d2b5d30ce64b559288e3d250e213fb" name="mages02" pathAuthoring="22d2b5d30ce64b559288e3d250e213fb_authoring.glb" pathOcclusion="22d2b5d30ce64b559288e3d250e213fb_occlusion.3dt" pathNavMesh="22d2b5d30ce64b559288e3d250e213fb_navmesh.glb" />
+    </TargetSet>
+</QCARInfo>

@@ -94,9 +94,9 @@ public class PanelPOIManager : MonoBehaviour
 
     private void poiListItemClicked(GameObject poiObject)
     {
-       
+
         //Display modal dialog and confirm navigation to that object
-        ModalDialogNaviYesNo.Instance.dialogText.text = poiObject.name;
+        ModalDialogNaviYesNo.Instance.dialogText.text = poiObject.GetComponent<IOIHandler>().title;// poiObject.name;
         
         ModalDialogNaviYesNo.Instance.confirmButton.onClick.AddListener(delegate ()
         {
