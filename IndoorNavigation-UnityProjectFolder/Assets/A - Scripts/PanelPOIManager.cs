@@ -35,7 +35,8 @@ public class PanelPOIManager : MonoBehaviour
         educationAndEnrichment,
         supermarket,
         foodAndBeverage,
-        hairBeautyWellness
+        hairBeautyWellness,
+        transportation
 
 
     }
